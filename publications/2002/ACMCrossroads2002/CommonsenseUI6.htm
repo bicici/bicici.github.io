@@ -1,0 +1,1381 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./CommonsenseUI6_files/filelist.xml">
+<link rel=Edit-Time-Data href="./CommonsenseUI6_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Prolegomenon to Commonsense Reasoning in User Interfaces by Ergun M.
+Bicici</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Ergun</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Ergun</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>1207</o:TotalTime>
+  <o:LastPrinted>2002-03-31T01:31:00Z</o:LastPrinted>
+  <o:Created>2002-05-23T22:32:00Z</o:Created>
+  <o:LastSaved>2002-05-23T22:32:00Z</o:LastSaved>
+  <o:Pages>7</o:Pages>
+  <o:Words>4541</o:Words>
+  <o:Characters>25888</o:Characters>
+  <o:Lines>215</o:Lines>
+  <o:Paragraphs>51</o:Paragraphs>
+  <o:CharactersWithSpaces>31792</o:CharactersWithSpaces>
+  <o:Version>9.2720</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:553679495 -2147483648 8 0 66047 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-font-kerning:0pt;
+	font-weight:normal;
+	text-decoration:underline;
+	text-underline:single;}
+h2
+	{mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+h3
+	{mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:16.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+h4
+	{mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:right;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.MsoFootnoteReference
+	{vertical-align:super;}
+span.MsoCommentReference
+	{mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;}
+p.MsoList2, li.MsoList2, div.MsoList2
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoListBullet2, li.MsoListBullet2, div.MsoListBullet2
+	{mso-style-update:auto;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	mso-pagination:widow-orphan;
+	mso-list:l0 level1 lfo3;
+	tab-stops:list .5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	font-size:18.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoBodyText2, li.MsoBodyText2, div.MsoBodyText2
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoBodyText3, li.MsoBodyText3, div.MsoBodyText3
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	background:navy;
+	font-size:12.0pt;
+	font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";}
+p
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+address
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-style:italic;}
+pre
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Courier New";}
+span.reference1
+	{mso-style-name:reference1;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 153.0pt 81.0pt;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+@page Section2
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 153.0pt 81.0pt;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section2
+	{page:Section2;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:-125;
+	mso-list-type:simple;
+	mso-list-template-ids:-800682956;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-style-link:"List Bullet 2";
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:1574776470;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1178182980 1527139272 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l2
+	{mso-list-id:1870291026;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-554134380 67698689 67698691 67698689 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l2:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1033"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<p class=MsoTitle><b><span style='font-size:20.0pt;mso-bidi-font-size:12.0pt'>Prolegomenon*
+to Commonsense Reasoning in <o:p></o:p></span></b></p>
+
+<p class=MsoTitle><b><span style='font-size:20.0pt;mso-bidi-font-size:12.0pt'>User
+Interfaces<o:p></o:p></span></b></p>
+
+</div>
+
+<span style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='page-break-before:auto;
+mso-break-type:section-break'>
+</span>
+
+<div class=Section2>
+
+<h3 align=center style='text-align:center'><i><span style='font-size:12.0pt;
+font-weight:normal'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></i></h3>
+
+<h3 align=center style='text-align:center'><i><span style='font-size:12.0pt;
+font-weight:normal'>by <a href="#_About_the_Author">Ergun M. Bicici</a><o:p></o:p></span></i></h3>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoBodyText3><em>"All our knowledge starts with the senses, proceeds from
+thence to understanding, and ends with reason, beyond which there is no higher
+faculty to be found in us for elaborating the matter of intuition and bringing
+it under the highest unity of thought."</em><em><span style='font-style:normal'>
+<a href="#r14">[14]</a><o:p></o:p></span></em></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h3>Introduction</h3>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'>Human-computer interaction experiences unbalanced talents
+of counterparts in the user interface, which can only be eased with the
+introduction of new solutions. Commonsense reasoning is a promising answer that
+offers formalization and computational models about how humans reason and think
+in a sensible way. In user interface design, assumed conventions and rules are
+widely followed and carried to user interfaces. For the most part, these
+assumptions are obvious to humans yet incomprehensible to computers. As a result,
+it is essential that tools are developed, capable of retrieving<span
+style='layout-grid-mode:line'> relevant, sensible inferences that in turn can
+serve as catalysts for future reasoning. </span>Embedding this tool in user
+interfaces can provide many benefits including representation of assumptions
+and unspoken rules, the addition of useful tool abilities, and increasingly
+usable and accessible environments where computers and humans have extended
+communication capabilities to assist in understanding each other. </p>
+
+<p class=MsoNormal style='text-align:justify'>In this article, we present groundwork
+for applying commonsense reasoning to user interfaces. We start with
+identifying the asymmetry in human-machine communication and later focus on
+some approaches such as softbots and the proposed anti-mac interface. Then we
+identify the problems faced in user interfaces such as the correspondence
+problem inherited from computer vision. Next, we state our research ambition as
+adding commonsense reasoning functionality to user interfaces and further
+survey previous approaches and the state of the art. We depict the big picture
+we are facing and list some of the rewards to be earned by applying this
+technique. Later, characteristics of common sense are investigated together
+with examples in first-order logic. We then report various lessons learned from
+earlier attempts that began in physical systems concentrated on small
+microworld problems. Finally, we cite a sample methodology for automating
+commonsense reasoning and identify a number of questions that have yet to be
+answered.</p>
+
+<p class=MsoNormal style='text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h3>Human-Machine Communication</h3>
+
+<p class=MsoNormal style='text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify'>Interaction between humans and
+computers requires mutual understanding and comparable intelligibility just as
+in human communication, where people seek intelligence alike and common ground
+while communicating with each other. Face-to-face interaction between people
+can provide a base model for <i>face-to-screen</i> interaction. However, there
+is an important difference: behavior of each participant in this communication
+is based on the resources provided by their circumstances and sensors, which
+creates an asymmetry <a href="#r23">[23]</a>. People take advantage of a rich
+verbal and nonverbal set of resources whereas machines have a set of sensors
+that map to commands and reactions. </p>
+
+<p class=MsoNormal style='text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify'>The resulting asymmetry limits
+the extent of the communication between humans and computers. Suchman <a
+href="#r23">[23]</a> believes the solution can be provided by: extending the
+access of computers to actions and circumstances of the user, making the user
+aware of the computer's limits in accessing those interactional resources and
+finally compensating for the computer's inabilities with computational
+alternatives. </p>
+
+<p class=MsoNormal style='text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify'>The designer of an interactive
+machine, as Suchman <a href="#r23">[23]</a> calls, must ensure that the user
+gets proper response from the machine for his actions. Each interactive action
+assumes the intent of the actor with an adequate interpretation of the prior
+actions and the intent of the recipient with interpretation of the responses'
+implications. So, the interaction between computers and humans is dependent on
+each other's responses and their corresponding interpretations. </p>
+
+<p class=MsoNormal style='text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h3>User Interfaces</h3>
+
+<p class=MsoNormal style='text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify'>In the communication and
+interaction medium between humans and computers, <i>user interfaces</i>, the
+language used is yet to evolve. In today's Mac-based user interface
+terminology, the vocabulary serve as the building blocks of this medium like
+windows, buttons, text boxes; the grammar serve as the rules between these
+building blocks, like a button cannot be inside another button or a window
+should contain a button inside itself; and idioms or expressions serve as the
+unspoken rules in this environment such as an expectation of an event after
+clicking on a button. </p>
+
+<p class=MsoNormal style='text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify'>The anti-Mac interface proposed
+by Gentner and Nielsen <a href="#r11">[11]</a> tries to take control over the
+actions from the user's autonomy and proposes a shared control of the
+environment between the user and other entities, especially computer agents and
+other users. In addition to shared control, they suggest r<span
+style='mso-bidi-font-size:24.0pt;color:black'>icher internal representation of
+objects and a more expressive interface. These suggestions, from a
+communication point of view, can potentially decrease the asymmetry between the
+human and computer mediums of interaction. </span></p>
+
+<p class=MsoNormal style='text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify'>However, there is still a lot of
+progress to be made, especially in the current UI systems, the building blocks,
+the rules in between them and the unspoken conventions used vary according to
+the implementation technique used and the audience targeted on both sides of
+the communication. This makes it hard to come up with a general UI grammar. </p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+mso-bidi-font-size:10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoBodyText style='text-align:justify'><b><span style='font-size:13.0pt;
+mso-bidi-font-size:10.0pt'>Softbots<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'>User interface <i>softbots</i> are intelligent software
+agents designed to <span style='mso-bidi-font-size:9.0pt'>control an
+interactive system through the graphical user interface. </span>Previous
+detection efforts in softbots include using statistical pattern recognition
+techniques and rules and conventions in a Mac-based environment for finding the
+building blocks of the objects on the screen via a statistical search for more
+abundant forms <a href="#r4">[4]</a>.</p>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'>The functionality or purpose of a labeled button on the
+screen can be easily guessed by a human user who understands the label's
+meaning without clicking on the button. On the other hand, identifying this
+knowledge is not as straightforward as it seems for a softbot <a href="#r2">[2]</a>
+without NLP (Natural Language Processing) capabilities that try to determine
+which screen button can be used for opening a file, for example. For this
+purpose, a functional exploration of the user interface may be needed. </p>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h2><span style='font-size:13.0pt;mso-bidi-font-size:12.0pt;color:black'>Correspondence
+problem in user interfaces <o:p></o:p></span></h2>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'><span style='color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoBodyText2 style='mso-layout-grid-align:none;text-autospace:none'><span
+style='color:black'>This problem is also experienced by a human who browses a
+web page (or a different UI environment) that is written in an unknown language.
+The user will proceed by matching the previously known functional objects to
+the ones present on the screen by comparing their similarities, resemblances
+etc. In the same situation, the softbot can similarly look at its knowledge
+base for recognizable objects that were identified before (an expert system
+solution </span><span style='color:blue'><a href="#r4">[4]</a></span><span
+style='color:black'>) and try to match these to the current interface.
+Nevertheless this finite list of objects in the knowledge base will exhaust
+very quickly in a relatively infinite space of previously unrecognized ones. So
+the ability to resemble and find similar objects is crucial for a softbot with
+a restricted knowledge base. <o:p></o:p></span></p>
+
+<p class=MsoBodyText2 style='mso-layout-grid-align:none;text-autospace:none'><span
+style='color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='color:black'>Matching
+a known set of objects consistently to the objects we recognize on the screen
+is the same problem as finding the maximal clique of consistent labels in
+region matching problem experienced in computer vision, which is known to be
+NP-complete. There are different techniques applied to cope with the complexity
+of this constraint satisfaction problem, such as <i>relaxation labeling</i>.
+The idea is if we can represent the previously known objects as a set of
+constraints, we can use relaxation labeling for further relaxing these
+constraints to match newly recognized ones. This reduces the computational complexity.
+<o:p></o:p></span></p>
+
+<p class=MsoBodyText2 style='mso-layout-grid-align:none;text-autospace:none'><span
+style='color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoBodyText2 style='mso-layout-grid-align:none;text-autospace:none'><span
+style='color:black'>However,</span> assumptions<span style='color:black'>,
+rather than specific constraints,</span> are also extensively used when we
+speak of user interfaces and their usabilities. Usability is related to the
+effectiveness and the efficiency of a user interface with respect to user's expectations
+and reactions <a href="#r13">[13]</a>. Usable interfaces characteristically
+promote ease of learning and user satisfaction with presumptions about user
+needs. <span style='color:black'>It is not clear if we can efficiently
+represent all of the subjects pertaining to the interaction between humans and
+computers as a set of constraints; most likely we cannot</span><span
+style='color:red'>. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h2><span style='font-size:16.0pt;mso-bidi-font-size:12.0pt'>Commonsense
+Reasoning in User Interfaces<o:p></o:p></span></h2>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'>Using former conventions and rules is a widely used
+practice in user interface design. These are carried to interfaces as
+assumptions, which<span style='mso-bidi-font-size:9.0pt'> cause a point of
+weakness</span> in user interface softbots <a href="#r2">[2]</a>. Most of the
+time, these assumptions are clear to a human but it is hard for a computer to
+grasp what is obvious to human perception. <i>Commonsense reasoning </i>is
+helpful in this sense because it concentrates on formalizing and finding
+computational models for sensible human reasoning. Adding this functionality to
+the communication medium between humans and computers, <i>user interfaces</i>,
+is the focus of this research.</p>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'>McCarthy <a href="#r16">[16]</a> was the first to propose
+common sense reasoning ability as a key ingredient of AI. He claimed that a
+program that has common sense should be able to deduct the consequences from
+what is told and already known. Earlier approaches originate from applying
+qualitative reasoning to physical systems. De Kleer <a href="#r7">[7]</a>
+introduced the notion of envisionment that refers to predicting and analyzing
+changes in qualitative states. According to the framework he gives <a href="#r8">[8]</a>,
+after the topology of the system is deduced from the physical state, it is
+combined with the current knowledge base and envisionments are created to
+produce behavioral predictions and causal explanations. </p>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'>De Kleer <a href="#r8">[8]</a> uses confluences to model
+the behaviour of devices in his physical system. A confluence is a qualitative
+differential equation and a widely used modeling tool for qualitative
+behaviour. For example, the qualitative behaviour of a rabbit population can be
+expressed by the confluence <i>dN = B � D</i>, where dN is the change in the
+number of rabbits, B is the birth, and D is the death rate. To verify the
+behaviour of a device, the set of confluences that models it must be solved. Since
+each confluence acts as a constraint, the trouble resolves to a constraint
+satisfaction problem, which is very similar to the problem of matching the
+constraints of the recognizable objects to the descriptions of the objects we
+see on the screen.</p>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'>Hayes' complaints of AI's previously narrow focus on
+toy-worlds and his suggestion of building a large-scale formalization like
+formalizing everyday knowledge about the physical world <a href="#r12">[12]</a>
+turned the research direction to systems that reason in a physical domain. </p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+mso-bidi-font-size:10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoBodyText style='text-align:justify'><b><span style='font-size:16.0pt;
+mso-bidi-font-size:10.0pt'>More "expert" commonsense reasoning<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='layout-grid-mode:
+line'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'>As De Kleer <a href="#r8">[8]</a>
+mentions, failure of expert systems stem from their narrow range of expertise and
+their inability to distinguish when a problem is outside of their know-how. In
+qualitative reasoning <a href="#r9">[9]</a>, <i>resolution</i> involves the
+depth of information detail in a qualitative representation of the knowledge.
+It is important to know how much information will suffice in order to produce
+valuable inferences for a commonsense reasoner to then predict how deep it
+should browse through knowledge. Most of the information that is easily
+accessible is sparse with low resolution, such as "the bird is flying south"
+rather than "the bird is flying 2 degrees west in the direction of the South
+Pole at 30 mph."</p>
+
+<p class=MsoNormal style='text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoBodyText2><span style='mso-bidi-font-size:12.0pt'>Commonsense
+reasoning cannot be dependent on a single knowledge base or an expert system.
+Since it is highly context dependent and is really "common" sense, rather than
+any previously defined, controlled, specific, predictable sense. With the
+introduction of new evidence, we may change or abandon previous common
+knowledge. One should not be surprised to receive different answers to the same
+question either, since common sense is <i>variable </i>and <i>non-monotonic</i>
+in time. <o:p></o:p></span></p>
+
+<p class=MsoBodyText2><span style='mso-bidi-font-size:12.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoBodyText2>So, in its general sense, it has a <i>dynamic</i>
+structure. Trying to come up with general problem solvers (advice taker <a
+href="#r16">[16]</a>, ThoughtTreasure <a href="#r19">[19]</a>, CYC <a
+href="#r15">[15]</a>) has always been attractive for people who oversimplify
+the path to common sense intelligence as coming up with a knowledge base
+containing terms, concepts, facts, and rules of thumb that involve human common
+sense thought. This scheme can lead to expert systems in common sense world,
+yet the path to commonsense reasoners is much more arduous. </p>
+
+<p class=MsoNormal style='text-align:justify'><span style='layout-grid-mode:
+line'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<h3>What is the big picture?</h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+mso-bidi-font-size:10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'>Given that we managed to design
+and program a commonsense reasoning system, what will this buy us in terms of
+user interfaces? First of all, as we mentioned in the introduction, one of our
+goals in user interface design is <i>reducing the asymmetry </i>that takes
+place in the communication between humans and computers. We believe that
+importing commonsense knowledge to both sides of the communication, but mostly
+to the computer's side, can decrease the asymmetry between the abilities of the
+two participants. </p>
+
+<p class=MsoNormal style='text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoBodyText3>Secondly, we aim to <i>formalize the idioms and
+expressions</i>, the unspoken rules in the currently used user interfaces, with
+the assistance of commonsense knowledge. With this help, a softbot will be able
+to handle simple reasonings, such as when a window is opened on the screen, the
+objects behind it are not lost, just hidden, without the need to hardcode those
+naive information. Similarly, end-tools like mouse pointers, that aid users in
+user interfaces, can gain <i>interesting and useful abilities </i>by matching
+respective functionalities of {tool, object} tuples. We may have both micro and
+macro-tool based reasoners. For example, when a mouse pointer approaches a
+button (which has relevant functionalities in terms of the context) it can
+automatically click on it. If the action's consequences are irreversible, we
+will probably need confirmation as well. So, it will also help those user
+interfaces and softbots that have difficulties in <i>reaching the user's goals
+and intentions</i>. </p>
+
+<p class=MsoBodyText3><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify'>Lastly, application of
+commonsense reasoning techniques will <i>increase the usability </i>of the user
+interface environment and help to create computers that are <i>more accessible </i>to
+those who experience difficulties in accessing the interface. The outcome will
+be user satisfying, friendly, and easy to use and learn computers across all
+age groups. We suspect that the future of user interfaces lies in those
+interfaces armed with tools caring commonsense knowledge applicable to daily
+life. Anthropomorphic user interfaces <a href="#r25">[25]</a> and tools like
+HabilisDraw <a href="#r3">[3]</a> will likely dominate the next generation
+interfaces.<span style='layout-grid-mode:line'><o:p></o:p></span></p>
+
+<h2 style='mso-layout-grid-align:auto;text-autospace:ideograph-other'><span
+style='font-size:16.0pt;mso-bidi-font-size:12.0pt;layout-grid-mode:line'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></h2>
+
+<h2 style='mso-layout-grid-align:auto;text-autospace:ideograph-other'><span
+style='font-size:16.0pt;mso-bidi-font-size:12.0pt;layout-grid-mode:line'>Characteristics
+of the <i>common sense</i><o:p></o:p></span></h2>
+
+<p class=MsoNormal style='text-align:justify'><span style='layout-grid-mode:
+line'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoBodyText2><span style='layout-grid-mode:line'>One can approach the
+problem of finding a model for commonsense by taking advantage of similarities <a
+href="#r20">[20]</a>; with the assumption that commonsense qualitative reasoning
+is a function that has components like analogical reasoning, qualitative
+reasoning and an addition of quantitative knowledge. However, commonsense
+reasoning must cover many more different approaches, as it is based on
+"propositional logic, the probability calculus and the concept of maximum
+entropy" <a href="#r22">[22]</a>, or on metaphor <a href="#r5">[5]</a>, or
+similarity matching <a href="#r24">[24]</a>. <o:p></o:p></span></p>
+
+<p class=MsoBodyText2><span style='layout-grid-mode:line'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoBodyText2><span style='layout-grid-mode:line'>Commonsense reasoning
+examples (water is wet, birds can fly, wood can burn, cars can move) convince
+us that it behaves as a series of logical deductions where we just accept and
+believe in the transitions in between. This characteristic is named <i>jumping
+to conclusions </i><a href="#r21">[21]</a>. <o:p></o:p></span></p>
+
+<p class=MsoBodyText2><span style='layout-grid-mode:line'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='layout-grid-mode:
+line'>Most of the commonsense knowledge and reasonings are based on implicit
+assumptions and expectations, which are accepted to hold, but are constantly
+surrendered when new evidence contradicting those presumptions are found. In
+this sense, it is <i>non-monotonic</i> because when new facts are added, some
+deductions may no longer hold true <a href="#r17">[17]</a>. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='layout-grid-mode:
+line'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='layout-grid-mode:line'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:325.5pt;
+ height:246pt'>
+ <v:imagedata src="./CommonsenseUI6_files/image001.gif" o:title="cow"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=434 height=328
+src="./CommonsenseUI6_files/image001.gif" v:shapes="_x0000_i1025"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;layout-grid-mode:line'>Figure
+� 1 <o:p></o:p></span></p>
+
+<p class=MsoBodyText2><span style='layout-grid-mode:line'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='layout-grid-mode:
+line'>At the same time, we should be careful about distinguishing between formerly
+known information and deductable information if we want to find new, previously
+unknown information in our inference mechanism. In this sense, deduction should
+be <i>monotonic</i>. However, humans sometimes err by forgetting to make this
+distinction. A child who sees a paper kite in the shape of a cow (Figure � 1)
+will probably think that cows can fly and assume that it is true that cows
+actually fly. If not told otherwise, the child will recall this information
+during the next encounter with cows. The same mistake is involuntarily
+experienced by adults in similar circumstances. To overcome such problems,
+first-order logic is a solution because of its monotonic formation. In the
+current CYC system, an extended version of </span><span style='mso-bidi-font-size:
+10.0pt'>first-order predicate calculus (FOPC), CycL <a href="#r15">[15]</a> is
+used. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='mso-bidi-font-size:
+10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoBodyText2>So, with commonsense reasoning, we are actually trying to
+reason monotonically with non-monotonic data. <span style='layout-grid-mode:
+line'>For instance, we can infer that cars move with the following sentence in
+first-order logic:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='layout-grid-mode:
+line'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><sub><span
+style='layout-grid-mode:line'><img border=0 width=571 height=21
+id="_x0000_i1027" src=image003.gif></span></sub><span style='layout-grid-mode:
+line'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='layout-grid-mode:
+line'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='layout-grid-mode:
+line'>We could re-solve this equation and deduct this long list of inferences
+every time we look for a vehicle to go somewhere (we also need to infer that we
+can move with cars while they move). But instead, in daily life, we just assume
+that this long chain of deductions is true and say what is "relevant" or
+"important" to us: <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='layout-grid-mode:
+line'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><i><span
+style='layout-grid-mode:line'>cars CAN move,<o:p></o:p></span></i></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='layout-grid-mode:
+line'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='layout-grid-mode:
+line'>without questioning why and how cars can actually move. This <i>information
+hiding </i>is very important in commonsense reasoning and when we start
+constructing knowledge bases storing this type of knowledge, we will eventually
+realize that the transitions in between are not actually hidden, but rather
+lost. This provides evidence to the importance of monotonic format of
+commonsense reasoning. For example, once we come up with commonsense knowledge
+nodes like this, the </span>nodes of information that we care about,<span
+style='layout-grid-mode:line'> we cannot derive backwards: <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='layout-grid-mode:
+line'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><sub><span
+style='layout-grid-mode:line'><img border=0 width=401 height=21
+id="_x0000_i1028" src=image004.gif></span></sub><span style='layout-grid-mode:
+line'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='mso-bidi-font-size:
+10.0pt'>However, FOPC is not enough since mathematical logic deals with <i>how
+people should think</i> rather than <i>how people actually do think</i> <a
+href="#r18">[18]</a>. </span>Also, humans don't utilize logic to store and
+represent their experiences <a href="#r18">[18]</a>, which pushes us forward to
+identify new formalisms for inference methods that currently use <span
+style='mso-bidi-font-size:10.0pt'>general logical deduction (modus
+ponens/tolens, universal and existential quantification) <a href="#r15">[15]</a>.
+On the other hand, </span>McCarthy also argues <a href="#r18">[18]</a> that an <span
+lang=EN style='mso-ansi-language:EN'>intelligent logical program needs only
+monotonic and nonmonotonic reasoning abilities and mechanisms for entering and leaving
+contexts. The rest can be managed by specific functions and predicates. </span><span
+style='mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='mso-bidi-font-size:
+10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'>On a different note, <i>spatial
+reasoning</i>, which is believed to have many qualitative aspects, is used in
+formalizing commonsense knowledge and it is claimed to be ubiquitous in human
+problem solving <a href="#r10">[10]</a>. </p>
+
+<p class=MsoNormal style='text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h2 style='mso-layout-grid-align:auto;text-autospace:ideograph-other'><span
+style='font-size:13.0pt;mso-bidi-font-size:12.0pt'>Relevancy Analysis<o:p></o:p></span></h2>
+
+<p class=MsoNormal style='text-align:justify'><span style='layout-grid-mode:
+line'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoBodyText2><span style='mso-bidi-font-size:12.0pt;layout-grid-mode:
+line'>In the light of these characteristics, commonsense reasoning can be
+redefined as: "Retrieving only the relevant or sensible deductions that can
+serve as a springboard for future reasonings." In data network analogue, we can
+claim that these points of deduction are the nodes where hot spots occur (and
+become the bottleneck of the system; we need to know this information to
+overcome bottlenecks) or in road network analogue, these are the roads where
+there is highly condensed traffic (so we need to know how to drive in those
+paths). So, a commonsense knowledge learner may need to conduct a relevancy
+analysis to find these important nodes of inference in relation to the context
+or problem domain. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='layout-grid-mode:
+line'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='layout-grid-mode:
+line'>Relevancy analysis lies at the core of the above-described commonsense
+knowledge learner. However, as McCarthy points out <a href="#r18">[18]</a>,
+formalizing relevancy is difficult. <o:p></o:p></span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+mso-bidi-font-size:10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoBodyText style='text-align:justify'><b><span style='font-size:16.0pt;
+mso-bidi-font-size:10.0pt'>Commonsense Reasoning in Physical Systems<o:p></o:p></span></b></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+mso-bidi-font-size:10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'>Can we envision commonsense
+reasonings with a program? Can we reach the same reasoning abilities of humans?
+For instance, can we come up with commonsense reasoning about physical world
+like "Iron sinks in water" by using a program like NEWTON <a href="#r7">[7]</a>,
+which searches the knowledge representation and reasoning methodology for
+physical domains by using quantitative knowledge to clarify ambiguities? What
+will be the structure of the program that makes those envisions? Will it use
+abstract entities, principles and laws of physics for representing and
+reasoning <a href="#r1">[1]</a>?</p>
+
+<p class=MsoNormal style='text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify'>Commonsense reasoning in physical
+systems is different from reasoning with the laws of the nature since individuals
+usually have their own naive assumptions about the theories of nature. It
+happens to be the case that the guesses developed by different individuals are
+all different forms of the same central hypothesis, which is highly
+inconsistent with the basic principles of classical physics <a href="#r1">[1]</a>.<span
+style="mso-spacerun: yes">� </span></p>
+
+<p class=MsoNormal style='text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoBodyText3>So, commonsense reasoning does not necessarily come up
+with the fundamental laws of nature that govern the bodies in the physical
+world; but rather, it helps us envision how different individuals would think
+and solve problems where these fundamental laws are not present. </p>
+
+<p class=MsoNormal style='text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify'>Still, finding the mappings
+between empirical objects to abstract objects is necessary since physical laws
+are stated over abstract entities and as state transformations <a href="#r1">[1]</a>.
+Akman <a href="#r1">[1]</a> also uses FOPC to represent these mappings in terms
+of predicates. </p>
+
+<p class=MsoNormal style='text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify'>Since the principles that we
+deduct with our commonsense reasoning system will not necessarily be compliant
+with the principles that govern the physical world (or our world of context),
+it seems wise to divide the space into microworlds where each microworld
+satisfies its own consistency measures (each one is consistent in itself) and
+endogenous principles are drawn within each specific context. In this highly
+clustered space, one can still expect interesting reasonings applicable to the
+whole physical world (the world we get when all clusters are joined together).
+However, Akman <a href="#r1">[1]</a> states that current envisioners lack the
+ability to switch between microworlds and macroworlds.</p>
+
+<p class=MsoNormal style='text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoBodyText style='text-align:justify'><b><span style='font-size:13.0pt;
+mso-bidi-font-size:10.0pt'>Methodology<o:p></o:p></span></b></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+mso-bidi-font-size:10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoBodyText2 style='mso-pagination:none'><span style='layout-grid-mode:
+line'>The methodology for automating commonsense reasoning is given by Davis <a
+href="#r6">[6]</a> as: (<i>i</i>) collect some examples of commonsense
+inference in a domain; (<i>ii</i>) recognize the general domain knowledge and
+the particular problem definition used; (<i>iii</i>) build up a formal language
+where this knowledge can be expressed; (<i>iv</i>) name the primitives of the
+language. <o:p></o:p></span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+mso-bidi-font-size:10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'>We believe that his scheme is
+helpful to researchers who are interested in further research within this
+promising area. We will, by following Davis' scheme, try to produce a minimal
+sized commonsense knowledge base in a physical microworld domain, since our aim
+is to focus on reasoning rather than proposing an alternative to current expert
+commonsense systems. </p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+mso-bidi-font-size:10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoBodyText align=center style='text-align:center'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1029" type="#_x0000_t75" style='width:207pt;height:222pt'>
+ <v:imagedata src="./CommonsenseUI6_files/image002.gif" o:title="penguin"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=276 height=296
+src="./CommonsenseUI6_files/image002.gif" v:shapes="_x0000_i1029"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoBodyText align=center style='text-align:center'><span
+style='font-size:10.0pt'>Figure � 2 <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'>There are still some questions left unanswered (same
+problematic issues with default reasoning <a href="#r21">[21]</a>): </p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='text-align:justify;mso-list:l2 level1 lfo6;
+     tab-stops:list .5in;mso-layout-grid-align:none;text-autospace:none'>What
+     is a good set of commonsense knowledge to start with? </li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l2 level1 lfo6;
+     tab-stops:list .5in;mso-layout-grid-align:none;text-autospace:none'>What
+     happens when the evidence matches the premises of two default rules with
+     conflicting conclusions? Specificity preference tells us to prefer the
+     rule that is more specific. CYC have extended truth-values by using two
+     different true values: monotonic true (true with no exceptions) and
+     default true (can have exceptions). For example, by default, birds can
+     fly. A penguin is a bird but penguins cannot fly (Figure � 2). So, if we
+     have a predicate like <i>flyPenguin</i> in our knowledge base, it has a
+     default value of true but a monotonic value of false, which overrides the
+     default value. </li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l2 level1 lfo6;
+     tab-stops:list .5in;mso-layout-grid-align:none;text-autospace:none'>How
+     will the system clear some conclusions that contradict new findings? Truth
+     maintenance systems can help to address these issues.</li>
+</ul>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoBodyText style='text-align:justify'><b><span style='font-size:16.0pt;
+mso-bidi-font-size:10.0pt'>Conclusion<o:p></o:p></span></b></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+mso-bidi-font-size:10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+mso-bidi-font-size:10.0pt'>Commonsense reasoning is a promising technique that
+aims to represent how humans reason and think in a sensible way. While
+designing user interfaces, former conventions and rules are typically carried
+as assumptions. These assumptions are clear for human perception but to a
+computer, they may be the source of ambiguity that threatens the robustness of
+the system. Hence, user interfaces need a tool that will arm them with
+reasoning and comprehension abilities relating to user actions, goals and
+assumptions</span><span style='font-size:12.0pt;layout-grid-mode:line'>. <o:p></o:p></span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span lang=EN style='font-size:
+12.0pt;mso-bidi-font-size:10.0pt;mso-ansi-language:EN'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+mso-bidi-font-size:10.0pt'>Constructing a knowledge base containing terms,
+concepts, facts, and rules of thumb involving human common sense thought may
+suffice for expert systems in the common sense world, but building a commonsense
+reasoner appears to be a harder task. The non-monotonic structure of
+commonsense knowledge, the need for monotonic reasoning with this data,
+relevancy analysis required for creating these key data nodes and constraint
+satisfaction problems increase the complexity of any commonsense reasoning
+system. Conflicting with Hayes' suggestions, focusing on a minimal sized
+commonsense knowledge base in a physical microworld domain can postpone some of
+these issues that need to be addressed.<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span lang=EN style='font-size:
+12.0pt;mso-bidi-font-size:10.0pt;mso-ansi-language:EN'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span lang=EN style='font-size:
+12.0pt;mso-bidi-font-size:10.0pt;mso-ansi-language:EN'>Commonsense reasoning
+seems to have a lot to offer to user interfaces, especially in bridging the gap
+between the asymmetric abilities of the two counterparts, computers and humans,
+and the communication taking place in this domain. Additions to </span><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'>such a system of user
+interfaces will likely provide better representation of assumptions and
+unspoken rules, increased abilities of tools used, and improved usability and
+accessibility of the environment where computers and humans communicate more
+efficiently.<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+mso-bidi-font-size:10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+mso-bidi-font-size:10.0pt'>There are still some problems to be solved before
+building functional and practical commonsense reasoners. However, in the
+future, we envision human-computer interaction media will be armed with tools
+that have commonsense knowledge (as in daily life) that will likely dominate the
+next generation interfaces. <o:p></o:p></span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+mso-bidi-font-size:10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoBodyText style='text-align:justify'><b><span style='font-size:16.0pt;
+mso-bidi-font-size:10.0pt'>References<o:p></o:p></span></b></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+mso-bidi-font-size:10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ol style='margin-top:0in' start=1 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r1></a>Akman, V., and Ten Hagen, P. J. W. 1989. The power of physical
+     representations. <i style='mso-bidi-font-style:normal'>AI Magazine</i>
+     10(3): 49-65. <span style='mso-bidi-font-size:10.0pt'><o:p></o:p></span></li>
+</ol>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='mso-bidi-font-size:
+10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ol style='margin-top:0in' start=2 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r2></a><span class=reference1><span style='mso-ansi-font-size:12.0pt'>Amant,
+     R. St. and Dudani, A. </span></span>An environment for user interface
+     softbots, <cite>Proceedings of the International Working Conference on
+     Advanced Visual Interfaces (AVI)</cite>. 2002. </li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=3 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r3></a>Amant, R. St. and Horton, T. E. A tool-based interactive
+     drawing environment. <cite>ACM Conference on Human Factors in Computing
+     Systems (CHI) Extended Abstracts</cite>. 2002.<span style='layout-grid-mode:
+     line'><o:p></o:p></span></li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=4 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r4></a><span class=reference1><span style='mso-ansi-font-size:12.0pt'>Amant,
+     R. St. and Riedl, M. O. </span></span>Toward automated exploration of
+     interactive systems<span class=reference1><span style='mso-ansi-font-size:
+     12.0pt'>, </span></span><cite><span style='mso-bidi-font-size:10.0pt'>Intelligent
+     User Interfaces 2002.</span></cite><cite><span style='layout-grid-mode:
+     line;font-style:normal'><o:p></o:p></span></cite></li>
+</ol>
+
+<p class=MsoNormal><span style='layout-grid-mode:line'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ol style='margin-top:0in' start=5 type=1>
+ <li class=MsoNormal style='color:black;mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r5></a><span style='mso-bidi-font-size:10.0pt;color:windowtext'>Barnden,
+     J. A. and Lee, M. G. </span><span style='color:windowtext;layout-grid-mode:
+     line'>An implemented context system that combines belief reasoning,
+     metaphor-based reasoning and uncertainty handling, Available: <a
+     href="http://www.cs.bham.ac.uk/~jab/ATT-Meta/Papers/context99.pdf">http://www.cs.bham.ac.uk/~jab/ATT-Meta/Papers/context99.pdf</a></span><span
+     style='mso-bidi-font-size:10.0pt'><o:p></o:p></span></li>
+</ol>
+
+<p class=MsoNormal><span style='layout-grid-mode:line'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ol style='margin-top:0in' start=6 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r6></a><span style='layout-grid-mode:line'>Davis, E. <i>Representation
+     of Commonsense Knowledge</i>. Morgan Kaufmann Publishing Co., 1990. </span></li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=7 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r7></a>D<span style='mso-bidi-font-size:10.0pt;color:black'>e Kleer,
+     J. Qualitative and quantitative knowledge in classical mechanics,
+     Technical Report AI-TR-352, AI Laboratory, MIT</span><span
+     style='mso-bidi-font-size:10.0pt'><o:p></o:p></span></li>
+</ol>
+
+<p class=MsoNormal><span style='mso-bidi-font-size:10.0pt;color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ol style='margin-top:0in' start=8 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r8></a>D<span style='mso-bidi-font-size:10.0pt;color:black'>e Kleer,
+     J. and Brown, JS. A qualitative physics based on confluences. <i>Artificial
+     Intelligence</i> 24 (1984) 7-83.</span></li>
+</ol>
+
+<p class=MsoNormal><span style='mso-bidi-font-size:10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ol style='margin-top:0in' start=9 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r9></a><span style='mso-bidi-font-size:10.0pt'>Forbus, K. D.
+     Qualitative reasoning, In A.B. Tucker, editor, <i>The Computer Science and
+     Engineering Handbook</i>, pages 715--733. CRC Press, 1996. </span></li>
+</ol>
+
+<p class=MsoHeader style='tab-stops:.5in center 3.0in right 6.0in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=10 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r10></a><span style='mso-bidi-font-size:10.0pt'>Forbus, K. D.,
+     Nielsen, P. and Faltings, B. Qualitative spatial reasoning: The clock
+     project, <i>Artificial Intelligence </i>51, 1991, 417-471.</span> <span
+     style='mso-bidi-font-size:10.0pt'><o:p></o:p></span></li>
+</ol>
+
+<p class=MsoHeader style='tab-stops:.5in center 3.0in right 6.0in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=11 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r11></a>Gentner, D. and Nielsen, J. The anti-Mac interface, <i>Communications
+     of the ACM</i>, 39(8), 1996, 70-82.</li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=12 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r12></a><span style='mso-bidi-font-size:10.0pt'>Hayes, P. The naive
+     physics manifesto, <i>Expert Systems in Microeletronics age, D. Ritchie
+     Ed.</i>, Edinburgh University Press, 1978, 242-270</span></li>
+</ol>
+
+<p class=MsoHeader style='tab-stops:.5in center 3.0in right 6.0in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=13 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r13></a>Hix, D. and Hartson, H. R. <i>Developing User Interfaces,
+     Ensuring Usability Through Product and Process</i>, John Wiley and Sons,
+     1993, 221-222</li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=14 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r14></a>Kant, I. <i>Critique of Pure Reason</i>, trans. by Kemp
+     Smith, The Macmillan Press Ltd., London, 1950, 300</li>
+</ol>
+
+<p class=MsoHeader style='tab-stops:.5in center 3.0in right 6.0in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=15 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r15></a>Lenat, D. B. <span style='mso-bidi-font-size:18.0pt'>From
+     2001 to 2001: Common Sense and the Mind of HAL, </span><i>HAL's Legacy:
+     2001's Computer as Dream and Reality</i>, ed. Stork, D. G. MIT Press, 1996
+     Available: <a href="http://www.cyc.com/halslegacy.html">http://www.cyc.com/halslegacy.html</a><span
+     style='layout-grid-mode:line'><o:p></o:p></span></li>
+</ol>
+
+<p class=MsoNormal><cite><span style='mso-bidi-font-size:10.0pt;font-style:
+normal'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></cite></p>
+
+<ol style='margin-top:0in' start=16 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r16></a><strong><span lang=EN style='mso-ansi-language:EN;font-weight:
+     normal'>McCarthy, J. Programs with common sense, </span></strong><i>Teddington
+     Conference on the Mechanization of Thought Processes</i>, 1958<span
+     style='layout-grid-mode:line'><o:p></o:p></span></li>
+</ol>
+
+<p class=MsoNormal><span style='mso-bidi-font-size:10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ol style='margin-top:0in' start=17 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r17></a><strong><span lang=EN style='mso-ansi-language:EN;font-weight:
+     normal'>McCarthy, J. </span></strong><span style='mso-bidi-font-size:10.0pt'>Concepts
+     of logical AI, 1999. Available: <a
+     href="http://www-formal.stanford.edu/jmc/concepts-ai/concepts-ai.html">http://www-formal.stanford.edu/jmc/concepts-ai/concepts-ai.html</a>
+     </span></li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=18 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r18></a>McCarthy, J. From here to human-level AI, <em>Knowledge
+     Representation Proceedings</em>, 1996. Available: <a
+     href="http://www-formal.stanford.edu/jmc/human.html">http://www-formal.stanford.edu/jmc/human.html</a>
+     </li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=19 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r19></a>Mueller, E. T. <em>Natural language processing with
+     ThoughtTreasure</em>, Signiform, New York, 1998. Available: <a
+     href="http://www.signiform.com/tt/book/">http://www.signiform.com/tt/book/</a>
+     <span style='layout-grid-mode:line'><o:p></o:p></span></li>
+</ol>
+
+<p class=MsoNormal><span style='layout-grid-mode:line'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ol style='margin-top:0in' start=20 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r20></a><span style='layout-grid-mode:line'>Paritosh, P. K. and
+     Forbus, K. D. Common sense on the envelope, <i>Proceedings of the
+     Fifteenth International Workshop on Qualitative Reasoning</i>, San
+     Antonio, 2001.</span></li>
+</ol>
+
+<p class=MsoHeader style='tab-stops:.5in center 3.0in right 6.0in'><cite><span
+style='mso-bidi-font-size:10.0pt;font-style:normal'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></cite></p>
+
+<ol style='margin-top:0in' start=21 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r21></a>Russell, S. and Norvig, P. <i>Artificial Intelligence: A
+     Modern Approach</i>, Prentice Hall, 1995, 458-460.<span style='layout-grid-mode:
+     line'><o:p></o:p></span></li>
+</ol>
+
+<p class=MsoNormal><span style='layout-grid-mode:line'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ol style='margin-top:0in' start=22 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r22></a><span style='mso-bidi-font-size:10.0pt'>Schramm, M. and
+     Ertel, W. </span><span style='layout-grid-mode:line'>Reasoning with
+     probabilities and maximum entropy: the system PIT and its application in
+     LEXMED, <i>Symposium on Operations Research</i>, 1999</span></li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=23 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r23></a>Suchman, L. A. <i>Plans and Situated Actions, The problem of
+     human-machine interaction</i>, Cambridge University Press, 1987, 180-181<span
+     style='layout-grid-mode:line'><o:p></o:p></span></li>
+</ol>
+
+<p class=MsoNormal><span style='layout-grid-mode:line'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<ol style='margin-top:0in' start=24 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r24></a><span style='layout-grid-mode:line'>Sun, R. Robust Reasoning:
+     Integrating rule-based and similarity-based reasoning, </span><i><span
+     style='mso-bidi-font-size:10.0pt'>Artificial Intelligence</span></i><span
+     style='mso-bidi-font-size:10.0pt'> 75, 1995, 241-295.</span></li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=25 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo9;tab-stops:list .5in'><a
+     name=r25></a>Xiao, J., Stasko, J. and Catrambone, R. Anthropomorphic User
+     Interfaces, Available: <a
+     href="http://www.cc.gatech.edu/gvu/ii/myagent/index_old.htm">http://www.cc.gatech.edu/gvu/ii/myagent/index_old.htm</a></li>
+</ol>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h3 style='mso-layout-grid-align:none;text-autospace:none'><a
+name="_About_the_Author"></a>About the Author</h3>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'>Ergun M. Bicici is a graduate student in the Intelligent
+Interfaces, Multimedia, and Graphics Lab in Computer Science Department of
+North Carolina State University. His research interests include human-computer
+interaction, intelligent interfaces, computer vision, robotics and commonsense
+reasoning. He can be reached at: <a href="mailto:embicici@ncsu.edu">embicici@ncsu.edu</a>.</p>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h3>Acknowledgments</h3>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>I would like to thank my advisor, Dr. Robert St. Amant, for
+helping me organize my thoughts, to Dr. Matthias Stallmann about his comments
+regarding the structure, to my editor Tony Hall for his inspiring and
+supportive remarks and to ACM Crossroads Editorial Board for their review.</p>
+
+<h3 style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:12.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></h3>
+
+<h3 style='mso-layout-grid-align:none;text-autospace:none'>Notes:</h3>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'>* Prolegomenon: A formal essay or critical discussion
+serving to introduce and interpret an extended work. Neuter present passive
+particle of <i>prolegein </i>to say beforehand, from <i>pro- </i>before + <i>legein
+</i>to say. (<a href="http://www.m-w.com/">www.m-w.com</a>)</p>
+
+<p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+text-autospace:none'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+</div>
+
+</body>
+
+</html>

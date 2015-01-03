@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Ergun Bicici</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="DESCRIPTION" content="mehmet ergun bicici">
+  <meta name="KEYWORDS" content="mehmet ergun bicici">
+</head>
+<body style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">
+<br>
+
+<!-- <font size="-7">Last updated Mar 02, 2007&nbsp;</font>-->
+<small><small>Last updated on May 20, 2007&nbsp;</small></small>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="3"
+ cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;">
+        <img border="1" align="left" height="306" width="408" alt="Ergun Bicici" src="Photos/NoelBaba2.jpg"><br>
+      </td>
+      <td style="vertical-align: top;">
+        <big>(Mehmet) Ergun Bicici</big><br>
+        PhD Student<br>
+	<a href="http://www.ku.edu.tr">Department of Electrical and Computer Engineering, Koc University</a> <br> 
+	<br>
+        <small>Postal Address:<br>
+	<i>Department of Electrical and Computer Engineering, Koc University<br> 
+	Engineering Building 228<br>
+	Rumelifeneri Yolu, Sariyer<br>
+	Istanbul, Turkey, 34450<br>
+	<br>
+	Phone: +90 (212) 338 1000 Ext: 2641<br>
+	Fax: +90 (212) 338 1548<br> 
+	E-mail: <img height="20" src="email.jpg" alt="e-mail address"> (Work Related) <br> 
+	&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<img height="26" src="email2i.jpg" alt="e-mail address"> (Others)<br>
+	<!-- &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<img height="26" src="email24.jpg" alt="e-mail address"> (Others)<br> -->
+	</i></small><br>
+	<span style="background-color: #FFFF00">NEWS:</span> I am spending the summer at Xerox Research Centre Europe. 
+      </td>
+    </tr>
+</tbody>
+</table>
+<hr>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href=""><big>Research</big></a>&nbsp;</td>
+      <td><a href="publications/"><big>Publications</big></a>&nbsp;</td>
+      <td><a href="http://del.icio.us/bicici"><big>Bookmarks</big></a>&nbsp;</td>
+      <td><a href="CV2007init2.pdf"><big>CV</big></a>&nbsp;</td>
+      <td><a href="http://bicici.blogspot.com/"><big>Blog</big></a>&nbsp;</td>
+      <td><a href="Photos/index.html"><big>Photos</big></a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<hr>
+<big>Education</big>
+<table>
+  <tbody>
+    <tr>
+      <td><a href="http://www.ku.edu.tr"><IMG src="ku_logo.gif" width="99" height="76" align="left" border="0"></a></td>
+      <td><a href="http://www.ncsu.edu"><IMG src="ncsulogo.gif" width="75" height="90" align="left" border="0"></a></td>
+     <td><a href="http://www.bilkent.edu.tr"><IMG src="bilkentlogo.jpg" width="88" height="104" align="left" border="0"></a></td>
+     <td><a href="http://www.ifl.k12.tr"><IMG src="ifllogo.gif" width="92" height="116" align="left" border="0"></a></td>
+      <td><a href="http://www.bal.k12.tr"><IMG src="ballogo.gif" width="116" height="116" align="left" border="0"></a></td>
+   </tr>
+  </tbody>
+</table>
+
+<hr>
+<big>Research Interests</big>
+<ul>
+<LI><strong>Language Modeling:</strong><br>
+Machine translation, computational linguistics, natural language
+processing.</LI>
+<LI><strong>Knowledge Discovery:</strong><br>
+Support Vector Machines, Inductive Logic Programming, Clustering,
+Instance-Based Learning, Formal Concept Analysis, text mining.
+</LI>
+<LI><strong>Semantic Understanding:</strong><br>
+Semantic information processing, consensus ontologies, text
+understanding, question answering, formal context.
+</LI>
+<LI><strong>Artificial Intelligence:</strong><br>
+Commonsense reasoning, knowledge representation for medical
+information, Description Logics, semantic web.</LI>
+</ul>
+
+<hr>
+<hr>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<big>Links:</big>
+<OL>
+<LI><P STYLE="margin-bottom: 0in"><A HREF="http://www.ling.ohio-state.edu/~dickinso/corpus.html">Corpus Links</a></P>
+<LI><P><A HREF="workstudy.html">WorkStudy Spring 2006</A></P>
+</OL>
+<P> 
+</P>
+<P><B><FONT SIZE=5>PUBLICATIONS / WORKS</FONT></B><BR>. [2004]
+Ergun M. Bicici.<BR><B><I>Relational Learning from Drug Adverse
+Events Reports.</I></B> <BR><SPAN LANG="en-US"><FONT SIZE=2 STYLE="font-size: 11pt"><FONT COLOR="#000000">NC
+Symposium on Biotechnology &amp; Bioinformatics (IEEE Tech4Life
+</FONT></FONT></SPAN>Conference). <BR><A HREF="http://ieeexplore.ieee.org/xpls/abs_all.jsp?isnumber=29891&amp;arnumber=1364375&amp;count=17&amp;index=8">[IEEE
+Link]</A> <A HREF="Papers/IEEETech4LifeConf2004.pdf">[Paper, PDF]</A>
+<A HREF="Papers/IEEETech4LifePresentation.pdf">[Presentation, PDF]</A>
+</P>
+<P><I>Abstract:</I> We applied relational learning to discover rules
+from adverse events reports. We used the FOIL relational learning
+system to find a set of rules for withdrawn drugs. We compared our
+results with FDA's reasons for withdrawal.</P>
+<P><BR>
+</P>
+
+</BODY>
+</HTML>
