@@ -5,8 +5,8 @@
 %
 %
 % automatically generated
-% % C:\ebicici\intelligence\Programs\bibtex2html-1.02\bin\win32\bibtex2html.exe ../ebiciciPubs/ebiciciPubs.bib -force -html-links -copy-icons
-% Date: Thu Sep 25 16:28:22 2014
+% % /home/ebicici/intelligence/Programs/bibtex2html-1.02//bin/linux/bibtex2html -force -html-links -sort year -icons -copy-icons -create-directories -style html /home/ebicici/intelligence/Webpage/ebiciciPubs.bib
+% Date: Sat Jan 10 17:55:16 2015
 
 % Author: ebicici
 %
@@ -22,69 +22,12 @@
 
 
 
-@PHDTHESIS{BiciciThesis,
-   AUTHOR       = {Ergun Biçici},
-   SCHOOL       = {Koç University},
-   TITLE        = {The Regression Model of Machine Translation},
-   YEAR         = {2011},
-   OPTADDRESS   = {},
-   OPTMONTH     = {},
-   NOTE         = {Supervisor: Deniz Yuret},
-   OPTTYPE      = {},
-   KEYWORDS     = {Machine Translation, Machine Learning, 
-      Artificial Intelligence, Natural Language Processing},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2011/RegMTThesis_Web.pdf},
-   ABSTRACT     = {Machine translation is the task of automatically finding 
-      the translation of a source sentence in the target language. 
-      Statistical machine translation (SMT) use parallel corpora or 
-      bilingual paired corpora that are known to be translations of each 
-      other to find a likely translation for a given source sentence based 
-      on the observed translations. The task of machine translation can be 
-      seen as an instance of estimating the functions that map strings to 
-      strings. Regression based machine translation (RegMT) approach 
-      provides a learning framework for machine translation, separating 
-      learning models for training, training instance selection, feature 
-      representation, and decoding. We use the transductive learning 
-      framework for making the RegMT approach computationally more scalable 
-      and consider the model building step independently for each test 
-      sentence. We develop training instance selection algorithms that not 
-      only make RegMT computationally more scalable but also improve the 
-      performance of standard SMT systems. We develop better training 
-      instance selection techniques than previous work from given parallel 
-      training sentences for achieving more accurate RegMT models using 
-      less training instances. We introduce L1 regularized regression as a 
-      better model than L2 regularized regression for statistical machine 
-      translation. Our results demonstrate that sparse regression models 
-      are better than L2 regularized regression for statistical machine 
-      translation in predicting target features, estimating word 
-      alignments, creating phrase tables, and generating translation 
-      outputs. We develop good evaluation techniques for measuring the 
-      performance of the RegMT model and the quality of the translations. 
-      We use F1 measure, which performs good when evaluating translations 
-      into English according to human judgments. F1 allows us to evaluate 
-      the performance of the RegMT models using the target feature 
-      prediction vectors or the coefficients matrices learned or a given 
-      SMT model using its phrase table without performing the decoding 
-      step, which can be computationally expensive. Decoding is dependent 
-      on the representation of the training set and the features used. We 
-      use graph decoding on the prediction vectors represented in $n$-gram 
-      or word sequence counts space found in the training set. We also 
-      decode using Moses after transforming the learned weight matrix 
-      representing the mappings between the source and target features to a 
-      phrase table that can be used by Moses during decoding. We 
-      demonstrate that sparse L1 regularized regression performs better 
-      than L2 regularized regression in the German-English translation task 
-      and in the Spanish-English translation task when using small sized 
-      training sets. Graph based decoding can provide an alternative to 
-      phrase-based decoding in translation domains having low vocabulary.}
-}
-
-@ARTICLE{BiciciPBML2014,
+@ARTICLE{BiciciPBML2015,
    AUTHOR       = {Ergun Biçici},
    JOURNAL      = {The Prague Bulletin of Mathematical Linguistics},
    TITLE        = {Domain Adaptation for Machine Translation with Instance 
       Selection},
-   YEAR         = {2014},
+   YEAR         = {2015},
    OPTMONTH     = {},
    OPTNOTE      = {},
    OPTNUMBER    = {},
@@ -92,6 +35,27 @@
    VOLUME       = {103},
    KEYWORDS     = {Machine Translation, Machine Learning, 
       Domain Adaptation}
+}
+
+@INPROCEEDINGS{Bicici2015_SEMEVAL_SS,
+   AUTHOR       = {Ergun Biçici},
+   BOOKTITLE    = {SemEval-2015: Semantic Evaluation Exercises - International Workshop on Semantic Evaluation},
+   TITLE        = {RTM-DCU: Predicting Semantic Similarity with Referential 
+      Translation Machines},
+   YEAR         = {2015},
+   ADDRESS      = {Denver, Colorado, USA},
+   OPTCROSSREF  = {},
+   OPTEDITOR    = {},
+   MONTH        = {4-5 June},
+   OPTNOTE      = {},
+   OPTNUMBER    = {},
+   OPTORGANIZATION = {},
+   OPTPAGES     = {},
+   OPTPUBLISHER = {},
+   OPTSERIES    = {},
+   OPTVOLUME    = {},
+   KEYWORDS     = {Machine Translation, Machine Learning, 
+      Performance Prediction, Semantic Similarity}
 }
 
 @ARTICLE{BiciciYuret:FDA5:TASLP,
@@ -106,151 +70,44 @@
    OPTPAGES     = {},
    OPTVOLUME    = {},
    KEYWORDS     = {Machine Translation, Machine Learning, 
-      Artificial Intelligence, Natural Language Processing}
-}
-
-@ARTICLE{BiciciMTPPMTJ,
-   AUTHOR       = {Ergun Biçici and Declan Groves and van Genabith, Josef},
-   JOURNAL      = {Machine Translation},
-   TITLE        = {Predicting Sentence Translation Quality Using Extrinsic 
-      and Language Independent Features},
-   YEAR         = {2013},
-   OPTMONTH     = {},
-   OPTNOTE      = {},
-   OPTNUMBER    = {},
-   OPTPAGES     = {},
-   OPTVOLUME    = {},
-   KEYWORDS     = {Machine Translation, Machine Learning, 
-      Performance Prediction},
-   ABSTRACT     = {We develop a top performing model for automatic, 
-      accurate, and language independent prediction of sentence-level 
-      statistical machine translation (SMT) quality with or without looking 
-      at the translation outputs. We derive various feature functions 
-      measuring the closeness of a given test sentence to the training data 
-      and the difficulty of translating the sentence. We describe 
-      \texttt{mono} feature functions that are based on statistics of only 
-      one side of the parallel training corpora and \texttt{duo} feature 
-      functions that incorporate statistics involving both source and 
-      target sides of the training data. Overall, we describe novel, 
-      language independent, and SMT system extrinsic features for 
-      predicting the SMT performance, which also rank high during feature 
-      ranking evaluations. We experiment with different learning settings, 
-      with or without looking at the translations, which help differentiate 
-      the contribution of different feature sets. We apply partial least 
-      squares and feature subset selection, both of which improve the 
-      results and we present ranking of the top features selected for each 
-      learning setting, providing an exhaustive analysis of the extrinsic 
-      features used. We show that by just looking at the test source 
-      sentences and not using the translation outputs at all, we can 
-      achieve better performance than a baseline system using SMT model 
-      dependent features that generated the translations. Furthermore, our 
-      prediction system is able to achieve the $2$nd best performance 
-      overall according to the official results of the Quality Estimation 
-      Task (QET) challenge when also looking at the translation outputs. 
-      Our representation and features achieve the top performance in QET 
-      among the models using the SVR learning model. }
-}
-
-@ARTICLE{BiciciPBML2013,
-   AUTHOR       = {Kashif Shah and Eleftherios Avramidis and Ergun Biçici and 
-      Lucia Specia},
-   JOURNAL      = {Prague Bull. Math. Linguistics},
-   TITLE        = {QuEst - Design, Implementation and Extensions of a 
-      Framework for Machine Translation Quality Estimation},
-   YEAR         = {2013},
-   OPTMONTH     = {},
-   OPTNOTE      = {},
-   OPTNUMBER    = {},
-   PAGES        = {19--30},
-   VOLUME       = {100},
-   URL          = {http://ufal.mff.cuni.cz/pbml/100/art-shah-avramidis-bicici-specia.pdf}
-}
-
-@ARTICLE{Bicici:JMAGS07,
-   AUTHOR       = {Ergun Biçici},
-   JOURNAL      = {Journal of Multiagent and Grid Systems},
-   TITLE        = {Consensus Ontologies in Socially Interacting MultiAgent 
-      Systems},
-   YEAR         = {2008},
-   OPTMONTH     = {},
-   OPTNOTE      = {},
-   OPTNUMBER    = {},
-   OPTPAGES     = {},
-   OPTVOLUME    = {},
-   KEYWORDS     = {Consensus Ontology},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2007/JMAGS.pdf},
-   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2007/JMAGS.ps},
-   ABSTRACT     = {This paper presents approaches for building, managing, 
-      and evaluating consensus ontologies from the individual ontologies of 
-      a network of socially interacting agents. Each agent has its own 
-      conceptualization of the world within the multiagent system 
-      framework. The interactions between agents are modeled by sending 
-      queries and receiving responses and later assessing each other's 
-      performance based on the results. This model enables us to measure 
-      the \emph{quality} of the societal beliefs in the resources which we 
-      represent as the \emph{expertise} in each domain. The dynamic nature 
-      of our system allows us to model the emergence of consensus that 
-      mimics the evolution of language. We present an algorithm for 
-      generating the consensus ontologies which makes use of the 
-      authoritative agent's conceptualization in a given domain. As the 
-      expertise of agents changes after a number of interactions, the 
-      consensus ontology that we build based on the agents' individual 
-      views evolves. The resulting approach is concordant with the 
-      principles of emergent semantics. We provide formal definitions for 
-      the problem of finding a consensus ontology in a step by step manner. 
-      We evaluate the consensus ontologies by using different heuristic 
-      measures of similarity based on the component ontologies. Conceptual 
-      processing methods for generating, manipulating, and evaluating 
-      consensus ontologies are given and experimental results are 
-      presented. The presented approach looks promising and opens new 
-      directions for further research.}
-}
-
-@ARTICLE{ProlegomenonCSRUI,
-   AUTHOR       = {Ergun Biçici},
-   JOURNAL      = {ACM Crossroads},
-   TITLE        = {Prolegomenon to Commonsense Reasoning in User Interfaces},
-   YEAR         = {2002},
-   OPTMONTH     = {},
-   OPTNOTE      = {},
-   NUMBER       = {1},
-   OPTPAGES     = {},
-   VOLUME       = {9},
-   KEYWORDS     = {Artificial Intelligence},
-   SERIES       = {Human Computer Interaction},
-   URL          = {http://www.computing.dcu.ie/~ebicici/publications/2002/ACMCrossroads2002/CommonsenseUI6.htm},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2002/ACMCrossroads2002/Prolegomenon2.pdf},
-   ABSTRACT     = {Human-computer interaction experiences unbalanced 
-      talents of counterparts in the user interface, which can only be 
-      eased with the introduction of new solutions. Commonsense reasoning 
-      is a promising answer that offers formalization and computational 
-      models about how humans reason and think in a sensible way. In user 
-      interface design, assumed conventions and rules are widely followed 
-      and carried to user interfaces. For the most part, these assumptions 
-      are obvious to humans yet incomprehensible to computers. As a result, 
-      it is essential that tools are developed, capable of retrieving 
-      relevant, sensible inferences that in turn can serve as catalysts for 
-      future reasoning. Embedding this tool in user interfaces can provide 
-      many benefits including representation of assumptions and unspoken 
-      rules, the addition of useful tool abilities, and increasingly usable 
-      and accessible environments where computers and humans have extended 
-      communication capabilities to assist in understanding each other. In 
-      this article, we present groundwork for applying commonsense 
-      reasoning to user interfaces. We start with identifying the asymmetry 
-      in human-machine communication and later focus on some approaches 
-      such as softbots and the proposed anti-mac interface. Then we 
-      identify the problems faced in user interfaces such as the 
-      correspondence problem inherited from computer vision. Next, we state 
-      our research ambition as adding commonsense reasoning functionality 
-      to user interfaces and further survey previous approaches and the 
-      state of the art. We depict the big picture we are facing and list 
-      some of the rewards to be earned by applying this technique. Later, 
-      characteristics of common sense are investigated together with 
-      examples in first-order logic. We then report various lessons learned 
-      from earlier attempts that began in physical systems concentrated on 
-      small microworld problems. Finally, we cite a sample methodology for 
-      automating commonsense reasoning and identify a number of questions 
-      that have yet to be answered.}
+      Artificial Intelligence, Natural Language Processing},
+   URL          = {http://dx.doi.org/10.1109/TASLP.2014.2381882},
+   ABSTRACT     = {We introduce FDA5 for efficient parameterization, 
+      optimization, and implementation of feature decay algorithms (FDA), a 
+      class of instance selection algorithms that use feature decay. FDA 
+      increase the diversity of the selected training set by devaluing 
+      features (i.e. n-grams) that have already been included. FDA5 decides 
+      which instances to select based on three functions used for 
+      initializing and decaying feature values and scaling sentence scores 
+      controlled with $5$ parameters. We present optimization techniques 
+      that allow FDA5 to adapt these functions to in-domain and 
+      out-of-domain translation tasks for different language pairs. In a 
+      transductive learning setting, selection of training instances 
+      relevant to the test set can improve the final translation quality. 
+      In machine translation experiments performed on the $2$ million 
+      sentence English-German section of the Europarl corpus, we show that 
+      a subset of the training set selected by FDA5 can gain up to $3.22$ 
+      BLEU points compared to a randomly selected subset of the same size, 
+      can gain up to $0.41$ BLEU points compared to using all of the 
+      available training data using only $15\%$ of it, and can reach within 
+      $0.5$ BLEU points to the full training set result by using only 
+      $2.7\%$ of the full training data. FDA5 peaks at around 8M words or 
+      $15\%$ of the full training set. In an active learning setting, FDA5 
+      minimizes the human effort by identifying the most informative 
+      sentences for translation and FDA gains up to $0.45$ BLEU points 
+      using $3/5$ of the available training data compared to using all of 
+      it and $1.12$ BLEU points compared to random training set. In 
+      translation tasks involving English and Turkish, a morphologically 
+      rich language, FDA5 can gain up to $11.52$ BLEU points compared to a 
+      randomly selected subset of the same size, can achieve the same BLEU 
+      score using as little as $4\%$ of the data compared to random 
+      instance selection, and can exceed the full dataset result by $0.78$ 
+      BLEU points. FDA5 is able to reduce the time to build a statistical 
+      machine translation system to about half with 1M words using only 
+      $3\%$ of the space for the phrase table and $8\%$ of the overall 
+      space when compared with a baseline system using all of the training 
+      data available yet still obtain only $0.58$ BLEU points difference 
+      with the baseline system in out-of-domain translation.}
 }
 
 @INPROCEEDINGS{Bicici:FDA54FDA:WMT14,
@@ -358,6 +215,139 @@
       with improved learning models. We develop RTM models for each WMT14 
       QET (QET14) subtask, obtain improvements over QET13 results, and rank 
       $1$st in all of the tasks and subtasks of QET14.}
+}
+
+@TECHREPORT{QTLPD2.2.2,
+   AUTHOR       = {Ergun Biçici},
+   INSTITUTION  = {Dublin City University},
+   TITLE        = {Quality Estimation for Extending Good Translations},
+   YEAR         = {2014},
+   OPTADDRESS   = {},
+   OPTMONTH     = {},
+   NOTE         = {Contribution to EU project QTLaunchPad deliverable D2.2.2: http://www.qt21.eu/launchpad/content/delivered},
+   OPTNUMBER    = {},
+   OPTTYPE      = {},
+   KEYWORDS     = {Machine Translation, Performance Prediction},
+   ABSTRACT     = {We present experiments using quality estimation models 
+      to improve the performance of statistical machine translation (SMT) 
+      systems by supplementing their training corpora or by building 
+      sentence-specific SMT models for instances predicted as having 
+      potential for improvement by the ITERPE model. The experiments with 
+      quality-informed active learning strategy select, among alternative 
+      machine translations, those which are: (i) predicted to have high 
+      quality, and thus can be added to the machine translation system 
+      training set; (ii) predicted to have low quality, and thus need to be 
+      corrected/translated by humans, with the human corrections added to 
+      the machine translation system training set. Improvement is measured 
+      by the increase in the performance of the overall machine translation 
+      systems on held-out datasets, where performance is measured by 
+      automatic evaluation metrics comparing the scores of the original 
+      machine translation system against the score of the improved machine 
+      translation system after additional material is used. The experiments 
+      with ITERPE consist in automatically grouping translation instances 
+      into different quality bands, for instance for re-translation or for 
+      post-editing [Bicici and Specia, 2014]. This method can be helpful in 
+      automatic identification of quality barriers in MT to achieve high 
+      quality machine translation.}
+}
+
+@TECHREPORT{QTLPD2.2.1,
+   AUTHOR       = {Ergun Biçici},
+   INSTITUTION  = {Dublin City University},
+   TITLE        = {Quality Estimation for System Selection and Combination},
+   YEAR         = {2014},
+   OPTADDRESS   = {},
+   OPTMONTH     = {},
+   NOTE         = {Contribution to EU project QTLaunchPad deliverable D2.2.1: http://www.qt21.eu/launchpad/content/delivered},
+   OPTNUMBER    = {},
+   OPTTYPE      = {},
+   KEYWORDS     = {Machine Translation, Performance Prediction},
+   ABSTRACT     = {We present experiments using state of the art quality 
+      estimation models to improve the performance of machine translation 
+      systems without changing the internal functioning of such systems. 
+      The experiments include the following approaches: (i) n-best list 
+      re-ranking, where translation candidates (segments) produced by a 
+      machine translation system are re-ranked based on predicted quality 
+      scores such as to get the best translation ranked top; (ii) n-best 
+      list recombination, where sub-segments from the n-best list are mixed 
+      using a lattice-based approach, and the complete generated segments 
+      are scored using quality predictions and then re-ranked as in (i); 
+      (iii) system selection, where translations produced by multiple 
+      machine translation systems and a human translator are sorted 
+      according to predicted quality to select the best translated segment, 
+      including the challenging case where the source of the translation 
+      (i.e., which system/human produced it) is unknown, and (iv) diagnosis 
+      of statistical machine translation systems by looking at internal 
+      features of the decoder and their correlation with translation 
+      quality, as well as using them to predict groups of errors in the 
+      translations.}
+}
+
+@MISC{BiciciIDF_ITERPE2014,
+   AUTHOR       = {Ergun Biçici},
+   OPTHOWPUBLISHED = {},
+   OPTMONTH     = {},
+   NOTE         = {Invention Disclosure, DCU Invent Innovation and Enterprise: https://www.dcu.ie/invent/},
+   TITLE        = {ITERPE: Identifying Translation Errors Regardless of 
+      Prediction Errors},
+   YEAR         = {2014}
+}
+
+@ARTICLE{BiciciMTPPMTJ,
+   AUTHOR       = {Ergun Biçici and Declan Groves and van Genabith, Josef},
+   JOURNAL      = {Machine Translation},
+   TITLE        = {Predicting Sentence Translation Quality Using Extrinsic 
+      and Language Independent Features},
+   YEAR         = {2013},
+   OPTMONTH     = {},
+   OPTNOTE      = {},
+   OPTNUMBER    = {},
+   OPTPAGES     = {},
+   OPTVOLUME    = {},
+   KEYWORDS     = {Machine Translation, Machine Learning, 
+      Performance Prediction},
+   ABSTRACT     = {We develop a top performing model for automatic, 
+      accurate, and language independent prediction of sentence-level 
+      statistical machine translation (SMT) quality with or without looking 
+      at the translation outputs. We derive various feature functions 
+      measuring the closeness of a given test sentence to the training data 
+      and the difficulty of translating the sentence. We describe 
+      \texttt{mono} feature functions that are based on statistics of only 
+      one side of the parallel training corpora and \texttt{duo} feature 
+      functions that incorporate statistics involving both source and 
+      target sides of the training data. Overall, we describe novel, 
+      language independent, and SMT system extrinsic features for 
+      predicting the SMT performance, which also rank high during feature 
+      ranking evaluations. We experiment with different learning settings, 
+      with or without looking at the translations, which help differentiate 
+      the contribution of different feature sets. We apply partial least 
+      squares and feature subset selection, both of which improve the 
+      results and we present ranking of the top features selected for each 
+      learning setting, providing an exhaustive analysis of the extrinsic 
+      features used. We show that by just looking at the test source 
+      sentences and not using the translation outputs at all, we can 
+      achieve better performance than a baseline system using SMT model 
+      dependent features that generated the translations. Furthermore, our 
+      prediction system is able to achieve the $2$nd best performance 
+      overall according to the official results of the Quality Estimation 
+      Task (QET) challenge when also looking at the translation outputs. 
+      Our representation and features achieve the top performance in QET 
+      among the models using the SVR learning model. }
+}
+
+@ARTICLE{BiciciPBML2013,
+   AUTHOR       = {Kashif Shah and Eleftherios Avramidis and Ergun Biçici and 
+      Lucia Specia},
+   JOURNAL      = {Prague Bull. Math. Linguistics},
+   TITLE        = {QuEst - Design, Implementation and Extensions of a 
+      Framework for Machine Translation Quality Estimation},
+   YEAR         = {2013},
+   OPTMONTH     = {},
+   OPTNOTE      = {},
+   OPTNUMBER    = {},
+   PAGES        = {19--30},
+   VOLUME       = {100},
+   URL          = {http://ufal.mff.cuni.cz/pbml/100/art-shah-avramidis-bicici-specia.pdf}
 }
 
 @INPROCEEDINGS{Bicici:FDA4FDA:WMT13,
@@ -518,6 +508,156 @@
       model is the $2$nd best system on some tasks according to the 
       official results of the Student Response Analysis (SRA 2013) 
       challenge.}
+}
+
+@TECHREPORT{QTLPD3.2.1,
+   AUTHOR       = {Ergun Biçici},
+   INSTITUTION  = {Dublin City University},
+   TITLE        = {Definition of Interfaces},
+   YEAR         = {2013},
+   OPTADDRESS   = {},
+   OPTMONTH     = {},
+   NOTE         = {Contribution to EU project QTLaunchPad deliverable D3.2.1: http://www.qt21.eu/launchpad/content/delivered},
+   OPTNUMBER    = {},
+   OPTTYPE      = {},
+   KEYWORDS     = {Machine Translation},
+   ABSTRACT     = {The aim of this report is to define the interfaces for 
+      the tools used in the MT development and evaluation scenarios as 
+      included in the QTLaunchPad (QTLP) infrastructure. Specification of 
+      the interfaces is important for the interaction and interoperability 
+      of the tools in the developed QTLP infrastructure. In addressing this 
+      aim, the report provides: 1. Descriptions of the common aspects of 
+      the tools and their standardized data formatsÍ¾ 2. Descriptions of 
+      the interfaces for the tools for interoperability. where the tools 
+      are categorized into preparation, development, and evaluation 
+      categories including the human interfaces for quality assessment with 
+      multidimensional quality metrics. Interface specifications allow a 
+      modular tool infrastructure, flexibly selecting among alternative 
+      implementations, enabling realistic expectations to be made at 
+      different sections of the QTLP information flow pipeline, and 
+      supporting the QTLP infrastructure. D3.2.1 allows the emergence of 
+      the QTLP infrastructure and helps the identification and acquisition 
+      of existing tools (D4.4.1), the integration of identified language 
+      processing tools (D3.3.1), their implementation (D3.4.1), and their 
+      testing (D3.5.1). QTLP infrastructure will facilitate the 
+      organization and running of the quality translation shared task 
+      (D5.2.1). We also provide human interfaces for translation quality 
+      assessment with the multidimensional quality metrics (D1.1.1). D3.2.1 
+      is a living document until M12, which is when the identification and 
+      acquisition of existing tools (D4.4.1) and the implementation of 
+      identified language processing tools (D3.4.1) are due.}
+}
+
+@TECHREPORT{QTLPD3.1.1,
+   AUTHOR       = {Ergun Biçici},
+   INSTITUTION  = {Dublin City University},
+   TITLE        = {Definition of Machine Translation and Evaluation 
+      Workflows},
+   YEAR         = {2013},
+   OPTADDRESS   = {},
+   OPTMONTH     = {},
+   NOTE         = {Contribution to EU project QTLaunchPad deliverable D3.1.1: http://www.qt21.eu/launchpad/content/delivered},
+   OPTNUMBER    = {},
+   OPTTYPE      = {},
+   KEYWORDS     = {Machine Translation}
+}
+
+@TECHREPORT{QTLPD2.1.3,
+   AUTHOR       = {Ergun Biçici},
+   INSTITUTION  = {Dublin City University},
+   TITLE        = {Quality Estimation for Dissemination},
+   YEAR         = {2013},
+   OPTADDRESS   = {},
+   OPTMONTH     = {},
+   NOTE         = {Contribution to EU project QTLaunchPad deliverable D2.1.3: http://www.qt21.eu/launchpad/content/delivered},
+   OPTNUMBER    = {},
+   OPTTYPE      = {},
+   KEYWORDS     = {Machine Translation, Performance Prediction},
+   ABSTRACT     = {We present benchmarking experiments for the intrinsic 
+      and extrinsic evaluation of an extended version of our open source 
+      framework for machine translation quality estimation QUEST, which is 
+      described in D2.1.2. We focus on the application of quality 
+      predictions for dissemination by estimating post-editing effort. As 
+      an extrinsic task, we use quality predictions to rank alternative 
+      translations from multiple MT systems according to their estimated 
+      quality. Additionally, we experiment with a small dataset annotated 
+      for quality labels with different levels of granularity in a attempt 
+      to predict multidimensional quality metric (MQM) scores.}
+}
+
+@MISC{BiciciIDF_RTM2013,
+   AUTHOR       = {Ergun Biçici},
+   OPTHOWPUBLISHED = {},
+   OPTMONTH     = {},
+   NOTE         = {Invention Disclosure, DCU Invent Innovation and Enterprise: https://www.dcu.ie/invent/},
+   TITLE        = {Referential Translation Machines},
+   YEAR         = {2013}
+}
+
+@MISC{BiciciIDF_MTPP2012,
+   AUTHOR       = {Ergun Biçici},
+   OPTHOWPUBLISHED = {},
+   OPTMONTH     = {},
+   NOTE         = {Invention Disclosure, DCU Invent Innovation and Enterprise: https://www.dcu.ie/invent/},
+   TITLE        = {Machine Translation Performance Predictor},
+   YEAR         = {2012}
+}
+
+@PHDTHESIS{BiciciThesis,
+   AUTHOR       = {Ergun Biçici},
+   SCHOOL       = {Koç University},
+   TITLE        = {The Regression Model of Machine Translation},
+   YEAR         = {2011},
+   OPTADDRESS   = {},
+   OPTMONTH     = {},
+   NOTE         = {Supervisor: Deniz Yuret},
+   OPTTYPE      = {},
+   KEYWORDS     = {Machine Translation, Machine Learning, 
+      Artificial Intelligence, Natural Language Processing},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2011/RegMTThesis_Web.pdf},
+   ABSTRACT     = {Machine translation is the task of automatically finding 
+      the translation of a source sentence in the target language. 
+      Statistical machine translation (SMT) use parallel corpora or 
+      bilingual paired corpora that are known to be translations of each 
+      other to find a likely translation for a given source sentence based 
+      on the observed translations. The task of machine translation can be 
+      seen as an instance of estimating the functions that map strings to 
+      strings. Regression based machine translation (RegMT) approach 
+      provides a learning framework for machine translation, separating 
+      learning models for training, training instance selection, feature 
+      representation, and decoding. We use the transductive learning 
+      framework for making the RegMT approach computationally more scalable 
+      and consider the model building step independently for each test 
+      sentence. We develop training instance selection algorithms that not 
+      only make RegMT computationally more scalable but also improve the 
+      performance of standard SMT systems. We develop better training 
+      instance selection techniques than previous work from given parallel 
+      training sentences for achieving more accurate RegMT models using 
+      less training instances. We introduce L1 regularized regression as a 
+      better model than L2 regularized regression for statistical machine 
+      translation. Our results demonstrate that sparse regression models 
+      are better than L2 regularized regression for statistical machine 
+      translation in predicting target features, estimating word 
+      alignments, creating phrase tables, and generating translation 
+      outputs. We develop good evaluation techniques for measuring the 
+      performance of the RegMT model and the quality of the translations. 
+      We use F1 measure, which performs good when evaluating translations 
+      into English according to human judgments. F1 allows us to evaluate 
+      the performance of the RegMT models using the target feature 
+      prediction vectors or the coefficients matrices learned or a given 
+      SMT model using its phrase table without performing the decoding 
+      step, which can be computationally expensive. Decoding is dependent 
+      on the representation of the training set and the features used. We 
+      use graph decoding on the prediction vectors represented in $n$-gram 
+      or word sequence counts space found in the training set. We also 
+      decode using Moses after transforming the learned weight matrix 
+      representing the mappings between the source and target features to a 
+      phrase table that can be used by Moses during decoding. We 
+      demonstrate that sparse L1 regularized regression performs better 
+      than L2 regularized regression in the German-English translation task 
+      and in the Spanish-English translation task when using small sized 
+      training sets. Graph based decoding can provide an alternative to 
+      phrase-based decoding in translation domains having low vocabulary.}
 }
 
 @INPROCEEDINGS{BiciciYuret:ISforMT:WMT11,
@@ -733,6 +873,46 @@
       model.}
 }
 
+@ARTICLE{Bicici:JMAGS07,
+   AUTHOR       = {Ergun Biçici},
+   JOURNAL      = {Journal of Multiagent and Grid Systems},
+   TITLE        = {Consensus Ontologies in Socially Interacting MultiAgent 
+      Systems},
+   YEAR         = {2008},
+   OPTMONTH     = {},
+   OPTNOTE      = {},
+   OPTNUMBER    = {},
+   OPTPAGES     = {},
+   OPTVOLUME    = {},
+   KEYWORDS     = {Consensus Ontology},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2007/JMAGS.pdf},
+   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2007/JMAGS.ps},
+   ABSTRACT     = {This paper presents approaches for building, managing, 
+      and evaluating consensus ontologies from the individual ontologies of 
+      a network of socially interacting agents. Each agent has its own 
+      conceptualization of the world within the multiagent system 
+      framework. The interactions between agents are modeled by sending 
+      queries and receiving responses and later assessing each other's 
+      performance based on the results. This model enables us to measure 
+      the \emph{quality} of the societal beliefs in the resources which we 
+      represent as the \emph{expertise} in each domain. The dynamic nature 
+      of our system allows us to model the emergence of consensus that 
+      mimics the evolution of language. We present an algorithm for 
+      generating the consensus ontologies which makes use of the 
+      authoritative agent's conceptualization in a given domain. As the 
+      expertise of agents changes after a number of interactions, the 
+      consensus ontology that we build based on the agents' individual 
+      views evolves. The resulting approach is concordant with the 
+      principles of emergent semantics. We provide formal definitions for 
+      the problem of finding a consensus ontology in a step by step manner. 
+      We evaluate the consensus ontologies by using different heuristic 
+      measures of similarity based on the component ontologies. Conceptual 
+      processing methods for generating, manipulating, and evaluating 
+      consensus ontologies are given and experimental results are 
+      presented. The presented approach looks promising and opens new 
+      directions for further research.}
+}
+
 @INPROCEEDINGS{Bicici:CICLing08,
    AUTHOR       = {Ergun Biçici},
    BOOKTITLE    = {Proceedings of the 9th International Conference on Intelligent Text Processing and Computational Linguistics (CICLing 2008), LNCS},
@@ -791,8 +971,7 @@
    JOURNAL      = {Lecture Notes in Computer Science},
    KEYWORDS     = {Artificial Intelligence, Machine Translation, 
       Natural Language Processing},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/Year/2008.html},
-   PS           = {http://www.computing.dcu.ie/~ebicici/publications/Year/2008.html},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2008/DTM.pdf},
    ABSTRACT     = {Professional translators of technical documents often 
       use Translation Memory (TM) systems in order to capitalize on the 
       repetitions frequently observed in these documents. TM systems 
@@ -815,6 +994,16 @@
       improvements in terms of BLEU and NIST scores over both the 
       translations produced by the stand-alone SMT system and the 
       fuzzy-match translations proposed by the stand-alone TM system.}
+}
+
+@MISC{BiciciDymetmanDTM2008,
+   AUTHOR       = {Ergun Biçici and Marc Dymetman},
+   OPTHOWPUBLISHED = {},
+   OPTMONTH     = {},
+   NOTE         = {US Patent 8,244,519},
+   TITLE        = {Dynamic translation memory using statistical machine 
+      translation},
+   YEAR         = {2008}
 }
 
 @INPROCEEDINGS{Bicici:CONTEXT07,
@@ -937,7 +1126,8 @@
       change after a number of interactions, the consensus ontology that we 
       build based on the agentsâ€™ individual views evolves. We evaluate 
       the consensus ontologies by using different heuristic measures of 
-      similarity based on the component ontologies.}
+      similarity based on the component ontologies.},
+   DOI          = {http://doi.ieeecomputersociety.org/10.1109/COMPSAC.2006.126}
 }
 
 @INPROCEEDINGS{Bicici:AMTA2006,
@@ -1013,6 +1203,19 @@
       our technique.}
 }
 
+@TECHREPORT{,
+   AUTHOR       = {Ergun Biçici},
+   INSTITUTION  = {},
+   TITLE        = {Formal Consensus},
+   YEAR         = {2005},
+   OPTADDRESS   = {},
+   OPTMONTH     = {},
+   NOTE         = {Technical Report},
+   OPTNUMBER    = {},
+   TYPE         = {Research Note},
+   KEYWORDS     = {Consensus Ontology}
+}
+
 @INPROCEEDINGS{Bicici:DrugAER,
    AUTHOR       = {Ergun Biçici},
    BOOKTITLE    = {North Carolina Symposium on Biotechnology & Bioinformatics, IEEE Tech4Life},
@@ -1036,160 +1239,6 @@
       adverse events reports. We used the FOIL relational learning system 
       to Â¯nd a set of rules for withdrawn drugs. We compared our results 
       with FDA's reasons for withdrawal.}
-}
-
-@TECHREPORT{QTLPD2.2.2,
-   AUTHOR       = {Ergun Biçici},
-   INSTITUTION  = {Dublin City University},
-   TITLE        = {Quality Estimation for Extending Good Translations},
-   YEAR         = {2014},
-   OPTADDRESS   = {},
-   OPTMONTH     = {},
-   NOTE         = {Contribution to EU project QTLaunchPad deliverable D2.2.2: http://www.qt21.eu/launchpad/content/delivered},
-   OPTNUMBER    = {},
-   OPTTYPE      = {},
-   KEYWORDS     = {Machine Translation, Performance Prediction},
-   ABSTRACT     = {We present experiments using quality estimation models 
-      to improve the performance of statistical machine translation (SMT) 
-      systems by supplementing their training corpora or by building 
-      sentence-specific SMT models for instances predicted as having 
-      potential for improvement by the ITERPE model. The experiments with 
-      quality-informed active learning strategy select, among alternative 
-      machine translations, those which are: (i) predicted to have high 
-      quality, and thus can be added to the machine translation system 
-      training set; (ii) predicted to have low quality, and thus need to be 
-      corrected/translated by humans, with the human corrections added to 
-      the machine translation system training set. Improvement is measured 
-      by the increase in the performance of the overall machine translation 
-      systems on held-out datasets, where performance is measured by 
-      automatic evaluation metrics comparing the scores of the original 
-      machine translation system against the score of the improved machine 
-      translation system after additional material is used. The experiments 
-      with ITERPE consist in automatically grouping translation instances 
-      into different quality bands, for instance for re-translation or for 
-      post-editing [Bicici and Specia, 2014]. This method can be helpful in 
-      automatic identification of quality barriers in MT to achieve high 
-      quality machine translation.}
-}
-
-@TECHREPORT{QTLPD2.2.1,
-   AUTHOR       = {Ergun Biçici},
-   INSTITUTION  = {Dublin City University},
-   TITLE        = {Quality Estimation for System Selection and Combination},
-   YEAR         = {2014},
-   OPTADDRESS   = {},
-   OPTMONTH     = {},
-   NOTE         = {Contribution to EU project QTLaunchPad deliverable D2.2.1: http://www.qt21.eu/launchpad/content/delivered},
-   OPTNUMBER    = {},
-   OPTTYPE      = {},
-   KEYWORDS     = {Machine Translation, Performance Prediction},
-   ABSTRACT     = {We present experiments using state of the art quality 
-      estimation models to improve the performance of machine translation 
-      systems without changing the internal functioning of such systems. 
-      The experiments include the following approaches: (i) n-best list 
-      re-ranking, where translation candidates (segments) produced by a 
-      machine translation system are re-ranked based on predicted quality 
-      scores such as to get the best translation ranked top; (ii) n-best 
-      list recombination, where sub-segments from the n-best list are mixed 
-      using a lattice-based approach, and the complete generated segments 
-      are scored using quality predictions and then re-ranked as in (i); 
-      (iii) system selection, where translations produced by multiple 
-      machine translation systems and a human translator are sorted 
-      according to predicted quality to select the best translated segment, 
-      including the challenging case where the source of the translation 
-      (i.e., which system/human produced it) is unknown, and (iv) diagnosis 
-      of statistical machine translation systems by looking at internal 
-      features of the decoder and their correlation with translation 
-      quality, as well as using them to predict groups of errors in the 
-      translations.}
-}
-
-@TECHREPORT{QTLPD3.2.1,
-   AUTHOR       = {Ergun Biçici},
-   INSTITUTION  = {Dublin City University},
-   TITLE        = {Definition of Interfaces},
-   YEAR         = {2013},
-   OPTADDRESS   = {},
-   OPTMONTH     = {},
-   NOTE         = {Contribution to EU project QTLaunchPad deliverable D3.2.1: http://www.qt21.eu/launchpad/content/delivered},
-   OPTNUMBER    = {},
-   OPTTYPE      = {},
-   KEYWORDS     = {Machine Translation},
-   ABSTRACT     = {The aim of this report is to define the interfaces for 
-      the tools used in the MT development and evaluation scenarios as 
-      included in the QTLaunchPad (QTLP) infrastructure. Specification of 
-      the interfaces is important for the interaction and interoperability 
-      of the tools in the developed QTLP infrastructure. In addressing this 
-      aim, the report provides: 1. Descriptions of the common aspects of 
-      the tools and their standardized data formatsÍ¾ 2. Descriptions of 
-      the interfaces for the tools for interoperability. where the tools 
-      are categorized into preparation, development, and evaluation 
-      categories including the human interfaces for quality assessment with 
-      multidimensional quality metrics. Interface specifications allow a 
-      modular tool infrastructure, flexibly selecting among alternative 
-      implementations, enabling realistic expectations to be made at 
-      different sections of the QTLP information flow pipeline, and 
-      supporting the QTLP infrastructure. D3.2.1 allows the emergence of 
-      the QTLP infrastructure and helps the identification and acquisition 
-      of existing tools (D4.4.1), the integration of identified language 
-      processing tools (D3.3.1), their implementation (D3.4.1), and their 
-      testing (D3.5.1). QTLP infrastructure will facilitate the 
-      organization and running of the quality translation shared task 
-      (D5.2.1). We also provide human interfaces for translation quality 
-      assessment with the multidimensional quality metrics (D1.1.1). D3.2.1 
-      is a living document until M12, which is when the identification and 
-      acquisition of existing tools (D4.4.1) and the implementation of 
-      identified language processing tools (D3.4.1) are due.}
-}
-
-@TECHREPORT{QTLPD3.1.1,
-   AUTHOR       = {Ergun Biçici},
-   INSTITUTION  = {Dublin City University},
-   TITLE        = {Definition of Machine Translation and Evaluation 
-      Workflows},
-   YEAR         = {2013},
-   OPTADDRESS   = {},
-   OPTMONTH     = {},
-   NOTE         = {Contribution to EU project QTLaunchPad deliverable D3.1.1: http://www.qt21.eu/launchpad/content/delivered},
-   OPTNUMBER    = {},
-   OPTTYPE      = {},
-   KEYWORDS     = {Machine Translation}
-}
-
-@TECHREPORT{QTLPD2.1.3,
-   AUTHOR       = {Ergun Biçici},
-   INSTITUTION  = {Dublin City University},
-   TITLE        = {Quality Estimation for Dissemination},
-   YEAR         = {2013},
-   OPTADDRESS   = {},
-   OPTMONTH     = {},
-   NOTE         = {Contribution to EU project QTLaunchPad deliverable D2.1.3: http://www.qt21.eu/launchpad/content/delivered},
-   OPTNUMBER    = {},
-   OPTTYPE      = {},
-   KEYWORDS     = {Machine Translation, Performance Prediction},
-   ABSTRACT     = {We present benchmarking experiments for the intrinsic 
-      and extrinsic evaluation of an extended version of our open source 
-      framework for machine translation quality estimation QUEST, which is 
-      described in D2.1.2. We focus on the application of quality 
-      predictions for dissemination by estimating post-editing effort. As 
-      an extrinsic task, we use quality predictions to rank alternative 
-      translations from multiple MT systems according to their estimated 
-      quality. Additionally, we experiment with a small dataset annotated 
-      for quality labels with different levels of granularity in a attempt 
-      to predict multidimensional quality metric (MQM) scores.}
-}
-
-@TECHREPORT{,
-   AUTHOR       = {Ergun Biçici},
-   INSTITUTION  = {},
-   TITLE        = {Formal Consensus},
-   YEAR         = {2005},
-   OPTADDRESS   = {},
-   OPTMONTH     = {},
-   NOTE         = {Technical Report},
-   OPTNUMBER    = {},
-   TYPE         = {Research Note},
-   KEYWORDS     = {Consensus Ontology}
 }
 
 @TECHREPORT{Bicici:RAFTA,
@@ -1219,57 +1268,6 @@
       to be addressed are also reviewed.}
 }
 
-@TECHREPORT{COANTT2000,
-   AUTHOR       = {Ergun Biçici and Baris Arslan},
-   INSTITUTION  = {Bilkent University},
-   TITLE        = {Corpus Annotation Tool for Turkish Language},
-   YEAR         = {2000},
-   OPTADDRESS   = {},
-   OPTMONTH     = {},
-   NOTE         = {Senior Project under the supervision of Kemal Oflazer},
-   OPTNUMBER    = {},
-   OPTTYPE      = {},
-   KEYWORDS     = {Natural Language Processing}
-}
-
-@MISC{BiciciIDF_ITERPE2014,
-   AUTHOR       = {Ergun Biçici},
-   OPTHOWPUBLISHED = {},
-   OPTMONTH     = {},
-   NOTE         = {Invention Disclosure, DCU Invent Innovation and Enterprise: https://www.dcu.ie/invent/},
-   TITLE        = {ITERPE: Identifying Translation Errors Regardless of 
-      Prediction Errors},
-   YEAR         = {2014}
-}
-
-@MISC{BiciciIDF_RTM2013,
-   AUTHOR       = {Ergun Biçici},
-   OPTHOWPUBLISHED = {},
-   OPTMONTH     = {},
-   NOTE         = {Invention Disclosure, DCU Invent Innovation and Enterprise: https://www.dcu.ie/invent/},
-   TITLE        = {Machine Translation Performance Predictor},
-   YEAR         = {2013}
-}
-
-@MISC{BiciciIDF_MTPP2012,
-   AUTHOR       = {Ergun Biçici},
-   OPTHOWPUBLISHED = {},
-   OPTMONTH     = {},
-   NOTE         = {Invention Disclosure, DCU Invent Innovation and Enterprise: https://www.dcu.ie/invent/},
-   TITLE        = {Machine Translation Performance Predictor},
-   YEAR         = {2012}
-}
-
-@MISC{BiciciDymetmanDTM2008,
-   AUTHOR       = {Ergun Biçici and Marc Dymetman},
-   OPTHOWPUBLISHED = {},
-   OPTMONTH     = {},
-   NOTE         = {US Patent 8,244,519},
-   TITLE        = {Dynamic translation memory using statistical machine 
-      translation},
-   YEAR         = {2008}
-}
-
 @UNPUBLISHED{IUIT2003,
    AUTHOR       = {Sameer Rajyaguru and Ergun Biçici and Robert St. Amant},
    NOTE         = {MSc Work},
@@ -1290,5 +1288,65 @@
       statistical measures, our learning goal from previous experiences, 
       the limitations, and its implications for user interface environments 
       that dynamically change.}
+}
+
+@ARTICLE{ProlegomenonCSRUI,
+   AUTHOR       = {Ergun Biçici},
+   JOURNAL      = {ACM Crossroads},
+   TITLE        = {Prolegomenon to Commonsense Reasoning in User Interfaces},
+   YEAR         = {2002},
+   OPTMONTH     = {},
+   OPTNOTE      = {},
+   NUMBER       = {1},
+   OPTPAGES     = {},
+   VOLUME       = {9},
+   KEYWORDS     = {Artificial Intelligence},
+   SERIES       = {Human Computer Interaction},
+   URL          = {http://www.computing.dcu.ie/~ebicici/publications/2002/ACMCrossroads2002/CommonsenseUI6.htm},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2002/ACMCrossroads2002/Prolegomenon2.pdf},
+   ABSTRACT     = {Human-computer interaction experiences unbalanced 
+      talents of counterparts in the user interface, which can only be 
+      eased with the introduction of new solutions. Commonsense reasoning 
+      is a promising answer that offers formalization and computational 
+      models about how humans reason and think in a sensible way. In user 
+      interface design, assumed conventions and rules are widely followed 
+      and carried to user interfaces. For the most part, these assumptions 
+      are obvious to humans yet incomprehensible to computers. As a result, 
+      it is essential that tools are developed, capable of retrieving 
+      relevant, sensible inferences that in turn can serve as catalysts for 
+      future reasoning. Embedding this tool in user interfaces can provide 
+      many benefits including representation of assumptions and unspoken 
+      rules, the addition of useful tool abilities, and increasingly usable 
+      and accessible environments where computers and humans have extended 
+      communication capabilities to assist in understanding each other. In 
+      this article, we present groundwork for applying commonsense 
+      reasoning to user interfaces. We start with identifying the asymmetry 
+      in human-machine communication and later focus on some approaches 
+      such as softbots and the proposed anti-mac interface. Then we 
+      identify the problems faced in user interfaces such as the 
+      correspondence problem inherited from computer vision. Next, we state 
+      our research ambition as adding commonsense reasoning functionality 
+      to user interfaces and further survey previous approaches and the 
+      state of the art. We depict the big picture we are facing and list 
+      some of the rewards to be earned by applying this technique. Later, 
+      characteristics of common sense are investigated together with 
+      examples in first-order logic. We then report various lessons learned 
+      from earlier attempts that began in physical systems concentrated on 
+      small microworld problems. Finally, we cite a sample methodology for 
+      automating commonsense reasoning and identify a number of questions 
+      that have yet to be answered.}
+}
+
+@TECHREPORT{COANTT2000,
+   AUTHOR       = {Ergun Biçici and Baris Arslan},
+   INSTITUTION  = {Bilkent University},
+   TITLE        = {Corpus Annotation Tool for Turkish Language},
+   YEAR         = {2000},
+   OPTADDRESS   = {},
+   OPTMONTH     = {},
+   NOTE         = {Senior Project under the supervision of Kemal Oflazer},
+   OPTNUMBER    = {},
+   OPTTYPE      = {},
+   KEYWORDS     = {Natural Language Processing}
 }
 
