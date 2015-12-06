@@ -37,31 +37,27 @@
 <!-- <small><small>Last updated in March, 2015&nbsp;</small></small> -->
 <!--<small><small>Last updated in May, 2015&nbsp;</small></small> -->
 <!-- <small><small>Last updated in July, 2015&nbsp;</small></small> -->
-<small><small>Last updated in October, 2015&nbsp;</small></small>
+<!-- <small><small>Last updated in October, 2015&nbsp;</small></small> -->
+<small><small>Last updated in December, 2015&nbsp;</small></small>
 <table style="text-align: left; width: 100%;" border="0" cellpadding="3"
  cellspacing="2">
   <tbody>
     <tr>
       <td style="vertical-align: top;">
-	<a href="Photos/index.html"><img border="1" align="left" height="400" alt="Ergun Bicici" src="Photos/IrelandSea.jpg"></a><br>
+	<a href="Photos/index.html"><img border="1" align="left" height="400" alt="Ergun Bicici" src="Photos/DFKISpree.jpg"></a><br>
        <!-- <a href="Photos/index.html"><img border="1" align="left" height="400" width="300" alt="Ergun Bicici" src="Photos/TreePicture2.jpg"></a><br> -->
       </td>
       <td style="vertical-align: top;">
         <big>Ergun Bi&ccedil;ici</big><br> <!-- Ergun Bicici  -->
-	<a href="http://www.dfki.de/lt/">Research Fellow</a> at DFKI Projektbüro Berlin.<br>
-	<br>
-        2012-2015<br>
-	<a href="http://www.cngl.ie/membersaz.html#LetterB">Post-doctoral Researcher</a>,<br>
-	<a href="http://www.adaptcentre.ie">ADAPT</a> <a href="http://www.cngl.ie">CNGL Centre for Global Intelligent Content</a>, <a href="http://www.dcu.ie">Dublin City University (DCU) </a> <br>
+	<a href="http://www.dfki.de/lt/">Researcher</a> at <a href="http://www.dfki.de/web/contact/dfki-project-office-berlin">DFKI Projektbüro Berlin.</a><br>
 	<br>
         PhD in Computer Engineering,<br>
 	<a href="http://eng.ku.edu.tr/comp/home">Department of Computer Engineering</a>, <a href="http://www.ku.edu.tr">Ko&ccedil; University</a> <br>
 	<br>
         <small>Postal Address:<br>
-	<i>ADAPT CNGL Centre for Global Intelligent Content<br>
-	Dublin City University<br>
-	Dublin 9<br>
-	Ireland<br>
+	  <i>DFKI Project Office Berlin<br>
+	    Alt-Moabit 91c<br>
+	    10559 Berlin<br>
 	<!-- <i>Department of Computer Engineering, Ko&ccedil; University<br>
 	Engineering Building 229<br>
 	Rumelifeneri Yolu, Sariyer<br>
@@ -69,7 +65,7 @@
 	<br>
 <!--	Phone: +90 (212) 338 1000 Ext: 2640<br> -->
 <!--	Fax: +90 (212) 338 1548<br> -->
-	E-mail: <img height="20" src="CNGLEmail.png" alt="e-mail address"> (Work Related) <br>
+	E-mail: <img height="20" src="DFKIEmail.png" alt="e-mail address"> (Work Related) <br>
 <!--	&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <img height="26" src="email2i.jpg" alt="e-mail address"> <br> -->
 	&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<img height="26" src="email2i.jpg" alt="e-mail address"> (Others)<br>
 	</i></small><br>
@@ -144,7 +140,6 @@ Computational semantics, Text analytics and understanding.
 Commonsense reasoning, Question Answering.</LI>
 </ul>
 
-<a href="http://www.cngl.ie/profile/?i=421">CNGL researcher profile</a>
 
 <hr>
 <big><!-- <span style="background-color: #FFFF00">NEWS:</span> -->
