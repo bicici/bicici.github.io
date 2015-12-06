@@ -27,53 +27,6 @@ Publications of year 2014
 <table width="100%">
 <tr><td height="35"  align="center" valign="center" bgcolor="#badfe1">
 <strong><font size=4 face="times">
-Articles in journal or book chapters
-</font></strong>
-</td></tr>
-</table>
-
-
-<ol>
-
-<li>
-<a name="BiciciYuret:FDA5:TASLP"></a><a href="../Author/BICICI-E.html">Ergun Biçici</a> and <a href="../Author/YURET-D.html">Deniz Yuret</a>.
-<strong>Optimizing Instance Selection for Statistical Machine Translation with Feature Decay Algorithms</strong>.
-<em>IEEE/ACM Transactions On Audio, Speech, and Language Processing (TASLP)</em>,
-2014.
-[<a href="http://dx.doi.org/10.1109/TASLP.2014.2381882">WWW</a>]
-Keyword(s): <a href="../Keyword/MACHINE-TRANSLATION.html">Machine Translation</a>,
-<a href="../Keyword/MACHINE-LEARNING.html">Machine Learning</a>,
-<a href="../Keyword/ARTIFICIAL-INTELLIGENCE.html">Artificial Intelligence</a>,
-<a href="../Keyword/NATURAL-LANGUAGE-PROCESSING.html">Natural Language Processing</a>.
-<center>
-<table border=1 align=center width=80%>
-<tr>
-Abstract: <td>
-We introduce FDA5 for efficient parameterization, optimization, and implementation of feature decay algorithms (FDA), a class of instance selection algorithms that use feature decay. FDA increase the diversity of the selected training set by devaluing features (i.e. n-grams) that have already been included. FDA5 decides which instances to select based on three functions used for initializing and decaying feature values and scaling sentence scores controlled with $5$ parameters. We present optimization techniques that allow FDA5 to adapt these functions to in-domain and out-of-domain translation tasks for different language pairs. In a transductive learning setting, selection of training instances relevant to the test set can improve the final translation quality. In machine translation experiments performed on the $2$ million sentence English-German section of the Europarl corpus, we show that a subset of the training set selected by FDA5 can gain up to $3.22$ BLEU points compared to a randomly selected subset of the same size, can gain up to $0.41$ BLEU points compared to using all of the available training data using only $15\%$ of it, and can reach within $0.5$ BLEU points to the full training set result by using only $2.7\%$ of the full training data. FDA5 peaks at around 8M words or $15\%$ of the full training set. In an active learning setting, FDA5 minimizes the human effort by identifying the most informative sentences for translation and FDA gains up to $0.45$ BLEU points using $3/5$ of the available training data compared to using all of it and $1.12$ BLEU points compared to random training set. In translation tasks involving English and Turkish, a morphologically rich language, FDA5 can gain up to $11.52$ BLEU points compared to a randomly selected subset of the same size, can achieve the same BLEU score using as little as $4\%$ of the data compared to random instance selection, and can exceed the full dataset result by $0.78$ BLEU points. FDA5 is able to reduce the time to build a statistical machine translation system to about half with 1M words using only $3\%$ of the space for the phrase table and $8\%$ of the overall space when compared with a baseline system using all of the training data available yet still obtain only $0.58$ BLEU points difference with the baseline system in out-of-domain translation.</td>
-
-</tr></table></center>
-<br /><pre>
-@article{BiciciYuret:FDA5:TASLP,
-author = {Ergun Bi\c{c}ici and Deniz Yuret},
-title = {Optimizing Instance Selection for Statistical Machine Translation with Feature Decay Algorithms},
-journal = {IEEE/ACM Transactions On Audio, Speech, and Language Processing (TASLP)},
-year = {2014},
-url = {http://dx.doi.org/10.1109/TASLP.2014.2381882},
-keywords = "Machine Translation, Machine Learning, Artificial Intelligence, Natural Language Processing",
-abstract = "We introduce FDA5 for efficient parameterization, optimization, and implementation of feature decay algorithms (FDA), a class of instance selection algorithms that use feature decay. FDA increase the diversity of the selected training set by devaluing features (i.e. n-grams) that have already been included. FDA5 decides which instances to select based on three functions used for initializing and decaying feature values and scaling sentence scores controlled with $5$ parameters. We present optimization techniques that allow FDA5 to adapt these functions to in-domain and out-of-domain translation tasks for different language pairs. In a transductive learning setting, selection of training instances relevant to the test set can improve the final translation quality. In machine translation experiments performed on the $2$ million sentence English-German section of the Europarl corpus, we show that a subset of the training set selected by FDA5 can gain up to $3.22$ BLEU points compared to a randomly selected subset of the same size, can gain up to $0.41$ BLEU points compared to using all of the available training data using only $15\%$ of it, and can reach within $0.5$ BLEU points to the full training set result by using only $2.7\%$ of the full training data. FDA5 peaks at around 8M words or $15\%$ of the full training set. In an active learning setting, FDA5 minimizes the human effort by identifying the most informative sentences for translation and FDA gains up to $0.45$ BLEU points using $3/5$ of the available training data compared to using all of it and $1.12$ BLEU points compared to random training set. In translation tasks involving English and Turkish, a morphologically rich language, FDA5 can gain up to $11.52$ BLEU points compared to a randomly selected subset of the same size, can achieve the same BLEU score using as little as $4\%$ of the data compared to random instance selection, and can exceed the full dataset result by $0.78$ BLEU points. FDA5 is able to reduce the time to build a statistical machine translation system to about half with 1M words using only $3\%$ of the space for the phrase table and $8\%$ of the overall space when compared with a baseline system using all of the training data available yet still obtain only $0.58$ BLEU points difference with the baseline system in out-of-domain translation.",
-
-}
-</pre>
-
-</li>
-<br /><br />
-
-
-</ol>
-
-<table width="100%">
-<tr><td height="35"  align="center" valign="center" bgcolor="#badfe1">
-<strong><font size=4 face="times">
 Conference articles
 </font></strong>
 </td></tr>
@@ -84,7 +37,7 @@ Conference articles
 
 <li>
 <a name="Bicici:FDA54FDA:WMT14"></a><a href="../Author/BICICI-E.html">Ergun Biçici</a>,
-Qun Liu,
+<a href="../Author/LIU-Q.html">Qun Liu</a>,
  and <a href="../Author/WAY-A.html">Andy Way</a>.
 <strong>Parallel FDA5 for Fast Deployment of Accurate Statistical Machine Translation Systems</strong>.
 In <em>Proceedings of the Ninth Workshop on Statistical Machine Translation</em>,
@@ -113,7 +66,7 @@ address = {Baltimore, USA},
 publisher = {Association for Computational Linguistics},
 keywords = "Machine Translation, Machine Learning, Language Modeling",
 pdf = "http://www.computing.dcu.ie/~ebicici/publications/2014/ParFDA5forFDASMT.pdf",
-abstract = "We use parallel FDA5, an efficiently parameterized and optimized parallel implementation of feature decay algorithms for fast deployment of accurate statistical machine translation systems, taking only about half a day for each translation direction. We build Parallel FDA5 Moses SMT systems for all language pairs in the WMT14 translation task and obtain SMT performance close to the top Moses systems with an average of $3.49$ BLEU points difference using significantly less resources for training and development.",
+abstract = {We use parallel FDA5, an efficiently parameterized and optimized parallel implementation of feature decay algorithms for fast deployment of accurate statistical machine translation systems, taking only about half a day for each translation direction. We build Parallel FDA5 Moses SMT systems for all language pairs in the WMT14 translation task and obtain SMT performance close to the top Moses systems with an average of $3.49$ BLEU points difference using significantly less resources for training and development.},
 
 }
 </pre>
@@ -128,6 +81,7 @@ abstract = "We use parallel FDA5, an efficiently parameterized and optimized par
 In <em>SemEval-2014: Semantic Evaluation Exercises - International Workshop on Semantic Evaluation</em>,
 Dublin, Ireland,
 23-24 August 2014.
+[<a href="http://aclanthology.info/papers/rtm-dcu-referential-translation-machines-for-semantic-similarity">WWW</a>]
 [<a href="http://www.computing.dcu.ie/~ebicici/publications/2014/RTM_STS.pdf">PDF</a>]
 Keyword(s): <a href="../Keyword/MACHINE-TRANSLATION.html">Machine Translation</a>,
 <a href="../Keyword/MACHINE-LEARNING.html">Machine Learning</a>,
@@ -150,7 +104,8 @@ year = {2014},
 address = {Dublin, Ireland},
 keywords = "Machine Translation, Machine Learning, Performance Prediction, Semantic Similarity",
 pdf = "http://www.computing.dcu.ie/~ebicici/publications/2014/RTM_STS.pdf",
-abstract = "We use referential translation machines (RTMs) for predicting the semantic similarity of text. RTMs are a computational model for identifying the translation acts between any two data sets with respect to interpretants selected in the same domain, which are effective when making monolingual and bilingual similarity judgments. RTMs judge the quality or the semantic similarity of text by using retrieved relevant training data as interpretants for reaching shared semantics. We derive features measuring the closeness of the test sentences to the training data via interpretants, the difficulty of translating them, and the presence of the acts of translation, which may ubiquitously be observed in communication. RTMs provide a language independent solution to all similarity tasks and achieve top performance when predicting monolingual cross-level semantic similarity (Task 3) and good results in the semantic relatedness and entailment (Task 1) and multilingual semantic textual similarity (STS) (Task 10). RTMs remove the need to access any task or domain specific information or resource.",
+url = {http://aclanthology.info/papers/rtm-dcu-referential-translation-machines-for-semantic-similarity},
+abstract = {We use referential translation machines (RTMs) for predicting the semantic similarity of text. RTMs are a computational model for identifying the translation acts between any two data sets with respect to interpretants selected in the same domain, which are effective when making monolingual and bilingual similarity judgments. RTMs judge the quality or the semantic similarity of text by using retrieved relevant training data as interpretants for reaching shared semantics. We derive features measuring the closeness of the test sentences to the training data via interpretants, the difficulty of translating them, and the presence of the acts of translation, which may ubiquitously be observed in communication. RTMs provide a language independent solution to all similarity tasks and achieve top performance when predicting monolingual cross-level semantic similarity (Task 3) and good results in the semantic relatedness and entailment (Task 1) and multilingual semantic textual similarity (STS) (Task 10). RTMs remove the need to access any task or domain specific information or resource.},
 
 }
 </pre>
@@ -189,7 +144,7 @@ address = {Baltimore, USA},
 publisher = {Association for Computational Linguistics},
 keywords = "Machine Translation, Machine Learning, Performance Prediction, Natural Language Processing",
 pdf = "http://www.computing.dcu.ie/~ebicici/publications/2014/RTMforQE.pdf",
-abstract = "We use referential translation machines (RTM) for quality estimation of translation outputs. RTMs are a computational model for identifying the translation acts between any two data sets with respect to interpretants selected in the same domain, which are effective when making monolingual and bilingual similarity judgments. RTMs achieve top performance in automatic, accurate, and language independent prediction of sentence-level and word-level statistical machine translation (SMT) quality. RTMs remove the need to access any SMT system specific information or prior knowledge of the training data or models used when generating the translations and achieve the top performance in WMT13 quality estimation task (QET13). We improve our RTM models with the Parallel FDA5 instance selection model, with additional features for predicting the translation performance, and with improved learning models. We develop RTM models for each WMT14 QET (QET14) subtask, obtain improvements over QET13 results, and rank $1$st in all of the tasks and subtasks of QET14.",
+abstract = {We use referential translation machines (RTM) for quality estimation of translation outputs. RTMs are a computational model for identifying the translation acts between any two data sets with respect to interpretants selected in the same domain, which are effective when making monolingual and bilingual similarity judgments. RTMs achieve top performance in automatic, accurate, and language independent prediction of sentence-level and word-level statistical machine translation (SMT) quality. RTMs remove the need to access any SMT system specific information or prior knowledge of the training data or models used when generating the translations and achieve the top performance in WMT13 quality estimation task (QET13). We improve our RTM models with the Parallel FDA5 instance selection model, with additional features for predicting the translation performance, and with improved learning models. We develop RTM models for each WMT14 QET (QET14) subtask, obtain improvements over QET13 results, and rank $1$st in all of the tasks and subtasks of QET14.},
 
 }
 </pre>
@@ -235,7 +190,7 @@ institution = "Dublin City University",
 year = "2014",
 note = "Contribution to EU project QTLaunchPad deliverable D2.2.2: http://www.qt21.eu/launchpad/content/delivered",
 keywords = "Machine Translation, Performance Prediction",
-abstract = "We present experiments using quality estimation models to improve the performance of statistical machine translation (SMT) systems by supplementing their training corpora or by building sentence-specific SMT models for instances predicted as having potential for improvement by the ITERPE model. The experiments with quality-informed active learning strategy select, among alternative machine translations, those which are: (i) predicted to have high quality, and thus can be added to the machine translation system training set; (ii) predicted to have low quality, and thus need to be corrected/translated by humans, with the human corrections added to the machine translation system training set. Improvement is measured by the increase in the performance of the overall machine translation systems on held-out datasets, where performance is measured by automatic evaluation metrics comparing the scores of the original machine translation system against the score of the improved machine translation system after additional material is used. The experiments with ITERPE consist in automatically grouping translation instances into different quality bands, for instance for re-translation or for post-editing [Bicici and Specia, 2014]. This method can be helpful in automatic identification of quality barriers in MT to achieve high quality machine translation.",
+abstract = {We present experiments using quality estimation models to improve the performance of statistical machine translation (SMT) systems by supplementing their training corpora or by building sentence-specific SMT models for instances predicted as having potential for improvement by the ITERPE model. The experiments with quality-informed active learning strategy select, among alternative machine translations, those which are: (i) predicted to have high quality, and thus can be added to the machine translation system training set; (ii) predicted to have low quality, and thus need to be corrected/translated by humans, with the human corrections added to the machine translation system training set. Improvement is measured by the increase in the performance of the overall machine translation systems on held-out datasets, where performance is measured by automatic evaluation metrics comparing the scores of the original machine translation system against the score of the improved machine translation system after additional material is used. The experiments with ITERPE consist in automatically grouping translation instances into different quality bands, for instance for re-translation or for post-editing [Bicici and Specia, 2014]. This method can be helpful in automatic identification of quality barriers in MT to achieve high quality machine translation.},
 
 }
 </pre>
@@ -268,7 +223,7 @@ institution = "Dublin City University",
 year = "2014",
 note = "Contribution to EU project QTLaunchPad deliverable D2.2.1: http://www.qt21.eu/launchpad/content/delivered",
 keywords = "Machine Translation, Performance Prediction",
-abstract = "We present experiments using state of the art quality estimation models to improve the performance of machine translation systems without changing the internal functioning of such systems. The experiments include the following approaches: (i) n-best list re-ranking, where translation candidates (segments) produced by a machine translation system are re-ranked based on predicted quality scores such as to get the best translation ranked top; (ii) n-best list recombination, where sub-segments from the n-best list are mixed using a lattice-based approach, and the complete generated segments are scored using quality predictions and then re-ranked as in (i); (iii) system selection, where translations produced by multiple machine translation systems and a human translator are sorted according to predicted quality to select the best translated segment, including the challenging case where the source of the translation (i.e., which system/human produced it) is unknown, and (iv) diagnosis of statistical machine translation systems by looking at internal features of the decoder and their correlation with translation quality, as well as using them to predict groups of errors in the translations.",
+abstract = {We present experiments using state of the art quality estimation models to improve the performance of machine translation systems without changing the internal functioning of such systems. The experiments include the following approaches: (i) n-best list re-ranking, where translation candidates (segments) produced by a machine translation system are re-ranked based on predicted quality scores such as to get the best translation ranked top; (ii) n-best list recombination, where sub-segments from the n-best list are mixed using a lattice-based approach, and the complete generated segments are scored using quality predictions and then re-ranked as in (i); (iii) system selection, where translations produced by multiple machine translation systems and a human translator are sorted according to predicted quality to select the best translated segment, including the challenging case where the source of the translation (i.e., which system/human produced it) is unknown, and (iv) diagnosis of statistical machine translation systems by looking at internal features of the decoder and their correlation with translation quality, as well as using them to predict groups of errors in the translations.},
 
 }
 </pre>
@@ -282,7 +237,7 @@ abstract = "We present experiments using state of the art quality estimation mod
 <table width="100%">
 <tr><td height="35"  align="center" valign="center" bgcolor="#badfe1">
 <strong><font size=4 face="times">
-Miscellaneous
+Patents, standards
 </font></strong>
 </td></tr>
 </table>
@@ -292,12 +247,13 @@ Miscellaneous
 
 <li>
 <a name="BiciciIDF_ITERPE2014"></a><a href="../Author/BICICI-E.html">Ergun Biçici</a>.
-<strong>ITERPE: Identifying Translation Errors Regardless of Prediction Errors</strong>,
+<strong>ITERPE: Identifying Translation Errors Regardless of Prediction Errors</strong>.
+,
 2014.
 Note: Invention Disclosure, DCU Invent Innovation and Enterprise: https://www.dcu.ie/invent/.
 <br /><pre>
 @Patent{BiciciIDF_ITERPE2014,
-title={ITERPE: Identifying Translation Errors Regardless of Prediction Errors},
+title={{ITERPE:} Identifying Translation Errors Regardless of Prediction Errors},
 author={Ergun Bi\c{c}ici},
 year={2014},
 note = "Invention Disclosure, DCU Invent Innovation and Enterprise: https://www.dcu.ie/invent/",
@@ -345,7 +301,7 @@ du copyright.
 
 <br /><hr size="2" width="100%"><br />
 
-Last modified: Mon Jan 19 14:50:20 2015
+Last modified: Sun Dec  6 20:56:29 2015
 
 <br />Author: ebicici.
 

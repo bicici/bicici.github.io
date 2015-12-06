@@ -5,8 +5,8 @@
 %
 %
 % automatically generated
-% % /home/ebicici/intelligence/Programs/bibtex2html-1.02//bin/linux/bibtex2html -force -html-links -sort year -icons -copy-icons -create-directories -style html /home/ebicici/Webpage/ebiciciPubs.bib
-% Date: Mon Jan 19 14:50:20 2015
+% % /opt/Programs/bibtex2html-1.03//src/bibtex2html -force -html-links -sort year -icons -copy-icons -create-directories -style html /home/ebicici/Webpage/ebiciciPubs.bib
+% Date: Sun Dec  6 20:56:29 2015
 
 % Author: ebicici
 %
@@ -22,70 +22,141 @@
 
 
 
+@ARTICLE{Bicici:RTM_SEMEVAL,
+   AUTHOR       = {Ergun BiÃ§ici and Andy Way},
+   JOURNAL      = {Language Resources and Evaluation},
+   OPTMONTH     = {},
+   OPTNOTE      = {},
+   OPTNUMBER    = {},
+   PAGES        = {1-27},
+   PUBLISHER    = {Springer Netherlands},
+   TITLE        = {Referential translation machines for predicting semantic 
+      similarity},
+   OPTVOLUME    = {},
+   YEAR         = {2015},
+   ABSTRACT     = {Referential translation machines (RTMs) are a 
+      computational model effective at judging monolingual and bilingual 
+      similarity while identifying translation acts between any two data 
+      sets with respect to interpretants. RTMs pioneer a 
+      language-independent approach to all similarity tasks and remove the 
+      need to access any task or domain-specific information or resource. 
+      We use RTMs for predicting the semantic similarity of text and 
+      present state-of-the-art results showing that RTMs can achieve better 
+      results on the test set than on the training set. RTMs judge the 
+      quality or the semantic similarity of texts by using relevant 
+      retrieved training data as interpretants for reaching shared 
+      semantics. Interpretants are used to derive features measuring the 
+      closeness of the test sentences to the training data, the difficulty 
+      of translating them, and the presence of the acts of translation, 
+      which may ubiquitously be observed in communication. RTMs achieve top 
+      performance at SemEval in various semantic similarity prediction 
+      tasks as well as similarity prediction tasks in bilingual settings. 
+      We define MAER, mean absolute error relative to the magnitude of the 
+      target, and MRAER, mean absolute error relative to the absolute error 
+      of a predictor always predicting the target mean assuming that target 
+      mean is known. RTM test performance on various tasks sorted according 
+      to MRAER can help identify which tasks and subtasks require more work 
+      by design.},
+   DOI          = {10.1007/s10579-015-9322-7},
+   OPTISBN      = {},
+   ISSN         = {1574-020X},
+   KEYWORDS     = {Referential translation machine, RTM, 
+      Semantic similarity, Machine translation, Performance prediction, 
+      Machine translation performance prediction},
+   URL          = {http://dx.doi.org/10.1007/s10579-015-9322-7},
+   OPTURL-PUBLISHER = {}
+}
+
 @ARTICLE{BiciciPBML2015,
    AUTHOR       = {Ergun Biçici},
    JOURNAL      = {The Prague Bulletin of Mathematical Linguistics},
+   OPTMONTH     = {},
+   OPTNOTE      = {},
+   OPTNUMBER    = {},
+   PAGES        = {5--20},
    TITLE        = {Domain Adaptation for Machine Translation with Instance 
       Selection},
-   YEAR         = {2015},
-   OPTMONTH     = {},
-   OPTNOTE      = {},
-   OPTNUMBER    = {},
-   OPTPAGES     = {},
    VOLUME       = {103},
+   YEAR         = {2015},
+   ABSTRACT     = {Domain adaptation for machine translation (MT) can be 
+      achieved by selecting training instances close to the test set from a 
+      larger set of instances. We consider $7$ different domain adaptation 
+      strategies and answer $7$ research questions, which give us a recipe 
+      for domain adaptation in MT. We perform English to German statistical 
+      MT (SMT) experiments in a setting where test and training sentences 
+      can come from different corpora and one of our goals is to learn the 
+      parameters of the sampling process. Domain adaptation with training 
+      instance selection can obtain $22\%$ increase in target $2$-gram 
+      recall and can gain up to $3.55$ BLEU points compared with random 
+      selection. Domain adaptation with feature decay algorithm (FDA) not 
+      only achieves the highest target $2$-gram recall and BLEU performance 
+      but also perfectly learns the test sample distribution parameter with 
+      correlation $0.99$. Moses SMT systems built with FDA selected 10K 
+      training sentences is able to obtain $F_1$ results as good as the 
+      baselines that use up to 2M sentences. Moses SMT systems built with 
+      FDA selected 50K training sentences is able to obtain 1 $F_1$ point 
+      better results than the baselines.},
+   DOI          = {10.1515/pralin-2015-0001},
+   OPTISBN      = {},
+   ISSN         = {1804-0462},
    KEYWORDS     = {Machine Translation, Machine Learning, 
-      Domain Adaptation}
+      Domain Adaptation},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {}
 }
 
-@ARTICLE{BiciciPBML2015_ITERPE,
+@ARTICLE{BiciciQuestPBML2015,
    AUTHOR       = {Ergun Biçici and Lucia Specia},
    JOURNAL      = {The Prague Bulletin of Mathematical Linguistics},
-   TITLE        = {QuEst for High Quality Machine Translation},
-   YEAR         = {2015},
    OPTMONTH     = {},
    OPTNOTE      = {},
    OPTNUMBER    = {},
-   OPTPAGES     = {},
+   PAGES        = {43--64},
+   TITLE        = {QuEst for High Quality Machine Translation},
    VOLUME       = {103},
-   KEYWORDS     = {Machine Translation, Machine Learning, 
-      Performance Prediction}
-}
-
-@INPROCEEDINGS{Bicici2015_SEMEVAL_SS,
-   AUTHOR       = {Ergun Biçici},
-   BOOKTITLE    = {SemEval-2015: Semantic Evaluation Exercises - International Workshop on Semantic Evaluation},
-   TITLE        = {RTM-DCU: Predicting Semantic Similarity with Referential 
-      Translation Machines},
    YEAR         = {2015},
-   ADDRESS      = {Denver, Colorado, USA},
-   OPTCROSSREF  = {},
-   OPTEDITOR    = {},
-   MONTH        = {4-5 June},
-   OPTNOTE      = {},
-   OPTNUMBER    = {},
-   OPTORGANIZATION = {},
-   OPTPAGES     = {},
-   OPTPUBLISHER = {},
-   OPTSERIES    = {},
-   OPTVOLUME    = {},
+   ABSTRACT     = {In this paper we describe the use of \textsc{QuEst}, a 
+      framework that aims to obtain predictions on the quality of 
+      translations, to improve the performance of machine translation (MT) 
+      systems without changing their internal functioning. We apply 
+      \textsc{QuEst} to experiments with: \begin{enumerate}[label=\roman*.] 
+      \item multiple system translation ranking, where translations 
+      produced by different MT systems are ranked according to their 
+      estimated quality, leading to gains of up to $2.72$ BLEU, $3.66$ 
+      BLEUs, and $2.17$ $F_1$ points; \item n-best list re-ranking, where 
+      n-best list translations produced by an MT system are re-ranked based 
+      on predicted quality scores to get the best translation ranked top, 
+      which lead to improvements on sentence NIST score by $0.41$ points; 
+      \item n-best list combination, where segments from an n-best list are 
+      combined using a lattice-based re-scoring approach that minimize word 
+      error, obtaining gains of $0.28$ BLEU points; and \item the ITERPE 
+      strategy, which attempts to identify translation errors regardless of 
+      prediction errors (ITERPE) and build sentence-specific SMT systems 
+      (SSSS) on the ITERPE sorted instances identified as having more 
+      potential for improvement, achieving gains of up to $1.43$ BLEU, 
+      $0.54$ $F_1$, $2.9$ NIST, $0.64$ sentence BLEU, and $4.7$ sentence 
+      NIST points in English to German over the top $100$ ITERPE sorted 
+      instances. \end{enumerate}},
+   DOI          = {10.1515/pralin-2015-0003},
+   OPTISBN      = {},
+   ISSN         = {1804-0462},
    KEYWORDS     = {Machine Translation, Machine Learning, 
-      Performance Prediction, Semantic Similarity}
+      Performance Prediction},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {}
 }
 
 @ARTICLE{BiciciYuret:FDA5:TASLP,
    AUTHOR       = {Ergun Biçici and Deniz Yuret},
    JOURNAL      = {IEEE/ACM Transactions On Audio, Speech, and Language Processing (TASLP)},
-   TITLE        = {Optimizing Instance Selection for Statistical Machine 
-      Translation with Feature Decay Algorithms},
-   YEAR         = {2014},
    OPTMONTH     = {},
    OPTNOTE      = {},
    OPTNUMBER    = {},
-   OPTPAGES     = {},
-   OPTVOLUME    = {},
-   KEYWORDS     = {Machine Translation, Machine Learning, 
-      Artificial Intelligence, Natural Language Processing},
-   URL          = {http://dx.doi.org/10.1109/TASLP.2014.2381882},
+   PAGES        = {339-350},
+   TITLE        = {Optimizing Instance Selection for Statistical Machine 
+      Translation with Feature Decay Algorithms},
+   VOLUME       = {23},
+   YEAR         = {2015},
    ABSTRACT     = {We introduce FDA5 for efficient parameterization, 
       optimization, and implementation of feature decay algorithms (FDA), a 
       class of instance selection algorithms that use feature decay. FDA 
@@ -121,17 +192,128 @@
       $3\%$ of the space for the phrase table and $8\%$ of the overall 
       space when compared with a baseline system using all of the training 
       data available yet still obtain only $0.58$ BLEU points difference 
-      with the baseline system in out-of-domain translation.}
+      with the baseline system in out-of-domain translation.},
+   DOI          = {10.1109/TASLP.2014.2381882},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Translation, Machine Learning, 
+      Artificial Intelligence, Natural Language Processing},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {}
+}
+
+@INPROCEEDINGS{Bicici2015_SEMEVAL_SS,
+   ADDRESS      = {Denver, Colorado, USA},
+   AUTHOR       = {Ergun Biçici},
+   BOOKTITLE    = {SemEval-2015: Semantic Evaluation Exercises - International Workshop on Semantic Evaluation},
+   OPTEDITOR    = {},
+   MONTH        = {June},
+   OPTNOTE      = {},
+   OPTNUMBER    = {},
+   OPTORGANIZATION = {},
+   OPTPAGES     = {},
+   OPTPUBLISHER = {},
+   OPTSERIES    = {},
+   TITLE        = {RTM-DCU: Predicting Semantic Similarity with Referential 
+      Translation Machines},
+   OPTVOLUME    = {},
+   YEAR         = {2015},
+   ABSTRACT     = {We use referential translation machines (RTMs) for 
+      predicting the semantic similarity of text. RTMs are a computational 
+      model effectively judging monolingual and bilingual similarity while 
+      identifying translation acts between any two data sets with respect 
+      to interpretants. RTMs pioneer a language independent approach to all 
+      similarity tasks and remove the need to access any task or domain 
+      specific information or resource. RTMs become the 2nd system out of 
+      13 systems participating in Paraphrase and Semantic Similarity in 
+      Twitter, 6th out of 16 submissions in Semantic Textual Similarity 
+      Spanish, and 50th out of 73 submissions in Semantic Textual 
+      Similarity English.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Translation, Machine Learning, 
+      Performance Prediction, Semantic Similarity},
+   URL          = {http://aclanthology.info/papers/rtm-dcu-predicting-semantic-similarity-with-referential-translation-machines},
+   OPTURL-PUBLISHER = {}
+}
+
+@INPROCEEDINGS{Bicici:FDA54FDA:WMT15,
+   ADDRESS      = {Lisbon, Portugal},
+   AUTHOR       = {Ergun Biçici and Qun Liu and Andy Way},
+   BOOKTITLE    = {Proceedings of the EMNLP 2015 Tenth Workshop on Statistical Machine Translation},
+   OPTEDITOR    = {},
+   MONTH        = {September},
+   OPTNOTE      = {},
+   OPTNUMBER    = {},
+   OPTORGANIZATION = {},
+   OPTPAGES     = {},
+   PUBLISHER    = {Association for Computational Linguistics},
+   OPTSERIES    = {},
+   TITLE        = {ParFDA for Fast Deployment of Accurate Statistical 
+      Machine Translation Systems, Benchmarks, and Statistics},
+   OPTVOLUME    = {},
+   YEAR         = {2015},
+   ABSTRACT     = {We build parallel FDA5 (ParFDA) Moses statistical 
+      machine translation (SMT) systems for all language pairs in the 
+      workshop on statistical machine translation~\cite{WMT2015} (WMT15) 
+      translation task and obtain results close to the top with an average 
+      of $3.176$ BLEU points difference using significantly less resources 
+      for building SMT systems. ParFDA is a parallel implementation of 
+      feature decay algorithms (FDA) developed for fast deployment of 
+      accurate SMT systems. ParFDA Moses SMT system we built is able to 
+      obtain the top TER performance in French to English translation. We 
+      make the data for building ParFDA Moses SMT systems for WMT15 
+      available: \url{https://github.com/bicici/ParFDAWMT15}.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Translation, Machine Learning, 
+      Language Modeling},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {}
+}
+
+@INPROCEEDINGS{Bicici:RTM4QE:WMT15,
+   ADDRESS      = {Lisbon, Portugal},
+   AUTHOR       = {Ergun Biçici and Qun Liu and Andy Way},
+   BOOKTITLE    = {Proceedings of the EMNLP 2015 Tenth Workshop on Statistical Machine Translation},
+   OPTEDITOR    = {},
+   MONTH        = {September},
+   OPTNOTE      = {},
+   OPTNUMBER    = {},
+   OPTORGANIZATION = {},
+   OPTPAGES     = {},
+   PUBLISHER    = {Association for Computational Linguistics},
+   OPTSERIES    = {},
+   TITLE        = {Referential Translation Machines for Predicting 
+      Translation Quality and Related Statistics},
+   OPTVOLUME    = {},
+   YEAR         = {2015},
+   ABSTRACT     = {We use referential translation machines (RTMs) for 
+      predicting translation performance. RTMs pioneer a language 
+      independent approach to all similarity tasks and remove the need to 
+      access any task or domain specific information or resource. We 
+      improve our RTM models with the ParFDA instance selection 
+      model~\cite{Bicici:FDA54FDA:WMT15}, with additional features for 
+      predicting the translation performance, and with improved learning 
+      models. We develop RTM models for each WMT15 QET (QET15) subtask and 
+      obtain improvements over QET14 results. RTMs achieve top performance 
+      in QET15 ranking $1$st in document- and sentence-level prediction 
+      tasks and $2$nd in word-level prediction task.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Translation, Machine Learning, 
+      Performance Prediction},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {}
 }
 
 @INPROCEEDINGS{Bicici:FDA54FDA:WMT14,
+   ADDRESS      = {Baltimore, USA},
    AUTHOR       = {Ergun Biçici and Qun Liu and Andy Way},
    BOOKTITLE    = {Proceedings of the Ninth Workshop on Statistical Machine Translation},
-   TITLE        = {Parallel FDA5 for Fast Deployment of Accurate 
-      Statistical Machine Translation Systems},
-   YEAR         = {2014},
-   ADDRESS      = {Baltimore, USA},
-   OPTCROSSREF  = {},
    OPTEDITOR    = {},
    MONTH        = {June},
    OPTNOTE      = {},
@@ -140,10 +322,10 @@
    OPTPAGES     = {},
    PUBLISHER    = {Association for Computational Linguistics},
    OPTSERIES    = {},
+   TITLE        = {Parallel FDA5 for Fast Deployment of Accurate 
+      Statistical Machine Translation Systems},
    OPTVOLUME    = {},
-   KEYWORDS     = {Machine Translation, Machine Learning, 
-      Language Modeling},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2014/ParFDA5forFDASMT.pdf},
+   YEAR         = {2014},
    ABSTRACT     = {We use parallel FDA5, an efficiently parameterized and 
       optimized parallel implementation of feature decay algorithms for 
       fast deployment of accurate statistical machine translation systems, 
@@ -151,17 +333,21 @@
       Parallel FDA5 Moses SMT systems for all language pairs in the WMT14 
       translation task and obtain SMT performance close to the top Moses 
       systems with an average of $3.49$ BLEU points difference using 
-      significantly less resources for training and development.}
+      significantly less resources for training and development.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Translation, Machine Learning, 
+      Language Modeling},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2014/ParFDA5forFDASMT.pdf}
 }
 
 @INPROCEEDINGS{Bicici2014_SEMEVAL_SS,
+   ADDRESS      = {Dublin, Ireland},
    AUTHOR       = {Ergun Biçici and Andy Way},
    BOOKTITLE    = {SemEval-2014: Semantic Evaluation Exercises - International Workshop on Semantic Evaluation},
-   TITLE        = {RTM-DCU: Referential Translation Machines for Semantic 
-      Similarity},
-   YEAR         = {2014},
-   ADDRESS      = {Dublin, Ireland},
-   OPTCROSSREF  = {},
    OPTEDITOR    = {},
    MONTH        = {23-24 August},
    OPTNOTE      = {},
@@ -170,10 +356,10 @@
    OPTPAGES     = {},
    OPTPUBLISHER = {},
    OPTSERIES    = {},
+   TITLE        = {RTM-DCU: Referential Translation Machines for Semantic 
+      Similarity},
    OPTVOLUME    = {},
-   KEYWORDS     = {Machine Translation, Machine Learning, 
-      Performance Prediction, Semantic Similarity},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2014/RTM_STS.pdf},
+   YEAR         = {2014},
    ABSTRACT     = {We use referential translation machines (RTMs) for 
       predicting the semantic similarity of text. RTMs are a computational 
       model for identifying the translation acts between any two data sets 
@@ -190,17 +376,21 @@
       similarity (Task 3) and good results in the semantic relatedness and 
       entailment (Task 1) and multilingual semantic textual similarity 
       (STS) (Task 10). RTMs remove the need to access any task or domain 
-      specific information or resource.}
+      specific information or resource.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Translation, Machine Learning, 
+      Performance Prediction, Semantic Similarity},
+   URL          = {http://aclanthology.info/papers/rtm-dcu-referential-translation-machines-for-semantic-similarity},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2014/RTM_STS.pdf}
 }
 
 @INPROCEEDINGS{Bicici:RTM4QE:WMT14,
+   ADDRESS      = {Baltimore, USA},
    AUTHOR       = {Ergun Biçici and Andy Way},
    BOOKTITLE    = {Proceedings of the Ninth Workshop on Statistical Machine Translation},
-   TITLE        = {Referential Translation Machines for Predicting 
-      Translation Quality},
-   YEAR         = {2014},
-   ADDRESS      = {Baltimore, USA},
-   OPTCROSSREF  = {},
    OPTEDITOR    = {},
    MONTH        = {June},
    OPTNOTE      = {},
@@ -209,10 +399,10 @@
    OPTPAGES     = {},
    PUBLISHER    = {Association for Computational Linguistics},
    OPTSERIES    = {},
+   TITLE        = {Referential Translation Machines for Predicting 
+      Translation Quality},
    OPTVOLUME    = {},
-   KEYWORDS     = {Machine Translation, Machine Learning, 
-      Performance Prediction, Natural Language Processing},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2014/RTMforQE.pdf},
+   YEAR         = {2014},
    ABSTRACT     = {We use referential translation machines (RTM) for 
       quality estimation of translation outputs. RTMs are a computational 
       model for identifying the translation acts between any two data sets 
@@ -228,20 +418,27 @@
       additional features for predicting the translation performance, and 
       with improved learning models. We develop RTM models for each WMT14 
       QET (QET14) subtask, obtain improvements over QET13 results, and rank 
-      $1$st in all of the tasks and subtasks of QET14.}
+      $1$st in all of the tasks and subtasks of QET14.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Translation, Machine Learning, 
+      Performance Prediction, Natural Language Processing},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2014/RTMforQE.pdf}
 }
 
 @TECHREPORT{QTLPD2.2.2,
+   OPTADDRESS   = {},
    AUTHOR       = {Ergun Biçici},
    INSTITUTION  = {Dublin City University},
-   TITLE        = {Quality Estimation for Extending Good Translations},
-   YEAR         = {2014},
-   OPTADDRESS   = {},
    OPTMONTH     = {},
    NOTE         = {Contribution to EU project QTLaunchPad deliverable D2.2.2: http://www.qt21.eu/launchpad/content/delivered},
    OPTNUMBER    = {},
+   TITLE        = {Quality Estimation for Extending Good Translations},
    OPTTYPE      = {},
-   KEYWORDS     = {Machine Translation, Performance Prediction},
+   YEAR         = {2014},
    ABSTRACT     = {We present experiments using quality estimation models 
       to improve the performance of statistical machine translation (SMT) 
       systems by supplementing their training corpora or by building 
@@ -262,20 +459,25 @@
       into different quality bands, for instance for re-translation or for 
       post-editing [Bicici and Specia, 2014]. This method can be helpful in 
       automatic identification of quality barriers in MT to achieve high 
-      quality machine translation.}
+      quality machine translation.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Translation, Performance Prediction},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {}
 }
 
 @TECHREPORT{QTLPD2.2.1,
+   OPTADDRESS   = {},
    AUTHOR       = {Ergun Biçici},
    INSTITUTION  = {Dublin City University},
-   TITLE        = {Quality Estimation for System Selection and Combination},
-   YEAR         = {2014},
-   OPTADDRESS   = {},
    OPTMONTH     = {},
    NOTE         = {Contribution to EU project QTLaunchPad deliverable D2.2.1: http://www.qt21.eu/launchpad/content/delivered},
    OPTNUMBER    = {},
+   TITLE        = {Quality Estimation for System Selection and Combination},
    OPTTYPE      = {},
-   KEYWORDS     = {Machine Translation, Performance Prediction},
+   YEAR         = {2014},
    ABSTRACT     = {We present experiments using state of the art quality 
       estimation models to improve the performance of machine translation 
       systems without changing the internal functioning of such systems. 
@@ -294,32 +496,43 @@
       of statistical machine translation systems by looking at internal 
       features of the decoder and their correlation with translation 
       quality, as well as using them to predict groups of errors in the 
-      translations.}
+      translations.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Translation, Performance Prediction},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {}
 }
 
-@MISC{BiciciIDF_ITERPE2014,
+@PATENT{BiciciIDF_ITERPE2014,
+   ADDRESS      = {},
    AUTHOR       = {Ergun Biçici},
-   OPTHOWPUBLISHED = {},
-   OPTMONTH     = {},
    NOTE         = {Invention Disclosure, DCU Invent Innovation and Enterprise: https://www.dcu.ie/invent/},
+   NUMBER       = {},
    TITLE        = {ITERPE: Identifying Translation Errors Regardless of 
       Prediction Errors},
-   YEAR         = {2014}
+   YEAR         = {2014},
+   OPTABSTRACT  = {},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   OPTKEYWORDS  = {},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {}
 }
 
 @ARTICLE{BiciciMTPPMTJ,
    AUTHOR       = {Ergun Biçici and Declan Groves and van Genabith, Josef},
    JOURNAL      = {Machine Translation},
-   TITLE        = {Predicting Sentence Translation Quality Using Extrinsic 
-      and Language Independent Features},
-   YEAR         = {2013},
    OPTMONTH     = {},
    OPTNOTE      = {},
-   OPTNUMBER    = {},
-   OPTPAGES     = {},
-   OPTVOLUME    = {},
-   KEYWORDS     = {Machine Translation, Machine Learning, 
-      Performance Prediction},
+   NUMBER       = {3-4},
+   PAGES        = {171-192},
+   TITLE        = {Predicting Sentence Translation Quality Using Extrinsic 
+      and Language Independent Features},
+   VOLUME       = {27},
+   YEAR         = {2013},
    ABSTRACT     = {We develop a top performing model for automatic, 
       accurate, and language independent prediction of sentence-level 
       statistical machine translation (SMT) quality with or without looking 
@@ -346,32 +559,41 @@
       overall according to the official results of the Quality Estimation 
       Task (QET) challenge when also looking at the translation outputs. 
       Our representation and features achieve the top performance in QET 
-      among the models using the SVR learning model. }
+      among the models using the SVR learning model.},
+   DOI          = {10.1007/s10590-013-9138-4},
+   OPTISBN      = {},
+   ISSN         = {0922-6567},
+   KEYWORDS     = {Machine Translation, Machine Learning, 
+      Performance Prediction},
+   URL          = {http://dx.doi.org/10.1007/s10590-013-9138-4},
+   OPTURL-PUBLISHER = {}
 }
 
 @ARTICLE{BiciciPBML2013,
    AUTHOR       = {Kashif Shah and Eleftherios Avramidis and Ergun Biçici and 
       Lucia Specia},
-   JOURNAL      = {Prague Bull. Math. Linguistics},
-   TITLE        = {QuEst - Design, Implementation and Extensions of a 
-      Framework for Machine Translation Quality Estimation},
-   YEAR         = {2013},
+   JOURNAL      = {The Prague Bulletin of Mathematical Linguistics},
    OPTMONTH     = {},
    OPTNOTE      = {},
    OPTNUMBER    = {},
    PAGES        = {19--30},
+   TITLE        = {QuEst - Design, Implementation and Extensions of a 
+      Framework for Machine Translation Quality Estimation},
    VOLUME       = {100},
-   URL          = {http://ufal.mff.cuni.cz/pbml/100/art-shah-avramidis-bicici-specia.pdf}
+   YEAR         = {2013},
+   OPTABSTRACT  = {},
+   DOI          = {10.2478/pralin-2013-0008},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   OPTKEYWORDS  = {},
+   URL          = {http://ufal.mff.cuni.cz/pbml/100/art-shah-avramidis-bicici-specia.pdf},
+   OPTURL-PUBLISHER = {}
 }
 
 @INPROCEEDINGS{Bicici:FDA4FDA:WMT13,
+   ADDRESS      = {Sofia, Bulgaria},
    AUTHOR       = {Ergun Biçici},
    BOOKTITLE    = {Proceedings of the Eighth Workshop on Statistical Machine Translation},
-   TITLE        = {Feature Decay Algorithms for Fast Deployment of Accurate 
-      Statistical Machine Translation Systems},
-   YEAR         = {2013},
-   ADDRESS      = {Sofia, Bulgaria},
-   OPTCROSSREF  = {},
    OPTEDITOR    = {},
    MONTH        = {August},
    OPTNOTE      = {},
@@ -380,10 +602,10 @@
    OPTPAGES     = {},
    PUBLISHER    = {Association for Computational Linguistics},
    OPTSERIES    = {},
+   TITLE        = {Feature Decay Algorithms for Fast Deployment of Accurate 
+      Statistical Machine Translation Systems},
    OPTVOLUME    = {},
-   KEYWORDS     = {Machine Translation, Machine Learning, 
-      Language Modeling},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2013/FDAforFDA.pdf},
+   YEAR         = {2013},
    ABSTRACT     = {We use feature decay algorithms (FDA) for fast 
       deployment of accurate statistical machine translation systems taking 
       only about half a day for each translation direction. We develop 
@@ -401,16 +623,21 @@
       the perplexity. We perform SMT experiments in all language pairs in 
       the WMT13 translation task and obtain SMT performance close to the 
       top systems using significantly less resources for training and 
-      development.}
+      development.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Translation, Machine Learning, 
+      Language Modeling},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2013/FDAforFDA.pdf}
 }
 
 @INPROCEEDINGS{Bicici:RTM4QE:WMT13,
+   ADDRESS      = {Sofia, Bulgaria},
    AUTHOR       = {Ergun Biçici},
    BOOKTITLE    = {Proceedings of the Eighth Workshop on Statistical Machine Translation},
-   TITLE        = {Referential Translation Machines for Quality Estimation},
-   YEAR         = {2013},
-   ADDRESS      = {Sofia, Bulgaria},
-   OPTCROSSREF  = {},
    OPTEDITOR    = {},
    MONTH        = {August},
    OPTNOTE      = {},
@@ -419,10 +646,9 @@
    OPTPAGES     = {},
    PUBLISHER    = {Association for Computational Linguistics},
    OPTSERIES    = {},
+   TITLE        = {Referential Translation Machines for Quality Estimation},
    OPTVOLUME    = {},
-   KEYWORDS     = {Machine Translation, Machine Learning, 
-      Performance Prediction, Natural Language Processing},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2013/RTMforQE.pdf},
+   YEAR         = {2013},
    ABSTRACT     = {We introduce referential translation machines (RTM) for 
       quality estimation of translation outputs. RTMs are a computational 
       model for identifying the translation acts between any two data sets 
@@ -439,17 +665,21 @@
       2013) based on individual RTM models. Our results achieve 
       improvements over last year's QE task results (QET 2012), as well as 
       our previous results, provide new features and techniques for QE, and 
-      rank $1$st or $2$nd in all of the subtasks.}
+      rank $1$st or $2$nd in all of the subtasks.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Translation, Machine Learning, 
+      Performance Prediction, Natural Language Processing},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2013/RTMforQE.pdf}
 }
 
 @INPROCEEDINGS{Bicici2013_STARSEM_STS,
+   ADDRESS      = {Atlanta, Georgia, USA},
    AUTHOR       = {Ergun Biçici and van Genabith, Josef},
    BOOKTITLE    = {*SEM 2013: The Second Joint Conference on Lexical and Computational Semantics},
-   TITLE        = {CNGL-CORE: Referential Translation Machines for 
-      Measuring Semantic Similarity},
-   YEAR         = {2013},
-   ADDRESS      = {Atlanta, Georgia, USA},
-   OPTCROSSREF  = {},
    OPTEDITOR    = {},
    MONTH        = {13-14 June},
    OPTNOTE      = {},
@@ -458,12 +688,10 @@
    OPTPAGES     = {},
    PUBLISHER    = {Association for Computational Linguistics},
    OPTSERIES    = {},
+   TITLE        = {CNGL-CORE: Referential Translation Machines for 
+      Measuring Semantic Similarity},
    OPTVOLUME    = {},
-   KEYWORDS     = {Machine Translation, Machine Learning, 
-      Performance Prediction, Natural Language Processing, 
-      Artificial Intelligence},
-   URL          = {http://aclweb.org/anthology/S/S13/S13-1034.pdf},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2013/STS_RTM.pdf},
+   YEAR         = {2013},
    ABSTRACT     = {We invent referential translation machines (RTMs), a 
       computational model for identifying the translation acts between any 
       two data sets with respect to a reference corpus selected in the same 
@@ -479,16 +707,22 @@
       between the two. Our prediction model is the $15$th on some tasks and 
       $30$th overall out of $89$ submissions in total according to the 
       official results of the Semantic Textual Similarity (STS 2013) 
-      challenge.}
+      challenge.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Translation, Machine Learning, 
+      Performance Prediction, Natural Language Processing, 
+      Artificial Intelligence},
+   URL          = {http://aclweb.org/anthology/S/S13/S13-1034.pdf},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2013/STS_RTM.pdf}
 }
 
 @INPROCEEDINGS{Bicici2013_STARSEM_SRA,
+   ADDRESS      = {Atlanta, Georgia, USA},
    AUTHOR       = {Ergun Biçici and van Genabith, Josef},
    BOOKTITLE    = {*SEM 2013: The Second Joint Conference on Lexical and Computational Semantics and Proceedings of the Seventh International Workshop on Semantic Evaluation (SemEval 2013)},
-   TITLE        = {CNGL: Grading Student Answers by Acts of Translation},
-   YEAR         = {2013},
-   ADDRESS      = {Atlanta, Georgia, USA},
-   OPTCROSSREF  = {},
    OPTEDITOR    = {},
    MONTH        = {14-15 June},
    OPTNOTE      = {},
@@ -497,11 +731,9 @@
    OPTPAGES     = {},
    PUBLISHER    = {Association for Computational Linguistics},
    OPTSERIES    = {},
+   TITLE        = {CNGL: Grading Student Answers by Acts of Translation},
    OPTVOLUME    = {},
-   KEYWORDS     = {Machine Translation, Machine Learning, 
-      Performance Prediction, Natural Language Processing},
-   URL          = {http://aclweb.org/anthology/S/S13/S13-2098.pdf},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2013/SRA_AOT.pdf},
+   YEAR         = {2013},
    ABSTRACT     = {We invent referential translation machines (RTMs), a 
       computational model for identifying the translation acts between any 
       two data sets with respect to a reference corpus selected in the same 
@@ -521,20 +753,27 @@
       based on all four perspectives performs the best. Our prediction 
       model is the $2$nd best system on some tasks according to the 
       official results of the Student Response Analysis (SRA 2013) 
-      challenge.}
+      challenge.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Translation, Machine Learning, 
+      Performance Prediction, Natural Language Processing},
+   URL          = {http://aclweb.org/anthology/S/S13/S13-2098.pdf},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2013/SRA_AOT.pdf}
 }
 
 @TECHREPORT{QTLPD3.2.1,
+   OPTADDRESS   = {},
    AUTHOR       = {Ergun Biçici},
    INSTITUTION  = {Dublin City University},
-   TITLE        = {Definition of Interfaces},
-   YEAR         = {2013},
-   OPTADDRESS   = {},
    OPTMONTH     = {},
    NOTE         = {Contribution to EU project QTLaunchPad deliverable D3.2.1: http://www.qt21.eu/launchpad/content/delivered},
    OPTNUMBER    = {},
+   TITLE        = {Definition of Interfaces},
    OPTTYPE      = {},
-   KEYWORDS     = {Machine Translation},
+   YEAR         = {2013},
    ABSTRACT     = {The aim of this report is to define the interfaces for 
       the tools used in the MT development and evaluation scenarios as 
       included in the QTLaunchPad (QTLP) infrastructure. Specification of 
@@ -559,34 +798,45 @@
       assessment with the multidimensional quality metrics (D1.1.1). D3.2.1 
       is a living document until M12, which is when the identification and 
       acquisition of existing tools (D4.4.1) and the implementation of 
-      identified language processing tools (D3.4.1) are due.}
+      identified language processing tools (D3.4.1) are due.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Translation},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {}
 }
 
 @TECHREPORT{QTLPD3.1.1,
+   OPTADDRESS   = {},
    AUTHOR       = {Ergun Biçici},
    INSTITUTION  = {Dublin City University},
-   TITLE        = {Definition of Machine Translation and Evaluation 
-      Workflows},
-   YEAR         = {2013},
-   OPTADDRESS   = {},
    OPTMONTH     = {},
    NOTE         = {Contribution to EU project QTLaunchPad deliverable D3.1.1: http://www.qt21.eu/launchpad/content/delivered},
    OPTNUMBER    = {},
+   TITLE        = {Definition of Machine Translation and Evaluation 
+      Workflows},
    OPTTYPE      = {},
-   KEYWORDS     = {Machine Translation}
+   YEAR         = {2013},
+   OPTABSTRACT  = {},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Translation},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {}
 }
 
 @TECHREPORT{QTLPD2.1.3,
+   OPTADDRESS   = {},
    AUTHOR       = {Ergun Biçici},
    INSTITUTION  = {Dublin City University},
-   TITLE        = {Quality Estimation for Dissemination},
-   YEAR         = {2013},
-   OPTADDRESS   = {},
    OPTMONTH     = {},
    NOTE         = {Contribution to EU project QTLaunchPad deliverable D2.1.3: http://www.qt21.eu/launchpad/content/delivered},
    OPTNUMBER    = {},
+   TITLE        = {Quality Estimation for Dissemination},
    OPTTYPE      = {},
-   KEYWORDS     = {Machine Translation, Performance Prediction},
+   YEAR         = {2013},
    ABSTRACT     = {We present benchmarking experiments for the intrinsic 
       and extrinsic evaluation of an extended version of our open source 
       framework for machine translation quality estimation QUEST, which is 
@@ -596,39 +846,56 @@
       translations from multiple MT systems according to their estimated 
       quality. Additionally, we experiment with a small dataset annotated 
       for quality labels with different levels of granularity in a attempt 
-      to predict multidimensional quality metric (MQM) scores.}
+      to predict multidimensional quality metric (MQM) scores.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Translation, Performance Prediction},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {}
 }
 
-@MISC{BiciciIDF_RTM2013,
+@PATENT{BiciciIDF_RTM2013,
+   ADDRESS      = {},
    AUTHOR       = {Ergun Biçici},
-   OPTHOWPUBLISHED = {},
-   OPTMONTH     = {},
    NOTE         = {Invention Disclosure, DCU Invent Innovation and Enterprise: https://www.dcu.ie/invent/},
+   NUMBER       = {},
    TITLE        = {Referential Translation Machines},
-   YEAR         = {2013}
+   YEAR         = {2013},
+   OPTABSTRACT  = {},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   OPTKEYWORDS  = {},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {}
 }
 
-@MISC{BiciciIDF_MTPP2012,
+@PATENT{BiciciIDF_MTPP2012,
+   ADDRESS      = {},
    AUTHOR       = {Ergun Biçici},
-   OPTHOWPUBLISHED = {},
-   OPTMONTH     = {},
    NOTE         = {Invention Disclosure, DCU Invent Innovation and Enterprise: https://www.dcu.ie/invent/},
+   NUMBER       = {},
    TITLE        = {Machine Translation Performance Predictor},
-   YEAR         = {2012}
+   YEAR         = {2012},
+   OPTABSTRACT  = {},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   OPTKEYWORDS  = {},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {}
 }
 
 @PHDTHESIS{BiciciThesis,
-   AUTHOR       = {Ergun Biçici},
-   SCHOOL       = {Koç University},
-   TITLE        = {The Regression Model of Machine Translation},
-   YEAR         = {2011},
    OPTADDRESS   = {},
+   AUTHOR       = {Ergun Biçici},
    OPTMONTH     = {},
    NOTE         = {Supervisor: Deniz Yuret},
+   SCHOOL       = {Koç University},
+   TITLE        = {The Regression Model of Machine Translation},
    OPTTYPE      = {},
-   KEYWORDS     = {Machine Translation, Machine Learning, 
-      Artificial Intelligence, Natural Language Processing},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2011/RegMTThesis_Web.pdf},
+   YEAR         = {2011},
    ABSTRACT     = {Machine translation is the task of automatically finding 
       the translation of a source sentence in the target language. 
       Statistical machine translation (SMT) use parallel corpora or 
@@ -671,17 +938,21 @@
       than L2 regularized regression in the German-English translation task 
       and in the Spanish-English translation task when using small sized 
       training sets. Graph based decoding can provide an alternative to 
-      phrase-based decoding in translation domains having low vocabulary.}
+      phrase-based decoding in translation domains having low vocabulary.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Translation, Machine Learning, 
+      Artificial Intelligence, Natural Language Processing},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2011/RegMTThesis_Web.pdf}
 }
 
 @INPROCEEDINGS{BiciciYuret:ISforMT:WMT11,
+   ADDRESS      = {Edinburgh, Scotland},
    AUTHOR       = {Ergun Bicici and Deniz Yuret},
    BOOKTITLE    = {Proceedings of the Sixth Workshop on Statistical Machine Translation},
-   TITLE        = {Instance Selection for Machine Translation using Feature 
-      Decay Algorithms},
-   YEAR         = {2011},
-   ADDRESS      = {Edinburgh, Scotland},
-   OPTCROSSREF  = {},
    OPTEDITOR    = {},
    MONTH        = {July},
    OPTNOTE      = {},
@@ -690,10 +961,10 @@
    PAGES        = {272--283},
    PUBLISHER    = {Association for Computational Linguistics},
    OPTSERIES    = {},
+   TITLE        = {Instance Selection for Machine Translation using Feature 
+      Decay Algorithms},
    OPTVOLUME    = {},
-   KEYWORDS     = {Machine Translation, Machine Learning},
-   URL          = {http://www.aclweb.org/anthology/W11-2131},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2011/ISforMTFDA.pdf},
+   YEAR         = {2011},
    ABSTRACT     = {We present an empirical study of instance selection 
       techniques for machine translation. In an active learning setting, 
       instance selection minimizes the human effort by identifying the most 
@@ -716,17 +987,20 @@
       possible by optimally selected subset of the training data. In 
       out-of-domain translation, we are able to reduce the training set 
       size to about 7\% and achieve a similar performance with the 
-      baseline. }
+      baseline.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Translation, Machine Learning},
+   URL          = {http://www.aclweb.org/anthology/W11-2131},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2011/ISforMTFDA.pdf}
 }
 
 @INPROCEEDINGS{BiciciYuret:RegMT:WMT11,
+   ADDRESS      = {Edinburgh, Scotland},
    AUTHOR       = {Ergun Bicici and Deniz Yuret},
    BOOKTITLE    = {Proceedings of the Sixth Workshop on Statistical Machine Translation},
-   TITLE        = {RegMT System for Machine Translation, System 
-      Combination, and Evaluation},
-   YEAR         = {2011},
-   ADDRESS      = {Edinburgh, Scotland},
-   OPTCROSSREF  = {},
    OPTEDITOR    = {},
    MONTH        = {July},
    OPTNOTE      = {},
@@ -735,10 +1009,10 @@
    PAGES        = {323--329},
    PUBLISHER    = {Association for Computational Linguistics},
    OPTSERIES    = {},
+   TITLE        = {RegMT System for Machine Translation, System 
+      Combination, and Evaluation},
    OPTVOLUME    = {},
-   KEYWORDS     = {Machine Translation, Machine Learning},
-   URL          = {http://www.aclweb.org/anthology/W11-2137},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2011/RegMTSystem.pdf},
+   YEAR         = {2011},
    ABSTRACT     = {We present the results we obtain using our RegMT system, 
       which uses transductive regression techniques to learn mappings 
       between source and target features of given parallel corpora and use 
@@ -751,17 +1025,20 @@
       translation results using our training instance selection methods, 
       translation results using graph decoding, system combination results 
       with RegMT, and performance evaluation with F1 measure over target 
-      features.}
+      features.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Translation, Machine Learning},
+   URL          = {http://www.aclweb.org/anthology/W11-2137},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2011/RegMTSystem.pdf}
 }
 
 @INPROCEEDINGS{BiciciKozat2010:WMT,
+   ADDRESS      = {Uppsala, Sweden},
    AUTHOR       = {Ergun Bicici and S. Serdar Kozat},
    BOOKTITLE    = {Proceedings of the ACL 2010 Joint Fifth Workshop on Statistical Machine Translation and Metrics MATR},
-   TITLE        = {Adaptive Model Weighting and Transductive Regression for 
-      Predicting Best System Combinations},
-   YEAR         = {2010},
-   ADDRESS      = {Uppsala, Sweden},
-   OPTCROSSREF  = {},
    OPTEDITOR    = {},
    MONTH        = {July},
    OPTNOTE      = {},
@@ -770,11 +1047,10 @@
    OPTPAGES     = {},
    PUBLISHER    = {Association for Computational Linguistics},
    OPTSERIES    = {},
+   TITLE        = {Adaptive Model Weighting and Transductive Regression for 
+      Predicting Best System Combinations},
    OPTVOLUME    = {},
-   KEYWORDS     = {Machine Translation, Machine Learning},
-   URL          = {http://www.aclweb.org/anthology/W/W10/W10-1740.pdf},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2010/WMT2010_TRBMT_CSMT.pdf},
-   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2010/WMT2010_TRBMT_CSMT.ps},
+   YEAR         = {2010},
    ABSTRACT     = {We analyze adaptive model weighting techniques for 
       reranking using instance scores obtained by L1 regularized 
       transductive regression. Competitive statistical machine translation 
@@ -787,17 +1063,21 @@
       any pre-knowledge of the performance of the translation models, we 
       succeed in achieving the performance of the best model in all systems 
       and surpass their performance in most of the language pairs we 
-      considered.}
+      considered.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Translation, Machine Learning},
+   URL          = {http://www.aclweb.org/anthology/W/W10/W10-1740.pdf},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2010/WMT2010_TRBMT_CSMT.pdf},
+   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2010/WMT2010_TRBMT_CSMT.ps}
 }
 
 @INPROCEEDINGS{BiciciYuret2010:CSW,
+   ADDRESS      = {Koc University, Istinye Campus, Istanbul, Turkey},
    AUTHOR       = {Ergun Bicici and Deniz Yuret},
    BOOKTITLE    = {Proceedings of the Computer Science Student Workshop, CSW'10},
-   TITLE        = {L1 Regularization for Learning Word Alignments in Sparse 
-      Feature Matrices},
-   YEAR         = {2010},
-   ADDRESS      = {Koc University, Istinye Campus, Istanbul, Turkey},
-   OPTCROSSREF  = {},
    OPTEDITOR    = {},
    MONTH        = {February},
    OPTNOTE      = {},
@@ -806,11 +1086,10 @@
    OPTPAGES     = {},
    OPTPUBLISHER = {},
    OPTSERIES    = {},
+   TITLE        = {L1 Regularization for Learning Word Alignments in Sparse 
+      Feature Matrices},
    OPTVOLUME    = {},
-   KEYWORDS     = {Machine Translation, Machine Learning},
-   URL          = {URL: http://myweb.sabanciuniv.edu/csw/},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2010/L1forWordAlignment.pdf},
-   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2010/L1forWordAlignment.ps},
+   YEAR         = {2010},
    ABSTRACT     = {Sparse feature representations can be used in various 
       domains. We compare the effectiveness of L1 regularization techniques 
       for regression to learn mappings between features given in a sparse 
@@ -819,17 +1098,21 @@
       the learned mappings are measured using the phrase table generated on 
       a larger corpus by a state of the art word aligner. The results show 
       the effectiveness of using L1 regularization versus L2 used in ridge 
-      regression.}
+      regression.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Translation, Machine Learning},
+   URL          = {URL: http://myweb.sabanciuniv.edu/csw/},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2010/L1forWordAlignment.pdf},
+   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2010/L1forWordAlignment.ps}
 }
 
 @INPROCEEDINGS{BiciciYuret2010:WMT,
+   ADDRESS      = {Uppsala, Sweden},
    AUTHOR       = {Ergun Bicici and Deniz Yuret},
    BOOKTITLE    = {Proceedings of the ACL 2010 Joint Fifth Workshop on Statistical Machine Translation and Metrics MATR},
-   TITLE        = {L1 Regularized Regression for Reranking and System 
-      Combination in Machine Translation},
-   YEAR         = {2010},
-   ADDRESS      = {Uppsala, Sweden},
-   OPTCROSSREF  = {},
    OPTEDITOR    = {},
    MONTH        = {July},
    OPTNOTE      = {},
@@ -838,11 +1121,10 @@
    OPTPAGES     = {},
    PUBLISHER    = {Association for Computational Linguistics},
    OPTSERIES    = {},
+   TITLE        = {L1 Regularized Regression for Reranking and System 
+      Combination in Machine Translation},
    OPTVOLUME    = {},
-   KEYWORDS     = {Machine Translation, Machine Learning},
-   URL          = {http://www.aclweb.org/anthology/W/W10/W10-1741.pdf},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2010/WMT2010_L1forSMTReranking.pdf},
-   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2010/WMT2010_L1forSMTReranking.ps},
+   YEAR         = {2010},
    ABSTRACT     = {We use L1 regularized transductive regression to learn 
       mappings between source and target features of the training sets 
       derived for each test sentence and use these mappings to rerank 
@@ -852,17 +1134,21 @@
       effectiveness of using L1 regularization versus L2 used in ridge 
       regression. We show that regression mapping is effective in reranking 
       translation outputs and in selecting the best system combinations 
-      with encouraging results on different language pairs.}
+      with encouraging results on different language pairs.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Translation, Machine Learning},
+   URL          = {http://www.aclweb.org/anthology/W/W10/W10-1741.pdf},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2010/WMT2010_L1forSMTReranking.pdf},
+   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2010/WMT2010_L1forSMTReranking.ps}
 }
 
 @INPROCEEDINGS{yuret-bicici:2009:Short,
+   ADDRESS      = {Suntec, Singapore},
    AUTHOR       = {Deniz Yuret and Ergun Bicici},
    BOOKTITLE    = {Proceedings of the ACL-IJCNLP 2009 Conference Short Papers},
-   TITLE        = {Modeling Morphologically Rich Languages Using Split 
-      Words and Unstructured Dependencies},
-   YEAR         = {2009},
-   ADDRESS      = {Suntec, Singapore},
-   OPTCROSSREF  = {},
    OPTEDITOR    = {},
    MONTH        = {August},
    OPTNOTE      = {},
@@ -871,11 +1157,10 @@
    PAGES        = {345--348},
    PUBLISHER    = {Association for Computational Linguistics},
    OPTSERIES    = {},
+   TITLE        = {Modeling Morphologically Rich Languages Using Split 
+      Words and Unstructured Dependencies},
    OPTVOLUME    = {},
-   KEYWORDS     = {Language Modeling},
-   URL          = {http://www.aclweb.org/anthology/P/P09/P09-2087},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2009/MMRLACL.pdf},
-   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2009/MMRLACL.ps},
+   YEAR         = {2009},
    ABSTRACT     = {We experiment with splitting words into their stem and 
       suffix components for modeling morphologically rich languages. We 
       show that using a morphological analyzer and disambiguator results in 
@@ -884,23 +1169,28 @@
       determine the probability of a given token can be chosen anywhere in 
       the sentence rather than the preceding n-1 positions. Our final model 
       achieves 27\% perplexity reduction compared to the standard n-gram 
-      model.}
+      model.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Language Modeling},
+   URL          = {http://www.aclweb.org/anthology/P/P09/P09-2087},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2009/MMRLACL.pdf},
+   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2009/MMRLACL.ps}
 }
 
 @ARTICLE{Bicici:JMAGS07,
    AUTHOR       = {Ergun Biçici},
    JOURNAL      = {Journal of Multiagent and Grid Systems},
-   TITLE        = {Consensus Ontologies in Socially Interacting MultiAgent 
-      Systems},
-   YEAR         = {2008},
    OPTMONTH     = {},
    OPTNOTE      = {},
-   OPTNUMBER    = {},
-   OPTPAGES     = {},
-   OPTVOLUME    = {},
-   KEYWORDS     = {Consensus Ontology},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2007/JMAGS.pdf},
-   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2007/JMAGS.ps},
+   NUMBER       = {3},
+   PAGES        = {297-314},
+   TITLE        = {Consensus Ontologies in Socially Interacting MultiAgent 
+      Systems},
+   VOLUME       = {4},
+   YEAR         = {2008},
    ABSTRACT     = {This paper presents approaches for building, managing, 
       and evaluating consensus ontologies from the individual ontologies of 
       a network of socially interacting agents. Each agent has its own 
@@ -924,17 +1214,23 @@
       processing methods for generating, manipulating, and evaluating 
       consensus ontologies are given and experimental results are 
       presented. The presented approach looks promising and opens new 
-      directions for further research.}
+      directions for further research.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Consensus Ontology},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2007/JMAGS.pdf},
+   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2007/JMAGS.ps}
 }
 
 @INPROCEEDINGS{Bicici:CICLing08,
+   ADDRESS      = {Haifa, Israel},
    AUTHOR       = {Ergun Biçici},
    BOOKTITLE    = {Proceedings of the 9th International Conference on Intelligent Text Processing and Computational Linguistics (CICLing 2008), LNCS},
-   TITLE        = {Context-Based Sentence Alignment in Parallel Corpora},
-   YEAR         = {2008},
-   ADDRESS      = {Haifa, Israel},
-   OPTCROSSREF  = {},
    OPTEDITOR    = {},
+   JOURNAL      = {Lecture Notes in Computer Science},
    MONTH        = {February},
    NOTE         = {&copy Springer-Verlag},
    OPTNUMBER    = {},
@@ -942,11 +1238,9 @@
    OPTPAGES     = {},
    OPTPUBLISHER = {},
    OPTSERIES    = {},
+   TITLE        = {Context-Based Sentence Alignment in Parallel Corpora},
    OPTVOLUME    = {},
-   JOURNAL      = {Lecture Notes in Computer Science},
-   KEYWORDS     = {Artificial Intelligence, Machine Translation},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2008/ContextBasedSAPC.pdf},
-   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2008/ContextBasedSAPC.ps},
+   YEAR         = {2008},
    ABSTRACT     = {This paper presents a language-independent context-based 
       sentence alignment technique given parallel corpora. We can view the 
       problem of aligning sentences as finding translations of sentences 
@@ -962,18 +1256,23 @@
       sentence alignment coverage. We compare the performance of our system 
       with commonly used sentence alignment systems and show that our 
       system performs 1.2149 to 1.6022 times better in reducing the error 
-      rate in alignment accuracy and coverage for moderately sized corpora.}
+      rate in alignment accuracy and coverage for moderately sized corpora.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Artificial Intelligence, Machine Translation},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2008/ContextBasedSAPC.pdf},
+   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2008/ContextBasedSAPC.ps}
 }
 
 @INPROCEEDINGS{BiciciDymetman:CICLing08,
+   ADDRESS      = {Haifa, Israel},
    AUTHOR       = {Ergun Biçici and Marc Dymetman},
    BOOKTITLE    = {Proceedings of the 9th International Conference on Intelligent Text Processing and Computational Linguistics (CICLing 2008), LNCS},
-   TITLE        = {Dynamic Translation Memory: Using Statistical Machine 
-      Translation to improve Translation Memory Fuzzy Matches},
-   YEAR         = {2008},
-   ADDRESS      = {Haifa, Israel},
-   OPTCROSSREF  = {},
    OPTEDITOR    = {},
+   JOURNAL      = {Lecture Notes in Computer Science},
    MONTH        = {February},
    NOTE         = {&copy Springer-Verlag},
    OPTNUMBER    = {},
@@ -981,11 +1280,10 @@
    OPTPAGES     = {},
    OPTPUBLISHER = {},
    OPTSERIES    = {},
+   TITLE        = {Dynamic Translation Memory: Using Statistical Machine 
+      Translation to improve Translation Memory Fuzzy Matches},
    OPTVOLUME    = {},
-   JOURNAL      = {Lecture Notes in Computer Science},
-   KEYWORDS     = {Artificial Intelligence, Machine Translation, 
-      Natural Language Processing},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2008/DTM.pdf},
+   YEAR         = {2008},
    ABSTRACT     = {Professional translators of technical documents often 
       use Translation Memory (TM) systems in order to capitalize on the 
       repetitions frequently observed in these documents. TM systems 
@@ -1007,28 +1305,40 @@
       decoding the source. We report experiments that show significant 
       improvements in terms of BLEU and NIST scores over both the 
       translations produced by the stand-alone SMT system and the 
-      fuzzy-match translations proposed by the stand-alone TM system.}
+      fuzzy-match translations proposed by the stand-alone TM system.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Artificial Intelligence, Machine Translation, 
+      Natural Language Processing},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2008/DTM.pdf}
 }
 
-@MISC{BiciciDymetmanDTM2008,
+@PATENT{BiciciDymetmanDTM2008,
+   ADDRESS      = {},
    AUTHOR       = {Ergun Biçici and Marc Dymetman},
-   OPTHOWPUBLISHED = {},
-   OPTMONTH     = {},
    NOTE         = {US Patent 8,244,519},
+   NUMBER       = {},
    TITLE        = {Dynamic translation memory using statistical machine 
       translation},
-   YEAR         = {2008}
+   YEAR         = {2008},
+   OPTABSTRACT  = {},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   OPTKEYWORDS  = {},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {}
 }
 
 @INPROCEEDINGS{Bicici:CONTEXT07,
+   ADDRESS      = {Roskilde, Denmark},
    AUTHOR       = {Ergun Biçici},
    BOOKTITLE    = {Proceedings of the 6th International and Interdisciplinary Conference on Modeling and Using Context (CONTEXT 2007), LNAI},
-   TITLE        = {Local Context Selection for Aligning Sentences in 
-      Parallel Corpora},
-   YEAR         = {2007},
-   ADDRESS      = {Roskilde, Denmark},
-   OPTCROSSREF  = {},
    OPTEDITOR    = {},
+   JOURNAL      = {Lecture Notes in Artificial Intelligence},
    MONTH        = {August},
    NOTE         = {&copy Springer-Verlag},
    OPTNUMBER    = {},
@@ -1036,11 +1346,10 @@
    PAGES        = {82--93},
    OPTPUBLISHER = {},
    OPTSERIES    = {},
+   TITLE        = {Local Context Selection for Aligning Sentences in 
+      Parallel Corpora},
    VOLUME       = {4635},
-   JOURNAL      = {Lecture Notes in Artificial Intelligence},
-   KEYWORDS     = {Artificial Intelligence, Machine Translation},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2007/ContextSelectioninLearningSAModels.pdf},
-   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2007/ContextSelectioninLearningSAModels.ps},
+   YEAR         = {2007},
    ABSTRACT     = {This paper presents a novel language independent 
       context-based sentence alignment technique given parallel corpora. We 
       can view the problem of aligning sentences as finding translations of 
@@ -1061,17 +1370,23 @@
       alignment coverage. We compare the performance of our system with 
       commonly used sentence alignment systems and show that our system 
       performs 1.1951 to 1.5404 times better in reducing the error rate in 
-      alignment accuracy and coverage.}
+      alignment accuracy and coverage.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Artificial Intelligence, Machine Translation},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2007/ContextSelectioninLearningSAModels.pdf},
+   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2007/ContextSelectioninLearningSAModels.ps}
 }
 
 @INPROCEEDINGS{Bicici:ICANNGA07,
+   ADDRESS      = {Warsaw, Poland},
    AUTHOR       = {Ergun Biçici and Deniz Yuret},
    BOOKTITLE    = {Proceedings of the 8th International Conference on Adaptive and Natural Computing Algorithms (ICANNGA 2007), LNCS 4431},
-   TITLE        = {Locally Scaled Density Based Clustering},
-   YEAR         = {2007},
-   ADDRESS      = {Warsaw, Poland},
-   OPTCROSSREF  = {},
    OPTEDITOR    = {},
+   JOURNAL      = {Lecture Notes in Computer Science},
    MONTH        = {April},
    NOTE         = {&copy Springer-Verlag <br> <a href=../2007/LSDBC/ICANNGATalk.pdf>Presentation</a> <br> <a href=../2007/LSDBC/CLSDBC_README.txt>LSDBC README</a> <br> <a href=../2007/LSDBC/clsdbc>LSDBC Linux Executable</a> (For academic and research purposes) <br> <a href=../2007/LSDBC/clsdbcnl>LSDBC Linux Executable (no noise detection)</a> (For academic and research purposes)},
    OPTNUMBER    = {},
@@ -1079,11 +1394,9 @@
    PAGES        = {739--748},
    OPTPUBLISHER = {},
    OPTSERIES    = {},
+   TITLE        = {Locally Scaled Density Based Clustering},
    VOLUME       = {4431},
-   JOURNAL      = {Lecture Notes in Computer Science},
-   KEYWORDS     = {Machine Learning},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2007/LSDBC/LSDBC-icannga07.pdf},
-   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2007/LSDBC/LSDBC-icannga07.ps},
+   YEAR         = {2007},
    ABSTRACT     = {Density based clustering methods allow the 
       identification of arbitrary, not necessarily convex regions of data 
       points that are densely populated. The number of clusters does not 
@@ -1102,17 +1415,21 @@
       arbitrarily sized, shaped, located, and numbered clusters. The 
       performance of the new algorithm is promising as it is demonstrated 
       on a number of synthetic datasets and images for a wide range of its 
-      parameters.}
+      parameters.},
+   OPTDOI       = {},
+   ISBN         = {978-3-540-71589-4},
+   OPTISSN      = {},
+   KEYWORDS     = {Machine Learning},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2007/LSDBC/LSDBC-icannga07.pdf},
+   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2007/LSDBC/LSDBC-icannga07.ps}
 }
 
 @INPROCEEDINGS{Bicici:COMPSAC2006,
+   ADDRESS      = {Chicago, Illinois, USA},
    AUTHOR       = {Ergun Biçici},
    BOOKTITLE    = {Proceedings of the 30th Annual International Computer Software and Applications Conference (COMPSAC'06)},
-   TITLE        = {Consensus Ontology Generation in a Socially Interacting 
-      MultiAgent System},
-   YEAR         = {2006},
-   ADDRESS      = {Washington, DC, USA},
-   OPTCROSSREF  = {},
    OPTEDITOR    = {},
    MONTH        = {September},
    NOTE         = {&copy IEEE <br> <a href=../2006/COMPSACTalk.pdf>Presentation</a>},
@@ -1121,10 +1438,10 @@
    PAGES        = {279--284},
    PUBLISHER    = {IEEE Computer Society},
    OPTSERIES    = {},
+   TITLE        = {Consensus Ontology Generation in a Socially Interacting 
+      MultiAgent System},
    OPTVOLUME    = {},
-   KEYWORDS     = {Consensus Ontology},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2006/COMPSAC2006Extended.pdf},
-   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2006/COMPSAC2006Extended.ps},
+   YEAR         = {2006},
    ABSTRACT     = {This paper presents an approach for building consensus 
       ontologies from the individual ontologies of a network of socially 
       interacting agents. Each agent has its own conceptualization of the 
@@ -1141,17 +1458,20 @@
       build based on the agentsâ€™ individual views evolves. We evaluate 
       the consensus ontologies by using different heuristic measures of 
       similarity based on the component ontologies.},
-   DOI          = {http://doi.ieeecomputersociety.org/10.1109/COMPSAC.2006.126}
+   DOI          = {10.1109/COMPSAC.2006.126},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Consensus Ontology},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2006/COMPSAC2006Extended.pdf},
+   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2006/COMPSAC2006Extended.ps}
 }
 
 @INPROCEEDINGS{Bicici:AMTA2006,
+   ADDRESS      = {Québec City, Québec, Canada},
    AUTHOR       = {Ergun Biçici},
    BOOKTITLE    = {Proceedings of the International Workshop on Agents and Multiagent Systems, from Theory to Application (AMTA 2006)},
-   TITLE        = {Generating Consensus Ontologies among Socially 
-      Interacting Agents},
-   YEAR         = {2006},
-   ADDRESS      = {Québec City, Québec, Canada},
-   OPTCROSSREF  = {},
    OPTEDITOR    = {},
    MONTH        = {June},
    OPTNOTE      = {},
@@ -1160,11 +1480,11 @@
    OPTPAGES     = {},
    OPTPUBLISHER = {},
    OPTSERIES    = {},
-   OPTVOLUME    = {},
-   KEYWORDS     = {Consensus Ontology},
+   TITLE        = {Generating Consensus Ontologies among Socially 
+      Interacting Agents},
    TYPE         = {workshop},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2006/AMTA2006Extended.pdf},
-   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2006/AMTA2006Extended.ps},
+   OPTVOLUME    = {},
+   YEAR         = {2006},
    ABSTRACT     = {This paper presents an approach for building consensus 
       ontologies from the individual ontologies of a network of socially 
       interacting agents. Each agent has its own conceptualization of the 
@@ -1180,16 +1500,21 @@
       change after a number of interactions, the consensus ontology that we 
       build based on the agentsâ€™ individual views evolves. We evaluate 
       the consensus ontologies by using different heuristic measures of 
-      similarity based on the component ontologies.}
+      similarity based on the component ontologies.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Consensus Ontology},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2006/AMTA2006Extended.pdf},
+   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2006/AMTA2006Extended.ps}
 }
 
 @INPROCEEDINGS{BiciciTAINN06,
+   ADDRESS      = {Akyaka, Mugla},
    AUTHOR       = {Ergun Biçici and Deniz Yuret},
    BOOKTITLE    = {Proceedings of the Fifteenth Turkish Symposium on Artificial Intelligence and Neural Networks (TAINN '06)},
-   TITLE        = {Clustering Word Pairs to Answer Analogy Questions},
-   YEAR         = {2006},
-   ADDRESS      = {Akyaka, Mugla},
-   OPTCROSSREF  = {},
    OPTEDITOR    = {},
    MONTH        = {June},
    NOTE         = {<a href=../2006/TAINNTalk.pdf>Presentation</a>},
@@ -1198,10 +1523,9 @@
    PAGES        = {277--284},
    OPTPUBLISHER = {},
    OPTSERIES    = {},
+   TITLE        = {Clustering Word Pairs to Answer Analogy Questions},
    OPTVOLUME    = {},
-   KEYWORDS     = {Natural Language Processing},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2006/LAWSQ-LNCS.pdf},
-   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2006/LAWSQ-LNCS.ps},
+   YEAR         = {2006},
    ABSTRACT     = {We focus on answering word analogy questions by using 
       clustering techniques. The increased performance in answering word 
       similarity questions can have many possible applications, including 
@@ -1214,29 +1538,40 @@
       devising a heuristic approach to combine the results of different 
       clusterings for the purpose of distinctly separating word pair 
       semantics; (iii) answering SAT-type word similarity questions using 
-      our technique.}
+      our technique.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Natural Language Processing},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2006/LAWSQ-LNCS.pdf},
+   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2006/LAWSQ-LNCS.ps}
 }
 
 @TECHREPORT{,
+   OPTADDRESS   = {},
    AUTHOR       = {Ergun Biçici},
    INSTITUTION  = {},
-   TITLE        = {Formal Consensus},
-   YEAR         = {2005},
-   OPTADDRESS   = {},
    OPTMONTH     = {},
    NOTE         = {Technical Report},
    OPTNUMBER    = {},
+   TITLE        = {Formal Consensus},
    TYPE         = {Research Note},
-   KEYWORDS     = {Consensus Ontology}
+   YEAR         = {2005},
+   OPTABSTRACT  = {},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Consensus Ontology},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {}
 }
 
 @INPROCEEDINGS{Bicici:DrugAER,
+   OPTADDRESS   = {},
    AUTHOR       = {Ergun Biçici},
    BOOKTITLE    = {North Carolina Symposium on Biotechnology & Bioinformatics, IEEE Tech4Life},
-   TITLE        = {Relational Learning from Drug Adverse Events Reports},
-   YEAR         = {2004},
-   OPTADDRESS   = {},
-   OPTCROSSREF  = {},
    OPTEDITOR    = {},
    OPTMONTH     = {},
    NOTE         = {<a href=../2004/IEEETech4LifePresentation.pdf>Presentation</a>},
@@ -1245,30 +1580,34 @@
    OPTPAGES     = {},
    OPTPUBLISHER = {},
    OPTSERIES    = {},
-   OPTVOLUME    = {},
-   KEYWORDS     = {Inductive Logic Programming, Machine Learning},
+   TITLE        = {Relational Learning from Drug Adverse Events Reports},
    TYPE         = {workshop},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2004/IEEETech4LifeConf2004.pdf},
+   OPTVOLUME    = {},
+   YEAR         = {2004},
    ABSTRACT     = {We applied relational learning to discover rules from 
       adverse events reports. We used the FOIL relational learning system 
       to Â¯nd a set of rules for withdrawn drugs. We compared our results 
-      with FDA's reasons for withdrawal.}
+      with FDA's reasons for withdrawal.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Inductive Logic Programming, Machine Learning},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2004/IEEETech4LifeConf2004.pdf}
 }
 
 @TECHREPORT{Bicici:RAFTA,
+   OPTADDRESS   = {},
    AUTHOR       = {Ergun Biçici and Robert St. Amant},
    INSTITUTION  = {North Carolina State University},
-   TITLE        = {Reasoning About the Functionality of Tools and Physical 
-      Artifacts},
-   YEAR         = {2003},
-   OPTADDRESS   = {},
    OPTMONTH     = {},
    NOTE         = {<a href=../2003/>Presentation</a>},
    NUMBER       = {TR-2003-22},
+   TITLE        = {Reasoning About the Functionality of Tools and Physical 
+      Artifacts},
    OPTTYPE      = {},
-   KEYWORDS     = {Artificial Intelligence},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2003/ebiciciRAFTPA.pdf},
-   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2003/ebiciciRAFTPA.ps},
+   YEAR         = {2003},
    ABSTRACT     = {Tool use is an important characteristic of intelligent 
       human behavior. Representing, classifying and recognizing tools by 
       their functionality can provide us new opportunities for 
@@ -1279,17 +1618,23 @@
       This article surveys past approaches to reasoning about functionality 
       in the literature and attempts to give an overview of the strengths 
       and weaknesses of previous techniques. A number of issues that needs 
-      to be addressed are also reviewed.}
+      to be addressed are also reviewed.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Artificial Intelligence},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2003/ebiciciRAFTPA.pdf},
+   PS           = {http://www.computing.dcu.ie/~ebicici/publications/2003/ebiciciRAFTPA.ps}
 }
 
 @UNPUBLISHED{IUIT2003,
    AUTHOR       = {Sameer Rajyaguru and Ergun Biçici and Robert St. Amant},
+   OPTMONTH     = {},
    NOTE         = {MSc Work},
    TITLE        = {Intelligent User Interface Tools},
-   OPTMONTH     = {},
    YEAR         = {2003},
-   KEYWORDS     = {Artificial Intelligence},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2003/ebiciciIDA2003.pdf},
    ABSTRACT     = {This paper describes an analysis tool for dynamic gaming 
       environments. It is based on an image processing system and a 
       contingency analysis tool for extracting the rules that the user is 
@@ -1301,23 +1646,27 @@
       our initial attempt to analyze dynamic gaming environments through 
       statistical measures, our learning goal from previous experiences, 
       the limitations, and its implications for user interface environments 
-      that dynamically change.}
+      that dynamically change.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Artificial Intelligence},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2003/ebiciciIDA2003.pdf}
 }
 
 @ARTICLE{ProlegomenonCSRUI,
    AUTHOR       = {Ergun Biçici},
    JOURNAL      = {ACM Crossroads},
-   TITLE        = {Prolegomenon to Commonsense Reasoning in User Interfaces},
-   YEAR         = {2002},
    OPTMONTH     = {},
    OPTNOTE      = {},
    NUMBER       = {1},
    OPTPAGES     = {},
-   VOLUME       = {9},
-   KEYWORDS     = {Artificial Intelligence},
    SERIES       = {Human Computer Interaction},
-   URL          = {http://www.computing.dcu.ie/~ebicici/publications/2002/ACMCrossroads2002/CommonsenseUI6.htm},
-   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2002/ACMCrossroads2002/Prolegomenon2.pdf},
+   TITLE        = {Prolegomenon to Commonsense Reasoning in User Interfaces},
+   VOLUME       = {9},
+   YEAR         = {2002},
    ABSTRACT     = {Human-computer interaction experiences unbalanced 
       talents of counterparts in the user interface, which can only be 
       eased with the introduction of new solutions. Commonsense reasoning 
@@ -1348,19 +1697,32 @@
       from earlier attempts that began in physical systems concentrated on 
       small microworld problems. Finally, we cite a sample methodology for 
       automating commonsense reasoning and identify a number of questions 
-      that have yet to be answered.}
+      that have yet to be answered.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Artificial Intelligence},
+   URL          = {http://www.computing.dcu.ie/~ebicici/publications/2002/ACMCrossroads2002/CommonsenseUI6.htm},
+   OPTURL-PUBLISHER = {},
+   PDF          = {http://www.computing.dcu.ie/~ebicici/publications/2002/ACMCrossroads2002/Prolegomenon2.pdf}
 }
 
 @TECHREPORT{COANTT2000,
+   OPTADDRESS   = {},
    AUTHOR       = {Ergun Biçici and Baris Arslan},
    INSTITUTION  = {Bilkent University},
-   TITLE        = {Corpus Annotation Tool for Turkish Language},
-   YEAR         = {2000},
-   OPTADDRESS   = {},
    OPTMONTH     = {},
    NOTE         = {Senior Project under the supervision of Kemal Oflazer},
    OPTNUMBER    = {},
+   TITLE        = {Corpus Annotation Tool for Turkish Language},
    OPTTYPE      = {},
-   KEYWORDS     = {Natural Language Processing}
+   YEAR         = {2000},
+   OPTABSTRACT  = {},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Natural Language Processing},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {}
 }
 
