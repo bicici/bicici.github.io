@@ -21,8 +21,6 @@
   <meta name="google-site-verification" content="xqzYNIq7v3kKs_8veBjbRiyMdT2kS49hkkZWrJCMrvE" />
 </head>
 <body style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">
-<br>
-
 <!-- <font size="-7">Last updated Mar 02, 2007&nbsp;</font>-->
 <!-- <small><small>Last updated on Jan 22, 2008&nbsp;</small></small> -->
 <!-- <small><small>Last updated on March 3, 2011&nbsp;</small></small> -->
@@ -39,8 +37,7 @@
 <!-- <small><small>Last updated in July, 2015&nbsp;</small></small> -->
 <!-- <small><small>Last updated in October, 2015&nbsp;</small></small> -->
 <small><small>Last updated in December, 2015&nbsp;</small></small>
-<table style="text-align: left; width: 100%;" border="0" cellpadding="3"
- cellspacing="2">
+<table style="text-align: left; width: 100%;" border="0" cellpadding="1" cellspacing="1">
   <tbody>
     <tr>
       <td style="vertical-align: top;">
@@ -72,11 +69,36 @@
 	</i></small><br>
 	<!-- <span style="background-color: #FFFF00">NEWS:</span> I am spending the summer at Xerox Research Centre Europe. -->
 	<!-- <span style="background-color: #FFFF00">NEWS:</span> I have spent a great summer at Xerox Research Centre Europe in 2007. -->
+
+	<big><i>Education:</i></big>
+    <tr>
+      <td><a href="http://www.ku.edu.tr"><IMG src="ku_logo.gif" width="99" height="76" align="left" border="0"></a></td>
+      <td><a href="http://www.ncsu.edu"><IMG src="ncsulogo.gif" width="75" height="90" align="left" border="0"></a></td>
+     <td><a href="http://www.bilkent.edu.tr"><IMG src="bilkentlogo.jpg" width="88" height="104" align="left" border="0"></a></td>
+     <td><a href="http://www.ifl.k12.tr"><IMG src="ifllogo.gif" width="92" height="116" align="left" border="0"></a></td>
+      <td><a href="http://www.bal.k12.tr"><IMG src="ballogo.gif" width="116" height="116" align="left" border="0"></a></td>
+   </tr>
+
       </td>
     </tr>
 </tbody>
 </table>
 <hr>
+
+<!--
+<big><i>Education:</i></big>
+<table>
+  <tbody>
+    <tr>
+      <td><a href="http://www.ku.edu.tr"><IMG src="ku_logo.gif" width="99" height="76" align="left" border="0"></a></td>
+      <td><a href="http://www.ncsu.edu"><IMG src="ncsulogo.gif" width="75" height="90" align="left" border="0"></a></td>
+     <td><a href="http://www.bilkent.edu.tr"><IMG src="bilkentlogo.jpg" width="88" height="104" align="left" border="0"></a></td>
+     <td><a href="http://www.ifl.k12.tr"><IMG src="ifllogo.gif" width="92" height="116" align="left" border="0"></a></td>
+      <td><a href="http://www.bal.k12.tr"><IMG src="ballogo.gif" width="116" height="116" align="left" border="0"></a></td>
+   </tr>
+  </tbody>
+</table>
+-->
 
 <table>
   <tbody>
@@ -96,18 +118,6 @@
 
 
 <hr>
-<big><i>Education:</i></big>
-<table>
-  <tbody>
-    <tr>
-      <td><a href="http://www.ku.edu.tr"><IMG src="ku_logo.gif" width="99" height="76" align="left" border="0"></a></td>
-      <td><a href="http://www.ncsu.edu"><IMG src="ncsulogo.gif" width="75" height="90" align="left" border="0"></a></td>
-     <td><a href="http://www.bilkent.edu.tr"><IMG src="bilkentlogo.jpg" width="88" height="104" align="left" border="0"></a></td>
-     <td><a href="http://www.ifl.k12.tr"><IMG src="ifllogo.gif" width="92" height="116" align="left" border="0"></a></td>
-      <td><a href="http://www.bal.k12.tr"><IMG src="ballogo.gif" width="116" height="116" align="left" border="0"></a></td>
-   </tr>
-  </tbody>
-</table>
 
 <hr>
 <a name="Research"></a>
@@ -148,7 +158,7 @@ Commonsense reasoning, Question Answering.</LI>
 <big><!-- <span style="background-color: #FFFF00">NEWS:</span> -->
 <i>News:</i></big>
 <ul>
-<li> I am now a research fellow at <a href="http://www.dfki.de/lt/">DFKI Projektbüro Berlin</a>. </li>
+<li> I am now a researcher at <a href="http://www.dfki.de/lt/">DFKI Projektbüro Berlin</a>. </li>
 <!-- <li> I am now a post-doctoral researcher at <a href="http://www.cngl.ie">Centre for Next Generation Localisation (CNGL)</a>, <a href="http://www.dcu.ie">Dublin City University (DCU)</a>. </li> -->
 <li> You can check out my new book: <a href="https://www.lap-publishing.com/catalog/details/store/gb/book/978-3-8465-0749-0/the-regression-model-of-machine-translation">"The Regression Model of Machine Translation"</a>. (November, 2011) <a href="http://www.amazon.com/Regression-Model-Machine-Translation-Evaluation/dp/3846507490"><IMG src="RegressionBasedMachineTranslationBook.jpg" width="250"> <!--height="116"--></a> </li>
 <li> PhD Thesis: <a href="http://computing.dcu.ie/~ebicici/publications/2011/RegMTThesis_Web.pdf">"The Regression Model of Machine Translation"</a>. </li>
@@ -164,20 +174,6 @@ at <a href="http://www.xrce.xerox.com/">Xerox Research Centre Europe</a> in 2007
 <hr>
 <hr>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <!-- 
 <big><i>Links:</i></big>
 <OL>
@@ -185,7 +181,5 @@ at <a href="http://www.xrce.xerox.com/">Xerox Research Centre Europe</a> in 2007
 <LI><P><A HREF="workstudy.html">WorkStudy Spring 2006</A></P>
 </OL>
 -->
-<P>
-</P>
 </BODY>
 </HTML>
