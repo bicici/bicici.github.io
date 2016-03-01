@@ -1,12 +1,12 @@
 
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-22029855-3', 'dcu.ie');
-  ga('send', 'pageview');
+    ga('create', 'UA-22029855-4', 'auto');
+    ga('send', 'pageview');
 
 </script>
 
@@ -36,26 +36,23 @@
 <!--<small><small>Last updated in May, 2015&nbsp;</small></small> -->
 <!-- <small><small>Last updated in July, 2015&nbsp;</small></small> -->
 <!-- <small><small>Last updated in October, 2015&nbsp;</small></small> -->
-<small><small>Last updated in January, 2016&nbsp;</small></small>
+<small><small>Last updated in February, 2016&nbsp;</small></small>
 <table style="text-align: left; width: 100%;" border="0" cellpadding="1" cellspacing="1">
   <tbody>
     <tr>
       <td style="vertical-align: top;">
-	<a href="Photos/index.html"><img border="1" align="left" height="375" alt="Ergun Bicici" src="Photos/DFKISpree_winter.jpg"></a><br>
+	<a href="Photos/index.html"><img border="1" align="left" height="375" alt="Ergun Bicici" src="Photos/VictoryColumn.jpg"></a><br>
+	<!-- src="Photos/DFKISpree_winter.jpg"></a><br>
        <!-- <a href="Photos/index.html"><img border="1" align="left" height="400" width="300" alt="Ergun Bicici" src="Photos/TreePicture2.jpg"></a><br> -->
       </td>
       <td style="vertical-align: top;">
         <big>Ergun Bi&ccedil;ici</big><br> <!-- Ergun Bicici  -->
-	<a href="http://www.dfki.de/lt/">Researcher</a> at <a href="http://www.dfki.de/">Deutsche Forschungszentrum für Künstliche Intelligenz (DFKI).</a><br>
-	<a href="http://www.dfki.de/web/contact/dfki-project-office-berlin">DFKI Projektbüro Berlin,</a> <a href="http://www.dfki.de/lt/">Language Technology Lab.</a><br>
+	Researcher in Computer Science and Engineering<br>
 	<br>
         PhD in Computer Engineering,<br>
 	<a href="http://eng.ku.edu.tr/comp/home">Department of Computer Engineering</a>, <a href="http://www.ku.edu.tr">Ko&ccedil; University</a> <br>
 	<br>
-        <small>Postal Address:<br>
-	  <i>DFKI Project Office Berlin<br>
-	    Alt-Moabit 91c<br>
-	    10559 Berlin<br>
+<!--        <small>Postal Address:<br>
 	<!-- <i>Department of Computer Engineering, Ko&ccedil; University<br>
 	Engineering Building 229<br>
 	Rumelifeneri Yolu, Sariyer<br>
@@ -63,13 +60,14 @@
 	<br>
 <!--	Phone: +90 (212) 338 1000 Ext: 2640<br> -->
 <!--	Fax: +90 (212) 338 1548<br> -->
-	E-mail: <img height="20" src="DFKIEmail.png" alt="e-mail address"> (Work Related) <br>
+        E-mail: <img height="26" src="email2i.jpg" alt="e-mail address"> <br> <!-- (Others)<br> -->
+<!-- <img height="20" src="DFKIEmail.png" alt="e-mail address"> (Work Related) <br>
 <!--	&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <img height="26" src="email2i.jpg" alt="e-mail address"> <br> -->
-	&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<img height="26" src="email2i.jpg" alt="e-mail address"> (Others)<br>
+<!--	&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<img height="26" src="email2i.jpg" alt="e-mail address"> <br> <!-- (Others)<br> -->
 	</i></small><br>
 	<!-- <span style="background-color: #FFFF00">NEWS:</span> I am spending the summer at Xerox Research Centre Europe. -->
 	<!-- <span style="background-color: #FFFF00">NEWS:</span> I have spent a great summer at Xerox Research Centre Europe in 2007. -->
-
+	
 	<i>Education:</i><br>
 	<a href="http://www.ku.edu.tr"><IMG src="ku_logo.gif" width="79" height="56" align="left" border="0"></a>
 	<a href="http://www.ncsu.edu"><IMG src="ncsulogo.gif" width="50" height="65" align="left" border="0"></a>
@@ -121,15 +119,15 @@
 <a name="Research"></a>
 <big><i>Research Projects:</i></big>
 <ul>
-  <LI><a href="http://www.qtleap.eu"><strong>QTLeap: Quality Translation by Deep Language Engineering Approaches, 2015-2016</strong></a><br>
-European Union project funded by FP7 program.</LI>
   <LI><a href="https://www.ichec.ie/research/active_projects/dceng003c"><strong>Referential Translation Machines for Performance Prediction and Improved Statistical Machine Translation, 2015-2016</strong></a><br></LI>
-  <LI><a href="Projects/TIDA_RTM.html"><strong>Monolingual and Bilingual Text Quality Judgments with Translation Performance Prediction, 2014-2015</strong></a><br>
-SFI project funded by Technology Innovation Development Award (TIDA).</LI>
 </ul>
 <ul>
   <i>Previous:</i>
   <ul>
+    <LI><a href="http://www.qtleap.eu"><strong>QTLeap: Quality Translation by Deep Language Engineering Approaches, 2015-2016</strong></a><br>
+European Union project funded by FP7 program.</LI>
+    <LI><a href="Projects/TIDA_RTM.html"><strong>Monolingual and Bilingual Text Quality Judgments with Translation Performance Prediction, 2014-2015</strong></a><br>
+SFI project funded by Technology Innovation Development Award (TIDA).</LI>
     <LI><a href="https://www.ichec.ie/research/active_projects/dceng001c"><strong>Large Scale Experiments on Machine Translation Performance Prediction for High Quality Machine Translation, 2014-2015</strong></a><br></LI>
     <LI><a href="https://www.ichec.ie/research/active_projects/dccom031c"><strong>Large Scale Experiments on the Prediction of Machine Translation Performance, 2012-2014</strong></a><br></LI>
 <LI><a href="http://www.qt21.eu"><strong>QTLaunchPad: Preparation and Launch of a Large-Scale Action for Quality Translation Technology, 2012-2014</strong></a><br>
@@ -143,9 +141,9 @@ European Union project funded by FP7 program.</LI>
 Sparse learning, Transductive and active learning, Regression, Clustering.
 </LI>
 <LI><strong>Machine Translation</strong><br>
-Computational linguistics, Language modeling, Natural language processing.</LI>
+Language modeling, Natural language processing, Computational linguistics.</LI>
 <LI><strong>Semantic Understanding</strong><br>
-Computational semantics, Text analytics and understanding.
+Text analytics and understanding, Computational semantics.
 </LI>
 <LI><strong>Artificial Intelligence</strong><br>
 Commonsense reasoning.</LI>
@@ -156,7 +154,7 @@ Commonsense reasoning.</LI>
 <big><!-- <span style="background-color: #FFFF00">NEWS:</span> -->
 <i>News:</i></big>
 <ul>
-<li> I am now a researcher at <a href="http://www.dfki.de/lt/">DFKI Projektbüro Berlin</a>. </li>
+<!-- <li> I am now a researcher at <a href="http://www.dfki.de/lt/">DFKI Projektbüro Berlin</a>. </li> -->
 <!-- <li> I am now a post-doctoral researcher at <a href="http://www.cngl.ie">Centre for Next Generation Localisation (CNGL)</a>, <a href="http://www.dcu.ie">Dublin City University (DCU)</a>. </li> -->
 <li> You can check out my new book: <a href="https://www.lap-publishing.com/catalog/details/store/gb/book/978-3-8465-0749-0/the-regression-model-of-machine-translation">"The Regression Model of Machine Translation"</a>. (November, 2011) <a href="http://www.amazon.com/Regression-Model-Machine-Translation-Evaluation/dp/3846507490"><IMG src="RegressionBasedMachineTranslationBook.jpg" width="250"> <!--height="116"--></a> </li>
 <li> PhD Thesis: <a href="http://computing.dcu.ie/~ebicici/publications/2011/RegMTThesis_Web.pdf">"The Regression Model of Machine Translation"</a>. </li>
