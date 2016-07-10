@@ -36,12 +36,13 @@
 <!--<small><small>Last updated in May, 2015&nbsp;</small></small> -->
 <!-- <small><small>Last updated in July, 2015&nbsp;</small></small> -->
 <!-- <small><small>Last updated in October, 2015&nbsp;</small></small> -->
-<small><small>Last updated in March, 2016&nbsp;</small></small>
+<small><small>Last updated in April, 2016&nbsp;</small></small>
 <table style="text-align: left; width: 100%;" border="0" cellpadding="1" cellspacing="1">
   <tbody>
     <tr>
       <td style="vertical-align: top;">
-	<a href="Photos/index.html"><img border="1" align="left" height="375" alt="Ergun Bicici" src="Photos/GoztepePark.mp4"></a><br>
+	<a href="Photos/index.html"><video border="1" align="left" height="375" src="Photos/GoztepePark.mp4" controls></video><br>
+	<!-- <a href="Photos/index.html"><img border="1" align="left" height="375" alt="Ergun Bicici" src="Photos/GoztepePark.mp4"></a><br> -->
 	<!-- src="Photos/VictoryColumn.jpg"></a><br> -->
 	<!-- src="Photos/DFKISpree_winter.jpg"></a><br>
        <!-- <a href="Photos/index.html"><img border="1" align="left" height="400" width="300" alt="Ergun Bicici" src="Photos/TreePicture2.jpg"></a><br> -->
@@ -120,11 +121,11 @@
 <a name="Research"></a>
 <big><i>Research Projects:</i></big>
 <ul>
-  <LI><a href="https://www.ichec.ie/research/active_projects/dceng003c"><strong>Referential Translation Machines for Performance Prediction and Improved Statistical Machine Translation, 2015-2016</strong></a><br></LI>
 </ul>
 <ul>
   <i>Previous:</i>
   <ul>
+    <LI><a href="https://www.ichec.ie/research/active_projects/dceng003c"><strong>Referential Translation Machines for Performance Prediction and Improved Statistical Machine Translation, 2015-2016</strong></a><br></LI>
     <LI><a href="http://www.qtleap.eu"><strong>QTLeap: Quality Translation by Deep Language Engineering Approaches, 2015-2016</strong></a><br>
 European Union project funded by FP7 program.</LI>
     <LI><a href="Projects/TIDA_RTM.html"><strong>Monolingual and Bilingual Text Quality Judgments with Translation Performance Prediction, 2014-2015</strong></a><br>
