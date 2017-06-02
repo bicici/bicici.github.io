@@ -13,6 +13,7 @@
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
+<body link="blue" vlink="LightSteelBlue">
 <head>
   <title>Webpage of Ergun Bi&ccedil;ici</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -39,20 +40,25 @@
 <!-- <small><small>Last updated in October, 2015&nbsp;</small></small> -->
 <!-- <small><small>Last updated in April, 2016&nbsp;</small></small> -->
 <!-- <small><small>Last updated in July, 2016&nbsp;</small></small> -->
-<small><small>Last updated in November, 2016&nbsp;</small></small>
+<!-- <small><small>Last updated in November, 2016&nbsp;</small></small> -->
+<!-- <small><small>Last updated in December, 2016&nbsp;</small></small> -->
 <table style="text-align: left; width: 100%;" border="0" cellpadding="1" cellspacing="1">
   <tbody>
     <tr>
       <td style="vertical-align: top;">
-	<a href="Photos/index.html"><video border="1" align="left" height="375" src="Photos/GoztepePark.mp4" controls></video><br>
-	<!-- <a href="Photos/index.html"><img border="1" align="left" height="375" alt="Ergun Bicici" src="Photos/GoztepePark.mp4"></a><br> -->
-	<!-- src="Photos/VictoryColumn.jpg"></a><br> -->
-	<!-- src="Photos/DFKISpree_winter.jpg"></a><br>
+	<a href="Photos/index.html"><img border="1" align="left" width="600" height="400" src="Photos/plants.jpg" controls></a><br>
        <!-- <a href="Photos/index.html"><img border="1" align="left" height="400" width="300" alt="Ergun Bicici" src="Photos/TreePicture2.jpg"></a><br> -->
       </td>
       <td style="vertical-align: top;">
         <big>Ergun Bi&ccedil;ici</big><br> <!-- Ergun Bicici  -->
-	Researcher in Computer Science and Engineering<br>
+	Researcher at <a href="http://www.tubitak.gov.tr">TÜBİTAK</a><br>
+	&emsp;&emsp;&emsp; Turkey Scientific and Technological Research Council<br>
+	&emsp;<a href="http://bilgem.tubitak.gov.tr">Bilişim ve Bilgi Güvenliği İleri Teknolojiler Araştırma Merkezi</a><br>
+	&emsp;&emsp;&emsp; Informatics and Information Security Research Center<br>
+	&emsp;<a href="b3lab.org">B3LAB Bulut Bilişim ve Büyük Veri Araştırma Laboratuvarı</a><br>
+	&emsp;&emsp;&emsp; Cloud, Informatics, and Big Data Research Center)<br>
+	
+	<!-- Researcher in Computer Science and Engineering<br>-->
 	<br>
         PhD in Computer Engineering from<br>
 	<a href="http://eng.ku.edu.tr/comp/home">Department of Computer Engineering</a>, <a href="http://www.ku.edu.tr">Ko&ccedil; University</a> <br>
@@ -62,13 +68,15 @@
 	Engineering Building 229<br>
 	Rumelifeneri Yolu, Sariyer<br>
 	Istanbul, Turkey, 34450<br> -->
-	<br>
 <!--	Phone: +90 (212) 338 1000 Ext: 2640<br> -->
 <!--	Fax: +90 (212) 338 1548<br> -->
         E-mail: <img height="20" src="email.jpg" alt="e-mail address"> <br> <!-- (Others)<br> -->
 <!--	&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <img height="26" src="email2i.jpg" alt="e-mail address"> <br> -->
 <!--	&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<img height="26" src="email2i.jpg" alt="e-mail address"> <br> <!-- (Others)<br> -->
-	</i></small><br>
+        </i></small>
+        <p>
+        <a href="http://orcid.org"><img alt="" src="orcid.jpg" style="height: 36px; " /></a> <a href="http://orcid.org"><img alt="" src="orcid_24x24.gif" style="width: 20px; height: 20px; " /></a>&nbsp;<a href="http://orcid.org/0000-0002-2293-2031">http://orcid.org/0000-0002-2293-2031</a>
+        </p>
 	<!-- <span style="background-color: #FFFF00">NEWS:</span> I am spending the summer at Xerox Research Centre Europe. -->
 	<!-- <span style="background-color: #FFFF00">NEWS:</span> I have spent a great summer at Xerox Research Centre Europe in 2007. -->
 	
@@ -116,44 +124,53 @@
   </tbody>
 </table>
 
-
-<hr>
-
 <hr>
 <a name="Research"></a>
 <big><i>Research Projects:</i></big>
 <ul>
-    <LI><a href="Projects/RTM_prediction_performance.html"><strong>NLP Performance Prediction with Referential Translation Machines and Improved Statistical Machine Translation, 2016-</strong></a><br></LI>
+    <LI><a href="Projects/RTM_prediction_performance.html"><strong>Referential Translation Machines for Performance Prediction and Improved Statistical Machine Translation, 2016-</strong></a><br></LI>
 </ul>
 <ul>
   <i>Previous:</i>
   <ul>
     <LI><a href="https://www.ichec.ie/research/active_projects/dceng003c"><strong>Referential Translation Machines for Performance Prediction and Improved Statistical Machine Translation, 2015-2016</strong></a><br></LI>
-    <LI><a href="http://www.qtleap.eu"><strong>QTLeap: Quality Translation by Deep Language Engineering Approaches, 2015-2016</strong></a><br>
-European Union project funded by FP7 program.</LI>
-    <LI><a href="Projects/TIDA_RTM.html"><strong>Monolingual and Bilingual Text Quality Judgments with Translation Performance Prediction, 2014-2015</strong></a><br>
-SFI project funded by Technology Innovation Development Award.</LI>
+   <!-- <LI><a href="http://www.qtleap.eu"><strong>QTLeap: Quality Translation by Deep Language Engineering Approaches, 2015-2016</strong></a><br>
+European Union project funded by FP7 program.</LI> -->
+    <LI><a href="Projects/TIDA_RTM.html"><strong>Monolingual and Bilingual Text Quality Judgments with Translation Performance Prediction, 2014-2015</strong></a>&nbsp <font color="DimGray"> SFI Technology Innovation Development Award.</font></LI>
     <LI><a href="https://www.ichec.ie/research/active_projects/dceng001c"><strong>Large Scale Experiments on Machine Translation Performance Prediction for High Quality Machine Translation, 2014-2015</strong></a><br></LI>
     <LI><a href="https://www.ichec.ie/research/active_projects/dccom031c"><strong>Large Scale Experiments on the Prediction of Machine Translation Performance, 2012-2014</strong></a><br></LI>
-<LI><a href="http://www.qt21.eu"><strong>QTLaunchPad: Preparation and Launch of a Large-Scale Action for Quality Translation Technology, 2012-2014</strong></a><br>
-European Union project funded by FP7 program.</LI>
+<LI><a href="http://www.qt21.eu"><strong>QTLaunchPad: Preparation and Launch of a Large-Scale Action for Quality Translation Technology, 2012-2014</strong></a>&nbsp <font color="DimGray"> European Union project.</font></LI>
 </ul>
 </ul>
 
+<table>
+<tr>
+<td valign="top">
 <big><i>Research Interests:</i></big>
 <ul>
 <LI><strong>Machine Learning</strong><br>
 Sparse learning, Transductive and active learning, Regression, Clustering.
 </LI>
 <LI><strong>Machine Translation</strong><br>
-Language modeling, Natural language processing, Computational linguistics.</LI>
+Language modeling, Natural language processing.</LI>
 <LI><strong>Semantic Understanding</strong><br>
 Text analytics and understanding, Computational semantics.
 </LI>
 <LI><strong>Artificial Intelligence</strong><br>
 Commonsense reasoning.</LI>
 </ul>
+</td>
 
+<td valign="top">
+<big><i>Research Links:</i></big>
+<ul>
+<LI><strong><a href="http://www.tubitak.gov.tr">TÜBİTAK</a></strong><br>
+Turkey Scientific and Technological Research Council
+</LI>
+</ul>
+</td>
+</tr>
+</table>
 
 <hr>
 <big><!-- <span style="background-color: #FFFF00">NEWS:</span> -->
@@ -172,7 +189,6 @@ Commonsense reasoning.</LI>
 at <a href="http://www.xrce.xerox.com/">Xerox Research Centre Europe</a> in 2007. 
 </li> -->
 </ul>
-<hr>
 <hr>
 <br>
 <!-- 
