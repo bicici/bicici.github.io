@@ -6,7 +6,7 @@
 %
 % automatically generated
 % % /opt/Programs/bibtex2html-1.03//src/bibtex2html -force -html-links -sort year -icons -copy-icons -create-directories -style html /home/ebicici/Work/Webpage/ebiciciPubs.bib
-% Date: Thu Sep 20 00:28:47 2018
+% Date: Thu Nov 15 11:15:06 2018
 
 % Author: ebicici
 %
@@ -21,6 +21,50 @@
 
 
 
+
+@ARTICLE{Bicici:parfdaNLE,
+   AUTHOR       = {Ergun Bicici},
+   JOURNAL      = {unspecified},
+   OPTMONTH     = {},
+   OPTNOTE      = {},
+   OPTNUMBER    = {},
+   OPTPAGES     = {},
+   TITLE        = {Parallel Instance Selection with Source and Target 
+      Feature Weight Decay for Fast Development of Distinct Statistical 
+      Machine Translation Models},
+   OPTVOLUME    = {},
+   YEAR         = {2018},
+   ABSTRACT     = {Parallel feature decay algorithms (\texttt{parfda}) are 
+      engineered for language and task adaptive instance selection to build 
+      distinct statistical machine translation (SMT) models and enable fast 
+      development of accurate SMT with significantly less computation and 
+      resources to take only about half a day. We present a new 
+      \texttt{parfda} model that use both source and target $n$-gram 
+      features and increase the average coverage per selected instance and 
+      share parallel and monolingual data, data statistics, language model 
+      and SMT performance, and optimized parameters. The results on 
+      European languages during 2013--2018 including Iberian subset reach 
+      top BLEU scores when translating Catalan to English and reach the 
+      lowest translation error rate when translating French to English. On 
+      average, the results are only $2.252$ BLEU points and $11.7\%$ less 
+      from the top constrained phrase-based results in {\scriptsize WMT} 
+      2017 and $2.72$ BLEU points and $5.8\%$ less from the top in 
+      {\scriptsize TweetMT}. We obtain BLEU upper bounds to show possible 
+      improvements for each translation direction and to identify SMT 
+      models that use additional data. We show that the performance trend 
+      fit angle of \texttt{parfda} reach better than the top {\scriptsize 
+      WMT} results and it is also used to identify which translation 
+      directions require more development work and which can benefit from 
+      character models when the maximum angle is obtained with $n$-gram 
+      character sequences of length less than the average length of words.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   KEYWORDS     = {Statistical Machine Translation, 
+      Feature Decay Algorithms},
+   OPTURL       = {},
+   OPTURL-PUBLISHER = {}
+}
 
 @INPROCEEDINGS{Bicici:RTM:SEMEVAL2018,
    ADDRESS      = {New Orleans, USA},
@@ -631,6 +675,46 @@
    KEYWORDS     = {Machine Translation, Machine Learning, 
       Performance Prediction},
    URL          = {https://aclanthology.info/papers/W15-3035/w15-3035},
+   OPTURL-PUBLISHER = {}
+}
+
+@INPROCEEDINGS{Bicici2015_TweetMT,
+   OPTADDRESS   = {},
+   AUTHOR       = {Antonio Toral and Xiaofeng Wu and Tommi Pirinen and 
+      Zhengwei Qiu and Ergun Bicici and Jinhua Du},
+   BOOKTITLE    = {TweetMT@ SEPLN, Proc. of the La Sociedad Española para el Procesamiento del Lenguaje Natural (SEPLN)},
+   OPTEDITOR    = {},
+   OPTMONTH     = {},
+   OPTNOTE      = {},
+   OPTNUMBER    = {},
+   OPTORGANIZATION = {},
+   OPTPAGES     = {},
+   OPTPUBLISHER = {},
+   OPTSERIES    = {},
+   TITLE        = {Dublin City University at the TweetMT 2015 Shared Task},
+   OPTVOLUME    = {},
+   YEAR         = {2015},
+   ABSTRACT     = {We describe our participation in TweetMT for three 
+      language pairs in both directions: Spanish from/to Catalan, Basque 
+      and Portuguese. We used a range of techniques: statistical and 
+      rule-based MT, morph segmentation, data selection with ParFDA and 
+      system combination. As for resources, our focus was on crawling vast 
+      amounts of tweets to perform monolingual domain adaptation. Our 
+      system was the best of all systems submitted for five out of the six 
+      language directions. <br> Describimos nuestra participación en 
+      TweetMT para tres pares de lenguas en ambas direcciones: castellano 
+      hacia/desde catalán, euskera y portugués. Hacemos uso de varias 
+      técnicas: traducción automática estadística y basada en reglas, 
+      segmentación de morfemas, selección de datos con ParFDA y 
+      combinación de sistemas. En cuanto a recursos, adquirimos grandes 
+      cantidades de tuits para llevar a cabo una adaptación de dominio 
+      monolingüe. Nuestro sistema ha sido el mejor de todos los enviados 
+      para cinco de los seis pares de lenguas.},
+   OPTDOI       = {},
+   OPTISBN      = {},
+   OPTISSN      = {},
+   OPTKEYWORDS  = {},
+   URL          = {ceur-ws.org/Vol-1445/},
    OPTURL-PUBLISHER = {}
 }
 
