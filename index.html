@@ -11,54 +11,6 @@
 
 </script>
 
-.popup{
-    width: 900px;
-    margin: auto;
-    text-align: center
-}
-.popup img{
-    width: 200px;
-    height: 200px;
-    cursor: pointer
-}
-.show{
-    z-index: 999;
-    display: none;
-}
-.show .overlay{
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,.66);
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.show .img-show{
-    width: 600px;
-    height: 400px;
-    background: #FFF;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    overflow: hidden
-}
-.img-show span{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    z-index: 99;
-    cursor: pointer;
-}
-.img-show img{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-/*End style*/
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <body link="blue" vlink="LightSteelBlue">
@@ -69,6 +21,9 @@
   <meta name="KEYWORDS" content="mehmet ergun bi&ccedil;ici bicici">
   <meta name="google-site-verification" content="xqzYNIq7v3kKs_8veBjbRiyMdT2kS49hkkZWrJCMrvE" />
 </head>
+
+@import "imagepopup.css";
+
 <body style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">
 <!-- Homepage of Ergun Bicici -->
 <!-- <font size="-7">Last updated Mar 02, 2007&nbsp;</font>-->
@@ -237,16 +192,14 @@ Turkey Scientific and Technological Research Council
 <ul>
 <LI>
   <div class="popup">
-  <img src="Photos/RelativeEvaluation.jpg" width="350">
+  <img src="Photos/RelativeEvaluation.jpg" width="300">
 </div>
-<div class="show">
-  <div class="overlay"></div>
-  <div class="img-show">
-    <span>X</span>
-    <img src="Photos/RelativeEvaluation.jpg">
-  </div>
-</div>
-<!--End image popup-->
+
+<span> <!--span contains the popup image-->
+<img src="Photos/RelativeEvaluation.jpg" alt="Deckchairs" /> <!--popup image-->
+<br />Relative evaluation metrics <!--caption appears under the popup image-->
+</span>
+  
 </LI>
 </ul>
 </td>
