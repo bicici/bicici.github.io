@@ -190,15 +190,26 @@ Turkey Scientific and Technological Research Council
 <big><i>Research Highlights:</i></big>
 <ul>
 <LI>
-  <div class="popup">
+<style>
+.zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+</style>
+
+<div class="zoom">
   <img src="Photos/RelativeEvaluation.jpg" width="250">
 </div>
 
-<span> <!--span contains the popup image-->
-<img src="Photos/RelativeEvaluation.jpg" alt="Deckchairs" /> <!--popup image-->
-<br />Relative evaluation metrics <!--caption appears under the popup image-->
-</span>
-  
+
 </LI>
 </ul>
 </td>
