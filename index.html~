@@ -71,7 +71,8 @@
         <p>
           <a href="http://orcid.org"><img alt="" src="orcid.jpg" style="height: 36px; " /></a> <a href="http://orcid.org"><img alt="" src="orcid_24x24.gif" style="width: 20px; height: 20px; " /></a>&nbsp;<a href="http://orcid.org/0000-0002-2293-2031">http://orcid.org/0000-0002-2293-2031</a>
         </p>
-	<div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="ergun-bicici-8b1a4b1"><a class="LI-simple-link" href="https://tr.linkedin.com/in/ergun-bicici-8b1a4b1?trk=profile-badge">Ergun Bicici</a></div>
+	<!-- <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="ergun-bicici-8b1a4b1"><a class="LI-simple-link" href="https://tr.linkedin.com/in/ergun-bicici-8b1a4b1?trk=profile-badge">Ergun Bicici</a></div> -->
+	<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="ergun-bicici-8b1a4b1"><a class="LI-simple-link" href='https://tr.linkedin.com/in/ergun-bicici-8b1a4b1?trk=profile-badge'>Ergun Bicici</a></div>
 	<!-- <a href="https://www.linkedin.com/in/ergun-bicici-8b1a4b1/"></a>-->
 	
 	<!-- <span style="background-color: #FFFF00">NEWS:</span> I am spending the summer at Xerox Research Centre Europe. -->
@@ -85,7 +86,6 @@
 	<a href="http://www.bilkent.edu.tr"><IMG src="bilkentlogo.jpg" width="65" height="80" align="left" border="0"></a>
 	<a href="http://www.ifl.k12.tr"><IMG src="ifllogo.gif" width="56" height="80" align="left" border="0"></a>
 	<a href="http://www.bal.k12.tr"><IMG src="ballogo.gif" width="80" height="80" align="left" border="0"></a>
-	
       </td>
     </tr>
 </tbody>
