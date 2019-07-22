@@ -196,7 +196,6 @@ Turkey Scientific and Technological Research Council
 
 <td valign="top">
 <big><i>Research Highlights:</i></big>
-
 <ul>
 <LI>
 <style>
@@ -213,16 +212,14 @@ Turkey Scientific and Technological Research Council
     transform: scale(2.75); /* (500% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 </style>
-
 <div class="zoom">
   <img src="Photos/RelativeEvaluation.jpg" width="250">
 </div>
-
-
 </LI>
-</ul>
 
-<ul>
+<td valign="top">
+<br>
+  <ul>
 <LI>
 <style>
 .zoom {
@@ -240,7 +237,7 @@ Turkey Scientific and Technological Research Council
 </style>
 
 <div class="zoom">
-  <img src="Photos/RelativeEvaluation.jpg" width="250">
+  <img src="Photos/KeywordExtraction.jpg" width="250">
 </div>
 
 
